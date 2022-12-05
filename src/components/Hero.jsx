@@ -1,6 +1,5 @@
 import styles from "../style";
-import earth from "../assets/earth.jpeg";
-
+const earth = "https://res.cloudinary.com/djrobin17/image/upload/v1670226310/the-aerospace-adversary/earth_beb4kq.jpg";
 const Hero = () => {
   return (
     <section
