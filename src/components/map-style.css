@@ -1,6 +1,15 @@
-path {
-    fill: hsla(0, 0%, 100%, 0.664);
-    stroke: #ffffff;
-    stroke-width: 1.2px;
-    stroke-linejoin: round;
-}
+.map-selected {
+    fill: #e30000;
+  }
+  
+  .map-unselected {
+    fill: #FFFFFF;
+  }
+  
+  .map-selected:hover, .map-unselected:hover {
+    cursor: pointer;
+  }
+
+svg {
+width: 100%;
+  }
