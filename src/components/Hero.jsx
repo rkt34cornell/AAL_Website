@@ -1,38 +1,67 @@
 import styles from "../style";
-const earth = "https://res.cloudinary.com/djrobin17/image/upload/v1670226310/the-aerospace-adversary/earth_beb4kq.jpg";
+import earth from "../assets/earth.jpeg";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+
+const particlesInit = async (main) => {
+  await loadFull(main);
+};
+
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className={`flex md:flex-col flex-col ${styles.paddingY} ${styles.marginY}`}
-    >
-      <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
-      >
-        <div className="flex flex-col justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-thin ss:text-[72px] text-[52px] text-white text-center ss:leading-[100.8px] leading-[75px]">
-            The Aerospace Adversary
-            <br className="sm:block hidden" />{" "}
-          </h1>
+    <div>
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={{
+          fullScreen: {
+            enable: true,
+            zIndex: 0,
+          },
+          particles: {
+            shape: {
+              type: "star",
+            },
+            move: {
+              enable: true,
+              speed: 0.2,
+            },
+            size: {
+              value: 1,
+            },
+            opacity: {
+              random: true,
+            },
+          },
+        }}
+      />
 
-        <p className={`${styles.paragraph} max-w-[800px] mt-5 text-center`}>
-          Our team designs and develops the future of aerospace technology
-          enabling secure, resilient and assured autonomous space infrastructure
-          operations.
-        </p>
+      <section
+        id="home"
+        className={`flex md:flex-col flex-col ${styles.paddingY} ${styles.marginY}`}
+      >
+        <div
+          className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        >
+          <div className="flex flex-col justify-between items-center w-full">
+            <h1 className="flex-1 font-poppins font-thin ss:text-[72px] text-[52px] text-white text-center ss:leading-[100.8px] leading-[75px]">
+              The Aerospace Adversary
+              <br className="sm:block hidden" />{" "}
+            </h1>
+
+            <p className={`${styles.paragraph} max-w-[800px] mt-5 text-center`}>
+              We design and develop the future of aerospace technology enabling
+              secure, resilient and assured autonomous space infrastructure
+              operations.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10`}
-      >
-        <img
-          src={earth}
-          alt="earth"
-          className="w-[100%] h-[100%]"
-        />
-      </div>
-    </section>
+        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10`}>
+          <img src={earth} alt="earth" className="w-[60%] h-[60%] z-1 relative" />
+        </div>
+      </section>
+    </div>
   );
 };
 

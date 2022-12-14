@@ -2,24 +2,22 @@ import Navbar from "./Navbar";
 import Impact from "./Impact";
 import Projects from "./Projects";
 import Publications from "./Publications";
-import Webinars from "./Webinars";
-import CTA from "./CTA";
-import Stats from "./Stats";
+import Map from "./Map";
 import Footer from "./Footer";
-import News from "./News";
+import Taxonomy from "./Taxonomy";
 import Team from "./Team";
 import Hero from "./Hero";
+import Partners from "./Partners";
 
 export {
   Navbar,
   Impact,
   Projects,
   Publications,
-  Webinars,
-  CTA,
-  Stats,
+  Map,
   Footer,
-  News,
+  Taxonomy,
   Team,
   Hero,
+  Partners,
 };
