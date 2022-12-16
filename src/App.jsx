@@ -1,36 +1,19 @@
 import React from 'react'
-import styles from './style'
-import { Navbar, Hero, Impact, Projects, Publications, Map, Taxonomy, Team, Partners, Footer } from "./components";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Homepage from './pages/Homepage';
+import ProjectsPage from './pages/Projects';
+import Error from './pages/Error'
 
-const App = () => {
+function App() {
   return (
-    <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Impact />
-        <Projects />
-        <Publications />
-        <Map />
-        <Taxonomy />
-        <Partners />
-        <Team />
-        <Footer />
-      </div>
-    </div>
-  </div>
-  )
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Homepage/>}/>
+        <Route exact path="/projects" element={<ProjectsPage/>}/>
+        <Route path="*" element={<Error/>}/>
+      </Routes>
+      </Router>
+  );
 }
 
-export default App
+export default App;

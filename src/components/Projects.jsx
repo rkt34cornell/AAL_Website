@@ -26,9 +26,11 @@ const Projects = () =>  (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
+      <a href="/projects">
       <button type="button" className= "py-4 px-6 font-poppins font-medium text-[18px] text-black bg-white hover:bg-secondary rounded-[10px] outline-none mt-10">
     Know More
   </button>
+  </a>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

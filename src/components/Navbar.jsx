@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <a
-        href="#home"
+        href="/"
         className="ml-2 font-poppins font-normal cursor-pointer text-[14px] text-white"
       >
        <img src={logo} alt="iaa" className="w-[160px] h-[90px]" />
@@ -22,7 +22,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`/${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
@@ -46,7 +46,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mb-0" : "mb-4"
                 }`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`/${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>

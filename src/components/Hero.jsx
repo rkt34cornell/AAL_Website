@@ -63,7 +63,7 @@ const Hero = () => {
           <img
             src={earth}
             alt="earth"
-            className="w-[60%] h-[60%] z-1 relative"
+            className="w-[60%] h-[60%] z-10 relative"
           />
         </div>
         <Particles
@@ -84,7 +84,7 @@ const Hero = () => {
           },
           fullScreen: {
             enable: true,
-            zIndex: 1,
+            zIndex: 0,
           },
           particles: {
             shape: {
@@ -132,6 +132,7 @@ const Hero = () => {
               type: "image",
               image: {
               src: sat2,
+              replace_color: "#ffffff",
             },
             },
             move: {
@@ -145,6 +146,46 @@ const Hero = () => {
               value: 1,
             },
 
+          },
+        }}
+      />
+       <Particles
+        id="satellite3"
+        init={particlesInit}
+        options={{
+          interactivity: {
+    events: {
+      onClick: {
+        enable: true,
+        mode: "attract"
+      },
+      onHover:{
+        enable: true,
+        mode: "grab",
+      },
+    },
+          },
+          fullScreen: {
+            enable: true,
+            zIndex: 0,
+          },
+          particles: {
+            shape: {
+              type: "image",
+              image: {
+              src: sat3,
+            },
+            },
+            move: {
+              enable: true,
+              speed: 0.3,
+            },
+            size: {
+              value: 22,
+            },
+            number:{
+              value: 1,
+            },
           },
         }}
       />

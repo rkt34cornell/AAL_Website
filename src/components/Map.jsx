@@ -6,7 +6,7 @@ import "./map-style.css"
 const Map = () => {
   const [selected, onSelect] = useState('eu');
   return (
-    <div id="map" className={`flex flex-col justify-center items-center`}>
+    <div id="map" className={`flex flex-col justify-center items-center z-10 relative`}>
     <h2 className={`${styles.heading2} ${styles.padding}`}>
         Map
       </h2>
