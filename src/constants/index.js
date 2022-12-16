@@ -57,17 +57,17 @@ export const publications = [
   {
     id: "publication-1",
     title: "Publication 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   },
   {
     id: "publication-2",
     title: "Publication 2",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   },
   {
     id: "publication-3",
     title: "Publication 3",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   },
 ];
 
@@ -123,10 +123,6 @@ export const footerLinks = [
         link: "#",
       },
       {
-        name: "Suggestions",
-        link: "#",
-      },
-      {
         name: "Blog",
         link: "#",
       },
@@ -141,6 +137,10 @@ export const footerLinks = [
     links: [
       {
         name: "Join Us",
+        link: "#",
+      },
+      {
+        name: "PhD Applicants",
         link: "#",
       },
       {

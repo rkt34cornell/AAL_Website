@@ -2,7 +2,7 @@ import { publications } from "../constants";
 import styles, { layout } from "../style";
 
 const PublicationCard = ({ title, content, index }) => (
-  <div className={`flex flex-row py-5 rounded-[20px] ${index !== publications.length - 1 ? "mb-6" : "mb-0"} publications-card`}>
+  <div className={`flex flex-row py-5 rounded-[20px] ${index !== publications.length - 1 ? "mr-6" : "mr-0"} publications-card`}>
     {/* <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div> */}
@@ -20,7 +20,7 @@ const PublicationCard = ({ title, content, index }) => (
 const Publications = () =>  (
   <section id="publications" className={layout.sectionReverse}>
   
-  <div className={`${layout.sectionImgReverse} flex-col`}>
+  <div className={`${layout.sectionImgReverse} flex-row`}>
       {publications.map((publications, index) => (
         <PublicationCard key={publications.id} {...publications} index={index} />
       ))}
