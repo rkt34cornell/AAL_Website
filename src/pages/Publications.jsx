@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-import uav from "../assets/uav.jpeg";
+import ssa from "../assets/ssa.png";
 
 import {
   Card,
@@ -17,18 +17,18 @@ const Projects = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
-          <h2 className={styles.heading2}>Projects</h2>
+          <h2 className={styles.heading2}>Publications</h2>
           <div
             className={`${styles.flexCenter} ${styles.paddingY} flex flex-col md:flex-row`}
           >
           <div className="m-10">
             <Card className="w-64">
               <CardHeader color="black" className="relative h-128 w-auto">
-                <img src={uav} alt="uav" className="h-full w-full" />
+                <img src={ssa} alt="uav" className="h-full w-full" />
               </CardHeader>
               <CardBody className="text-center">
                 <Typography variant="h5" className="mb-2">
-                  Project 1
+                  Publication 1
                 </Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -50,11 +50,11 @@ const Projects = () => {
             <div className="m-10">
             <Card className="w-64 ">
               <CardHeader color="black" className="relative h-128 w-auto">
-                <img src={uav} alt="uav" className="h-full w-full" />
+                <img src={ssa} alt="uav" className="h-full w-full" />
               </CardHeader>
               <CardBody className="text-center">
                 <Typography variant="h5" className="mb-2">
-                  Project 2
+                  Publication 2
                 </Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -76,11 +76,11 @@ const Projects = () => {
             <div className="m-10">
             <Card className="w-64 ">
               <CardHeader color="black" className="relative h-128 w-auto">
-                <img src={uav} alt="uav" className="h-full w-full" />
+                <img src={ssa} alt="uav" className="h-full w-full" />
               </CardHeader>
               <CardBody className="text-center">
                 <Typography variant="h5" className="mb-2">
-                  Project 3
+                  Publication 3
                 </Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
