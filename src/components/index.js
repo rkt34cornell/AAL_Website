@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Impact from "./Impact";
 import Projects from "./Projects";
 import Publications from "./Publications";
-import Map from "./Map";
+import MapSection from "./MapSection";
 import Footer from "./Footer";
 import Taxonomy from "./Taxonomy";
 import Team from "./Team";
@@ -14,7 +14,7 @@ export {
   Impact,
   Projects,
   Publications,
-  Map,
+  MapSection,
   Footer,
   Taxonomy,
   Team,

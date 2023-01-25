@@ -3,7 +3,7 @@ import styles from "../style";
 import WorldMap from 'react-world-map'
 import "./map-style.css"
 
-const Map = () => {
+const MapSection = () => {
   const [selected, onSelect] = useState('eu');
   return (
     <div id="map" className={`flex flex-col justify-center items-center z-10 relative`}>
@@ -17,4 +17,4 @@ const Map = () => {
   );
 };
 
-export default Map;
+export default MapSection;

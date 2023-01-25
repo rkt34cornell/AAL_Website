@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { Navbar, Hero, Impact, Projects, Publications, Map, Taxonomy, Team, Partners, Footer } from "../components";
+import { Navbar, Hero, Impact, Projects, Publications, MapSection, Taxonomy, Team, Partners, Footer } from "../components";
 
 const Homepage = () => {
   return (
@@ -22,7 +22,7 @@ const Homepage = () => {
         <Impact />
         <Projects />
         <Publications />
-        <Map />
+        <MapSection />
         <Taxonomy />
         <Partners />
         <Team />

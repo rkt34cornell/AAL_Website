@@ -1,11 +1,12 @@
 import React from 'react'
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from './pages/Homepage';
 import ProjectsPage from './pages/Projects';
 import PublicationsPage from './pages/Publications';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
-
+import MapPage from './pages/Map'
 
 import Error from './pages/Error'
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/publications" element={<PublicationsPage/>}/>
         <Route exact path="/about" element={<AboutPage/>}/>
         <Route exact path="/contact" element={<ContactPage/>}/>
+        <Route exact path="/map" element={<MapPage/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
       </Router>
