@@ -25,6 +25,7 @@
     "react-router-dom": "^6.5.0",
     "react-tsparticles": "^2.6.0",
     "react-world-map": "^2.4.0",
+    "tailwind-scrollbar": "^2.1.0",
     "tsparticles": "^2.6.0",
     "tsparticles-path-curves": "^2.6.0"
   },

@@ -24,5 +24,5 @@ module.exports = withMT({
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
 });

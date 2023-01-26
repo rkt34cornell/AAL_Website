@@ -51,6 +51,21 @@ export const projects = [
     title: "Project 3",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
+  {
+    id: "project-4",
+    title: "Project 4",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "project-5",
+    title: "Project 5",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "project-6",
+    title: "Project 6",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
 ];
 
 export const publications = [
