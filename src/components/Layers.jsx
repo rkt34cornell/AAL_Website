@@ -59,7 +59,7 @@ const Layers = () => {
         <LayersControl.BaseLayer checked name="Basic Map">
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://basemaps-api.arcgis.com/arcgis/rest/services/styles/ArcGIS:Navigation?type=style&token=AAPKd3013cb4f7274727bc00e8770e98134aV5rB6xKn8v0ZBle1X9Zf8iEb4qUfpb1oh0z23gTj0ZhU3l7StnV948EQpjBUjm34"
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
         </LayersControl.BaseLayer>
         <LayersControl.BaseLayer name="Topo Map">
