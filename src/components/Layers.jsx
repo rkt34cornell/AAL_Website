@@ -55,7 +55,7 @@ const Layers = () => {
 
   return (
     <>
-      <LayersControl position="topright">
+      <LayersControl position="topleft">
         <LayersControl.BaseLayer checked name="Basic Map">
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

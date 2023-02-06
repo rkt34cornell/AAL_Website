@@ -43,7 +43,7 @@ const Hero = () => {
         className={`flex md:flex-col flex-col ${styles.paddingY} ${styles.marginY}`}
       >
         <div
-          className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+          className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 z-10`}
         >
           <div className="flex flex-col justify-between items-center w-full">
             <h1 className="flex-1 font-poppins font-thin ss:text-[72px] text-[52px] text-white text-center ss:leading-[100.8px] leading-[75px]">
@@ -59,13 +59,14 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10`}>
+        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 z-0`}>
           <img
             src={earth}
             alt="earth"
             className="w-[60%] h-[60%] z-10 relative"
           />
         </div>
+        
         <Particles
         id="satellite1"
         init={particlesInit}
@@ -91,6 +92,7 @@ const Hero = () => {
               type: "image",
               image: {
               src: sat1,
+              replace_color: "#ffffff",
             },
             },
             move: {
@@ -98,7 +100,7 @@ const Hero = () => {
               speed: 0.5,
             },
             size: {
-              value: 20,
+              value: 10,
             },
             number:{
               value: 1,
@@ -140,7 +142,7 @@ const Hero = () => {
               speed: 0.6,
             },
             size: {
-              value: 20,
+              value: 10,
             },
             number:{
               value: 1,
@@ -181,7 +183,7 @@ const Hero = () => {
               speed: 0.3,
             },
             size: {
-              value: 22,
+              value: 10,
             },
             number:{
               value: 1,

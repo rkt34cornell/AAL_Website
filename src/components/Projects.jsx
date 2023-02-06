@@ -34,7 +34,7 @@ const Projects = () =>  (
     </div>
     
     <div className={`${layout.sectionImg} flex-col scrollbar-thin scrollbar-thumb-secondary scrollbar-track-white h-96 overflow-y-scroll`}>
-      <div>
+      <div className="md: visibility: hidden">
       <br></br>
       <br></br>
       <br></br>

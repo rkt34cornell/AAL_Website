@@ -8,13 +8,15 @@ const MapComponent = () => {
     <>
       <MapContainer 
         center={[37.0902, -95.7129]} 
-        zoom={3} 
+        zoom={4} 
         zoomControl={false} 
         style={{ height: '100vh', width: '100%' }}
       >
         <Layers />
         <ZoomControl position='topright'/>
+        
       </MapContainer>
+      
     </>
   )
 }
