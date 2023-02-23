@@ -168,20 +168,7 @@ He is a Space Generation Advisory Council Space and Cybersecurity Project Group 
                 Arpit Kamlesh Kubadia (Graduate Student)
               </Typography>
               <Typography className="text-white text-start m-6">
-                I am Arpit Kubadia and I currently am a Graduate student at the
-                Information Security Institute. I hail from India and am
-                passionate about space and cybersecurity. At the Aerospace
-                ADVERSARY lab, I am currently working on developing a
-                proof-of-concept ransomware toolkit for satellite systems,
-                specifically those using NASA's coreFlightSystems. Unlike
-                traditional ransomware attacks, a ransomware attack against a
-                space vehicle would need to be carefully crafted to mitigate the
-                risk of destroying the underlying functionality of the
-                spacecraft, while still achieving its purpose - denying access
-                until a ransom is paid. We are trying to demonstrate how hackers
-                can specifically target modules of a satellite to take down
-                mission critical systems, while not entirely bricking and
-                killing it.
+              Arpit Kubadia is a Graduate student at the Information Security Institute who hails from India and is passionate about space and cybersecurity. At the Aerospace ADVERSARY lab, they are currently working on developing a proof-of-concept ransomware toolkit for satellite systems, specifically those using NASA's coreFlightSystems. Unlike traditional ransomware attacks, a ransomware attack against a space vehicle would need to be carefully crafted to mitigate the risk of destroying the underlying functionality of the spacecraft, while still achieving its purpose - denying access until a ransom is paid. The team is trying to demonstrate how hackers can specifically target modules of a satellite to take down mission critical systems, while not entirely bricking and killing it.
               </Typography>
               <Typography className="text-white text-left m-6">
                 - Linkedin:{" "}

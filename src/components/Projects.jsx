@@ -34,28 +34,24 @@ const Projects = () =>  (
     </div>
     
     <div className={`${layout.sectionImg} flex-col scrollbar-thin scrollbar-thumb-secondary scrollbar-track-white h-96 overflow-y-scroll`}>
-      <div className="md: visibility: hidden">
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+    <div className="hidden md:block">
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
       {projects.map((projects, index) => (
         <ProjectCard key={projects.id} {...projects} index={index} />
       ))}
+      <br></br>
     </div>
   </section>
 );

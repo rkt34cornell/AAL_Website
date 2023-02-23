@@ -38,34 +38,25 @@ export const navLinks = [
 export const projects = [
   {
     id: "project-1",
-    title: "Project 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Orbital Resilient Blockchain-enabled Inter-agent Transaction Service (ORBITS)",
+    content: "The Orbital Resilient Blockchain-enabled Inter-agent Transaction Service (ORBITS) research project is the result of a Young Faculty Award from the DARPA Strategic Technology Office.",
   },
   {
     id: "project-2",
-    title: "Project 2",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Peer-to-Peer Ground Stations",
+    content: "The work involves the production of novel 3D printed designs for low-cost antenna rotators, the development of a low-compute software module capable of satellite acquisition and tracking, and the assembly of a honey-pot based intrusion detection system.",
   },
   {
     id: "project-3",
-    title: "Project 3",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Fully Distributed Anti-Ransomware Defense System",
+    content: "We are developing a novel anti-ransomware defense system tailored to distributed networks. The work leverages advancements in entropy-based ransomware detection, distributed system diagnostics, and blockchain to provide a mechanism for combating ransomware in a distributed nature without imposing additional structure to the network.",
   },
   {
     id: "project-4",
-    title: "Project 4",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Dielectric Elastomer Actuation for Solar Sails",
+    content: "Development of dialectic elastomer actuation for solar sails powered by solar radiation pressure. Dielectric elastomers for actuation take advantage of the dialectic nature of materials to cause large amounts of strain with the power of an electric field.",
   },
-  {
-    id: "project-5",
-    title: "Project 5",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    id: "project-6",
-    title: "Project 6",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
+
 ];
 
 export const publications = [
