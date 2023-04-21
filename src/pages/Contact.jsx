@@ -1,14 +1,54 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
+  const notify = () => toast.success("Message sent successfully!");
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_mkhgmmo",
+        "template_pokwxmb",
+        form.current,
+        "n3Z5i4e40YAy789O3"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          notify();
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
+          <ToastContainer
+            position="bottom-right"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+          />
           <h2 className={styles.heading2}>Contact Us</h2>
+          <button onClick={notify}>Notify!</button>
           <div class="container mx-auto m-20">
             <div class="-mx-4 flex flex-wrap lg:justify-between">
               <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -38,7 +78,8 @@ const Contact = () => {
                         Our Location
                       </h4>
                       <p class="text-white text-base">
-                      The Stieff Silver Building, 800 Wyman Park Dr, Baltimore, MD 21211
+                        The Stieff Silver Building, 800 Wyman Park Dr,
+                        Baltimore, MD 21211
                       </p>
                     </div>
                   </div>
@@ -59,9 +100,7 @@ const Contact = () => {
                       <h4 class="text-secondary mb-1 text-xl font-bold">
                         Phone Number
                       </h4>
-                      <p class="text-white text-base">
-                        (+1) xxx-xxx xxxx
-                      </p>
+                      <p class="text-white text-base">(+1) xxx-xxx xxxx</p>
                     </div>
                   </div>
                   <div class="mb-8 flex w-full max-w-[370px]">
@@ -79,21 +118,20 @@ const Contact = () => {
                       <h4 class="text-secondary mb-1 text-xl font-bold">
                         Email Address
                       </h4>
-                      <p class="text-white text-base">
-                      falco@jhu.edu
-                      </p>
+                      <p class="text-white text-base">falco@jhu.edu</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
                 <div class="relative rounded-lg bg-primary p-6 shadow-lg sm:p-8">
-                  <form>
+                  <form ref={form} onSubmit={sendEmail}>
                     <div class="mb-6">
                       <input
                         type="text"
                         placeholder="Your Name"
                         class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                        name="from_name"
                       />
                     </div>
                     <div class="mb-6">
@@ -101,6 +139,7 @@ const Contact = () => {
                         type="email"
                         placeholder="Your Email"
                         class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                        name="from_email"
                       />
                     </div>
                     <div class="mb-6">
@@ -108,6 +147,7 @@ const Contact = () => {
                         type="text"
                         placeholder="Your Phone"
                         class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                        name="from_phone"
                       />
                     </div>
                     <div class="mb-6">
@@ -115,6 +155,7 @@ const Contact = () => {
                         rows="6"
                         placeholder="Your Message"
                         class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                        name="from_message"
                       ></textarea>
                     </div>
                     <div>
