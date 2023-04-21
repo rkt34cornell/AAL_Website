@@ -55,7 +55,7 @@ const Hero = () => {
             <p className={`${styles.paragraph} max-w-[800px] mt-5 text-center`}>
               We design and develop the future of aerospace technology enabling
               secure, resilient and assured autonomous space infrastructure
-              operations.
+              operations. change
             </p>
           </div>
         </div>
