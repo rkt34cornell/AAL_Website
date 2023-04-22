@@ -7,7 +7,7 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center navbar z-20 relative">
       <a
         href="/"
         className="ml-2 font-poppins font-normal cursor-pointer text-[14px] text-white"
@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden flex flex-1 justify-end items-center z-20 relative">
         <img
           src={toggle ? close : menu}
           alt="menu"
