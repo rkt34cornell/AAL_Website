@@ -23,11 +23,11 @@ const Projects = () => {
           <Navbar />
           <h2 className={styles.heading2}>Projects</h2>
           <div
-            className={`${styles.flexCenter} ${styles.paddingY} grid grid-cols-1 sm:grid-cols-2 justify-center items-center`}
+            className={`${styles.flexCenter} ${styles.paddingY} grid grid-cols-1 sm:grid-cols-2 justify-center items-stretch`}
           >
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader color="black" className="relative h-128 w-auto">
+                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
                   <img src={orbits} alt="uav" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
@@ -61,10 +61,9 @@ const Projects = () => {
                 </CardFooter>
               </Card>
             </div>
- 
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader color="black" className="relative h-128 w-auto">
+                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
                   <img src={uav} alt="uav" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
@@ -98,7 +97,7 @@ const Projects = () => {
             </div>
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader color="black" className="relative h-128 w-auto">
+                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
                   <img src={soalrsail} alt="uav" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
@@ -135,7 +134,7 @@ const Projects = () => {
             </div>
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader color="black" className="relative h-128 w-auto">
+                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
                   <img src={antiransomware} alt="uav" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
