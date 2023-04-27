@@ -1,0 +1,104 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Nuuk KSAT Ground Station",
+            "type": "GSaaS",
+            "organization": "Kongsberg Satellite Services",
+            "status": "Active"
+
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                64.1852500,
+                -51.6968611
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Jan Mayen KSAT Ground Station",
+            "type": "GSaaS",
+            "organization": "Kongsberg Satellite Services",
+            "status": "Active"
+
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                70.9365556,
+                -8.6894167
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 2,
+            "name": "Svalsat",
+            "type": "Commercial Ground Station (Hosting OneWeb Arctic Gateway and Iridium Gateway)",
+            "organization": "Kongsberg Satellite Services",
+            "status": "Active"
+
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.2303333,
+                15.3939167
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 3,
+            "name": "Grimstad KSAT",
+            "type": "GSaaS",
+            "organization": "Kongsberg Satellite Services",
+            "status": "Active"
+
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                58.3454167,
+                8.5702500
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 4,
+            "name": "Tromsø KSAT",
+            "type": "GSaaS",
+            "organization": "Kongsberg Satellite Services",
+            "status": "Active"
+
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                69.7000833,
+                18.9924167
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 4,
+            "name": "Vardø KSAT",
+            "type": "GSaaS",
+            "organization": "Kongsberg Satellite Services",
+            "status": "Active"
+
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                70.3668611,
+                31.1276389
+            ]
+        }
+    }
+]

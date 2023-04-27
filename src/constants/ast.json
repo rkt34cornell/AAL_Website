@@ -1,0 +1,34 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Lita Ground Station Facility",
+            "type": "GSaaS",
+            "organization": "Arctic Space Technologies and Viasat Inc.",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                65.3400000,
+                21.3900000
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Öjebyn AST",
+            "type": "Commercial Ground Station",
+            "organization": "Arctic Space Technologies and Viasat Inc.",
+            "status": "Under Development"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                65.3427500,
+                21.4186111
+            ]
+        }
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "OneWeb Thule LEO Network",
+            "type": "LEO Broadband Ground Station",
+            "organization": "OneWeb-Hughes",
+            "status": "Under Development"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                77.4697444,
+                -69.2208806
+            ]
+        }
+    }
+]

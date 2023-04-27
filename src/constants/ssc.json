@@ -1,0 +1,35 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Esrange Space Center",
+            "type": "GSaaS and Launch Site",
+            "organization": "Swedish Space Corporation",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                67.8833333,
+                21.0666667
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Ågesta Teleport",
+            "type": "GSaaS",
+            "organization": "Swedish Space Corporation",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                59.3341111,
+                18.0529167
+            ]
+        }
+    }
+
+]

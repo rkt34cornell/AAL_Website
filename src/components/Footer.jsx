@@ -3,16 +3,15 @@ import logo from "../assets/logo.svg";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
-  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
-      {/* <h1 className="text-white">Logo</h1> */}
+  <section id="contact" className={`${styles.flexCenter} sm:py-8 py-6 flex-col`}>
+    <div className={`sm:${styles.flexStart} ${styles.flexCenter} md:flex-row flex-col mb-6 w-full`}>
+      <div className="flex-[1] flex sm:flex-col flex-row sm:justify-start items-center sm:items-start sm:mr-80">
         <img
           src={logo}
           alt="logo"
-          className="w-[266px] h-[72.14px] object-contain"
+          className="w-[160px] h-[90px]"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
+        <p className={`${styles.paragraph} mt-4 max-w-[312px] text-center sm:text-start`}>
           Mission-Resilient Autonomy: <br className="sm:block hidden" />{" "}
           When Failure is NOT an Option.
         </p>
@@ -41,7 +40,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-4 border-t-[1px] border-t-[#3F3E45]">
+    <div className="w-full flex justify-between items-center md:flex-row flex-col mb-4 pt-4 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[16px] leading-[27px] text-white">
         Copyright Ⓒ 2023 The Aerospace Adversary. All Rights Reserved.
       </p>

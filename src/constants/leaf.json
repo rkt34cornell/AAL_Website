@@ -1,0 +1,50 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Blondous Leaf Line",
+            "type": "GSaaS",
+            "organization": "Leaf Space",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                65.6472389,
+                -20.2430917
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Cork Leaf",
+            "type": "GSaaS",
+            "organization": "Leaf Space",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                51.8648333,
+                -8.5028889
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 2,
+            "name": "Unst Leaf Line",
+            "type": "GSaaS",
+            "organization": "Leaf Space",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                60.8174722,
+                -0.7733889
+            ]
+        }
+    }
+]

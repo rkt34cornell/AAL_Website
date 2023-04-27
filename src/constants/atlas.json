@@ -1,0 +1,34 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Dundee Atlas",
+            "type": "GSaaS",
+            "organization": "Atlas Space Operations",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                56.3977500,
+                -3.2098056
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Sondakylä ATLAS SO",
+            "type": "GSaaS",
+            "organization": "Atlas Space Operations",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                67.4085833,
+                26.5903611
+            ]
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Dublin RBC",
+            "type": "GSaaS",
+            "organization": "RBC Signals",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                53.3426667,
+                -6.26975
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Dundee RBC",
+            "type": "GSaaS",
+            "organization": "RBC Signals",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                56.3977500,
+                -3.2098056
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 2,
+            "name": "Lulea RBC",
+            "type": "GSaaS",
+            "organization": "RBC Signals",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                65.5860833,
+                22.1913056
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 3,
+            "name": "South Moravia RBC",
+            "type": "GSaaS",
+            "organization": "RBC Signals",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                49.0997547,
+                14.0967262
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 4,
+            "name": "Lomianki RBC",
+            "type": "GSaaS",
+            "organization": "RBC Signals",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                52.3359167,
+                20.9033611
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 5,
+            "name": "Kaunas RBC Ground Station",
+            "type": "GSaaS",
+            "organization": "RBC Signals",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                54.8768333,
+                23.8991111
+            ]
+        }
+    }
+]

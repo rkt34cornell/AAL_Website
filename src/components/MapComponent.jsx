@@ -1,89 +1,345 @@
 import React from "react";
 import {
   MapContainer,
-  ZoomControl,
   TileLayer,
   Marker,
   LayersControl,
   Popup,
   LayerGroup,
 } from "react-leaflet";
-// import Layers from './Layers.jsx'
-import L from 'leaflet'
-import cities from "../constants/cities.json";
-import capitals from "../constants/capitals.json";
+import L from "leaflet";
 
-var redIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41]
+import kss from "../constants/kss.json";
+import rbc from "../constants/rbc.json";
+import ssc from "../constants/ssc.json";
+import leaf from "../constants/leaf.json";
+import ast from "../constants/ast.json";
+import aws from "../constants/aws.json";
+import atlas from "../constants/atlas.json";
+import northbase from "../constants/northbase.json";
+import oneweb from "../constants/oneweb.json";
+import azure from "../constants/azure.json";
+
+import kssLogo from "../assets/stations/kss.png";
+import rbcLogo from "../assets/stations/rbc.png";
+import sscLogo from "../assets/stations/ssc.png";
+import leafLogo from "../assets/stations/leaf.png";
+import astLogo from "../assets/stations/ast.png";
+import awsLogo from "../assets/stations/aws.png";
+import atlasLogo from "../assets/stations/atlas.png";
+import northbaseLogo from "../assets/stations/northbase.png";
+import onewebLogo from "../assets/stations/oneweb.png";
+import azureLogo from "../assets/stations/azure.png";
+
+const kssIcon = new L.Icon({
+  iconUrl: kssLogo,
+  iconSize: new L.Point(30, 30),
+});
+
+const rbcIcon = new L.Icon({
+  iconUrl: rbcLogo,
+  iconSize: new L.Point(33, 33),
+});
+
+const sscIcon = new L.Icon({
+  iconUrl: sscLogo,
+  iconSize: new L.Point(29, 29),
+});
+
+const leafIcon = new L.Icon({
+  iconUrl: leafLogo,
+  iconSize: new L.Point(33, 33),
+});
+const astIcon = new L.Icon({
+  iconUrl: astLogo,
+  iconSize: new L.Point(32, 32),
+});
+const awsIcon = new L.Icon({
+  iconUrl: awsLogo,
+  iconSize: new L.Point(33, 33),
+});
+const atlasIcon = new L.Icon({
+  iconUrl: atlasLogo,
+  iconSize: new L.Point(26, 26),
+});
+const northbaseIcon = new L.Icon({
+  iconUrl: northbaseLogo,
+  iconSize: new L.Point(33, 33),
+});
+const onewebIcon = new L.Icon({
+  iconUrl: onewebLogo,
+  iconSize: new L.Point(26, 26),
+});
+const azureIcon = new L.Icon({
+  iconUrl: azureLogo,
+  iconSize: new L.Point(30, 30),
 });
 
 const MapComponent = () => {
   return (
     <>
       <MapContainer
-        center={[48.0902, 10.7129]}
-        zoom={5}
-        zoomControl={false}
-        minZoom={4}
-        style={{ height: "100vh", width: "100%" }}
+        center={[68.0207453, -7.4074948]}
+        zoom={3.5}
+        style={{ height: "90vh", width: "100%", zIndex: "20", position: "relative"}}
       >
-        {/* <Layers /> */}
-        <LayersControl position="topleft">
-          <LayersControl.BaseLayer checked name="Dark Map">
+        <LayersControl position="topright" collapsed={true}>
+          <LayersControl.BaseLayer checked name="Dark Mode">
             <TileLayer
-              attribution='Powered by <a href="https://www.esri.com/en-us/home">Esri</a> | Esri Community Maps Contributors, HERE, Garmin, Foursquare, GeoTechnologies, Inc, METI/NASA, USGS'
+              attribution='Powered by <a href="https://www.esri.com/en-us/home">Esri</a>'
               url="https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
             />
           </LayersControl.BaseLayer>
-          <LayersControl.BaseLayer name="Basic Map">
+          <LayersControl.BaseLayer name="Light Mode">
             <TileLayer
-              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution='Powered by <a href="https://www.esri.com/en-us/home">Esri</a>'
+              url="https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
             />
           </LayersControl.BaseLayer>
-          <LayersControl.Overlay checked name="Capitals">
+          <LayersControl.Overlay checked name="Kongsberg Satellite Services">
             <LayerGroup>
-              {capitals.map((capital) => (
+              {kss.map((station) => (
                 <Marker
-                  key={capital.properties.id}
+                  key={station.properties.id}
                   position={[
-                    capital.geometry.coordinates[1],
-                    capital.geometry.coordinates[0],
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
                   ]}
+                  icon={kssIcon}
                 >
                   <Popup>
-                    <p>{capital.properties.capital}</p>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
                   </Popup>
                 </Marker>
               ))}
             </LayerGroup>
           </LayersControl.Overlay>
-          <LayersControl.Overlay name="Cities" icon={redIcon}>
+          <LayersControl.Overlay checked name="RBC Signals">
             <LayerGroup>
-              {cities.map((city) => (
+              {rbc.map((station) => (
                 <Marker
-                  key={city.properties.id}
+                  key={station.properties.id}
                   position={[
-                    city.geometry.coordinates[1],
-                    city.geometry.coordinates[0],
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
                   ]}
-                  icon={redIcon}
+                  icon={rbcIcon}
                 >
                   <Popup>
-                    <p>{city.properties.name}</p>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="Swedish Space Corporation">
+            <LayerGroup>
+              {ssc.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={sscIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="Leaf Space">
+            <LayerGroup>
+              {leaf.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={leafIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay
+            checked
+            name="Arctic Space Technologies and Viasat Inc."
+          >
+            <LayerGroup>
+              {ast.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={astIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="Amazon Web Services">
+            <LayerGroup>
+              {aws.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={awsIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="Atlas Space Operations">
+            <LayerGroup>
+              {atlas.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={atlasIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="Northbase AO">
+            <LayerGroup>
+              {northbase.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={northbaseIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="OneWeb-Hughes">
+            <LayerGroup>
+              {oneweb.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={onewebIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="Microsoft Azure Space">
+            <LayerGroup>
+              {azure.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={azureIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
                   </Popup>
                 </Marker>
               ))}
             </LayerGroup>
           </LayersControl.Overlay>
         </LayersControl>
-
-        <ZoomControl position="topright" />
       </MapContainer>
     </>
   );

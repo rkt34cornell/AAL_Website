@@ -1,0 +1,18 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Azure Stockholm",
+            "type": "GSaaS",
+            "organization": "Microsoft Azure Space",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                59.3341111,
+                18.0529167
+            ]
+        }
+    }
+]

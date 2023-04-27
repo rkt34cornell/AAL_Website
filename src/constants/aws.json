@@ -1,0 +1,34 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "AWS Ireland",
+            "type": "GSaaS",
+            "organization": "Amazon Web Services",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                53.3426667,
+                -6.2697500
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "AWS Stockholm",
+            "type": "GSaaS",
+            "organization": "Amazon Web Services",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                59.3341111,
+                18.0529167
+            ]
+        }
+    }
+]

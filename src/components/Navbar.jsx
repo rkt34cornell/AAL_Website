@@ -7,7 +7,7 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar z-20 relative">
+    <nav className="w-full flex justify-between items-center navbar z-30 relative">
       <a
         href="/"
         className="ml-2 font-poppins font-normal cursor-pointer text-[14px] text-white"

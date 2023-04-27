@@ -1,0 +1,50 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Lavivaara NorthBase Arctic Ground Segment (NAGS)",
+            "type": "GSaaS",
+            "organization": "NorthBase AO",
+            "status": "Under Development"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                68.5300278,
+                22.5461389
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Muonio NorthBase 2",
+            "type": "GSaaS",
+            "organization": "NorthBase AO",
+            "status": "Under Development"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                67.9502222,
+                23.7143056
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 2,
+            "name": "Tampere NorthBase 1",
+            "type": "GSaaS",
+            "organization": "NorthBase AO",
+            "status": "Under Development"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                61.4853056,
+                23.7806667
+            ]
+        }
+    }
+]

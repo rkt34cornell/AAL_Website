@@ -1,0 +1,42 @@
+Nuuk KSAT Ground Station. GSaaS. Kongsberg Satellite Services. Active. 64°11'06.9"N 51°41'48.7"W
+Greenland Satellite Ground Station. Scientific Ground Station. Beijing Normal University (BNU). Active 64°10'26.5"N 51°44'39.9"W
+OneWeb Thule LEO Network. LEO Broadband Ground Station. OneWeb-Hughes. Under Development.  77°28'11.08"N  69°13'15.17"O
+SaxaVord UK. GSaaS. SaxaVord UK. 60°49'02.9"N 0°46'24.2"W
+Blondous Leaf Line. GSaaS. Leaf Space. Active.  65°38'50.06"N  20°14'35.13"O
+China Iceland Arctic Research Observatory (CIAO). Scientific Ground Station. Polar Research Institute of China (PRIC). Active. 65°42'22.1"N 17°21'53.8"W
+Jan Mayen KSAT Ground Station. GSaaS. Kongsberg Satellite Services. Active. 70°56'11.6"N 8°41'21.9"W
+Dublin RBC. GSaaS. RBC Signals. Active. 53°20'33.6"N 6°16'11.1"W
+Amazon Web Services Ireland. GSaaS. Active 53°20'33.6"N 6°16'11.1"W
+Cork Leaf. GSaaS. Leaf Space. Active 51°51'53.4"N 8°30'10.4"W
+Dundee RBC. GSaaS. RBC Signals. Active. 56°23'51.9"N 3°12'35.3"W
+Dundee Atlas. GSaaS. Atlas Space Operations. Active. 56°23'51.9"N 3°12'35.3"W
+Unst SaxaVord Space Port. GSaaS and Launch Site. SaxaVord. Active. 60°49'02.9"N 0°46'24.2"W
+Unst Leaf Line. GSaaS. Leaf Space. Active. 60°49'02.9"N 0°46'24.2"W
+London GEO Gateway. GSaaS. SES. Active. 51° 30' 35.5140'' N 0° 7' 5.1312'' W
+ESEC. European Space Agency GS. Active 50°00'09.0"N 5°08'49.0"E
+Betzdorg GEO Gateway. GSaaS. SES. Active. 49°40'17.3"N 6°18'54.0"E
+Ny-Ålesund Yellow River Station. Scientific Ground Station. China. Active. 78°55'24.1"N 11°54'33.0"E
+Svalsat. Commercial Ground Station. Kongsberg Satellite Services. Active. (Hosting OneWeb Arctic Gateway and Iridium Gateway) 78°13'49.2"N 15°23'38.1"E
+Grimstad KSAT. GSaaS. Kongsberg Satellite Services. Active. 58°20'43.5"N 8°34'12.9"E
+China Remote Sensing Satellite North Polar Ground Station (CNPGS) Kiruna. Scientific/Shenzou Ground Station. Institute of Remote Sensing and Digital Earth of China (RADI). Active. 67°53'00.0"N 21°04'00.0"E
+ESA Kiruna Station. European Space Agency GS. Active. 67°51'24.8"N 20°58'01.4"E
+Esrange Space Center. GSaaS and Launch Site. Swedish Space Corporation (SSC). Active.  67°53'00.0"N 21°04'00.0"E
+Tromsø KSAT. GSaaS. Kongsberg Satellite Services. Active. 69°42'00.3"N 18°59'32.7"E
+Lita Ground Station Facility. GSaaS. Arctic Space Technologies (AST) and Viasat Inc. Active. 65°20'24.0"N 21°23'24.0"E
+Öjebyn AST. Commercial Ground Station. Arctic Space Technologies (AST) and Viasat Inc. Under Development. 65°20'33.9"N 21°25'07.0"E
+Lulea RBC. GSaaS. RBC Signals. Active. 65°35'09.9"N 22°11'28.7"E
+Amazon Web Services Stockholm. GSaaS. Active. 59°20'02.8"N 18°03'10.5"E
+Ågesta Teleport. GSaaS. Swedish Space Corporation (SSC). Active.  59°20'02.8"N 18°03'10.5"E
+Stockholm GEO Gateway. GSaaS. SES. Active. 59°20'02.8"N 18°03'10.5"E
+Azure Stockholm. GSaaS. Microsoft Azure Space. Active. 59°20'02.8"N 18°03'10.5"E
+Vardø KSAT. GSaaS. Kongsberg Satellite Service. Active. 70°22'00.7"N 31°07'39.5"E
+Lavivaara NorthBase Arctic Ground Segment (NAGS). GSaaS. NorthBase AO. Under Development. 68°31'48.1"N 22°32'46.1"E
+Muonio NorthBase 2. GSaaS. NorthBase AO. Under Development. 67°57'00.8"N 23°42'51.5"E
+Sondakylä ATLAS SO. GSaaS. ATLAS Space Operations. Active. 67°24'30.9"N 26°35'25.3"E
+Tampere NorthBase 1. GSaaS. NorthBase AO. Under Development 61°29'07.1"N 23°46'50.4"E
+South Moravia RBC. GSaaS. RBC Signals. Active. South Moravia
+Lomianki RBC. GSaaS. RBC Signals. Active. 52°20'09.3"N 20°54'12.1"E
+Riga GEO Gateway. GSaaS. SES. Active. 56°57'34.8"N 24°06'40.4"E
+Kaunas RBC Ground Station. GSaaS. RBC Signals. Active. 54°52'36.6"N 23°53'56.8"E
+Kiev GEO Gateway. GSaaS. SES. Active. 50°26'05.4"N 30°27'55.3"E
+Bucharest GEO Gateway. GSaaS. SES. Active. 44°24'47.5"N 26°06'02.9"E
