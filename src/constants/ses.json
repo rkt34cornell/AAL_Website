@@ -1,0 +1,96 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "London GEO Gateway",
+            "type": "GSaaS",
+            "organization": "SES",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                51.5098650,
+                -0.1180920
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Betzdorg GEO Gateway",
+            "type": "GSaaS",
+            "organization": "SES",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                49.6714722,
+                6.3150000
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 2,
+            "name": "Stockholm GEO Gateway",
+            "type": "GSaaS",
+            "organization": "SES",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                59.3341111,
+                18.0529167
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 3,
+            "name": "Riga GEO Gateway",
+            "type": "GSaaS",
+            "organization": "SES",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                56.9596667,
+                24.1112222
+            ]
+        }
+    },{
+        "properties": {
+            "id": 4,
+            "name": "Kiev GEO Gateway",
+            "type": "GSaaS",
+            "organization": "SES",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                50.4348333,
+                30.4653611
+            ]
+        }
+    },{
+        "properties": {
+            "id": 5,
+            "name": "Bucharest GEO Gateway",
+            "type": "GSaaS",
+            "organization": "SES",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                44.4131944,
+                26.1008056
+            ]
+        }
+    }
+]

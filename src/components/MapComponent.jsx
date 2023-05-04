@@ -19,6 +19,10 @@ import atlas from "../constants/atlas.json";
 import northbase from "../constants/northbase.json";
 import oneweb from "../constants/oneweb.json";
 import azure from "../constants/azure.json";
+import saxavord from "../constants/saxavord.json";
+import ses from "../constants/ses.json";
+import esa from "../constants/esa.json";
+import china from "../constants/china.json";
 
 import kssLogo from "../assets/stations/kss.png";
 import rbcLogo from "../assets/stations/rbc.png";
@@ -30,6 +34,10 @@ import atlasLogo from "../assets/stations/atlas.png";
 import northbaseLogo from "../assets/stations/northbase.png";
 import onewebLogo from "../assets/stations/oneweb.png";
 import azureLogo from "../assets/stations/azure.png";
+import saxavordLogo from "../assets/stations/saxavord.png";
+import sesLogo from "../assets/stations/ses.png";
+import esaLogo from "../assets/stations/esa.png";
+import chinaLogo from "../assets/stations/china.png";
 
 const kssIcon = new L.Icon({
   iconUrl: kssLogo,
@@ -74,6 +82,24 @@ const azureIcon = new L.Icon({
   iconUrl: azureLogo,
   iconSize: new L.Point(30, 30),
 });
+const saxavordIcon = new L.Icon({
+  iconUrl: saxavordLogo,
+  iconSize: new L.Point(28, 28),
+});
+const sesIcon = new L.Icon({
+  iconUrl: sesLogo,
+  iconSize: new L.Point(28, 28),
+});
+const esaIcon = new L.Icon({
+  iconUrl: esaLogo,
+  iconSize: new L.Point(28, 28),
+});
+const chinaIcon = new L.Icon({
+  iconUrl: chinaLogo,
+  iconSize: new L.Point(29, 29),
+});
+
+
 
 const MapComponent = () => {
   return (
@@ -325,6 +351,102 @@ const MapComponent = () => {
                     station.geometry.coordinates[1],
                   ]}
                   icon={azureIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="SaxaVord UK">
+            <LayerGroup>
+              {saxavord.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={saxavordIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="SES">
+            <LayerGroup>
+              {ses.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={sesIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="European Space Agency">
+            <LayerGroup>
+              {esa.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={esaIcon}
+                >
+                  <Popup>
+                    <h1 className="font-bold text-center">
+                      {station.properties.organization}
+                    </h1>
+                    <p className="text-center">
+                      {station.properties.name} <br></br>{" "}
+                      {station.properties.type} - {station.properties.status}{" "}
+                    </p>
+                  </Popup>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay checked name="Chinese Ground Station">
+            <LayerGroup>
+              {china.map((station) => (
+                <Marker
+                  key={station.properties.id}
+                  position={[
+                    station.geometry.coordinates[0],
+                    station.geometry.coordinates[1],
+                  ]}
+                  icon={chinaIcon}
                 >
                   <Popup>
                     <h1 className="font-bold text-center">

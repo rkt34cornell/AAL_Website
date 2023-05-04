@@ -101,61 +101,62 @@ export const footerLinks = [
     links: [
       {
         name: "Projects",
-        link: "#",
+        link: "projects",
       },
       {
         name: "Publications",
-        link: "#",
+        link: "publications",
       },
       {
         name: "Map",
-        link: "#",
+        link: "map",
       },
       {
         name: "Taxonomy",
-        link: "#",
+        link: "taxonomy",
       },
     ],
   },
+  // {
+  //   title: "Community",
+  //   links: [
+  //     {
+  //       name: "Help Center",
+  //       link: "#",- [x] About Us - Home+ page - add Greg on top 
+  
+  //     },
+  //     {
+  //       name: "Partners",
+  //       link: "#",
+  //     },
+  //     {
+  //       name: "Blog",
+  //       link: "#",
+  //     },
+  //     {
+  //       name: "Newsletters",
+  //       link: "#",
+  //     },
+  //   ],
+  // },
   {
-    title: "Community",
+    title: "Contact Us",
     links: [
       {
-        name: "Help Center",
-        link: "#",
+        name: "Join Us",
+        link: "about",
       },
       {
         name: "Partners",
         link: "#",
       },
       {
-        name: "Blog",
-        link: "#",
-      },
-      {
-        name: "Newsletters",
-        link: "#",
-      },
-    ],
-  },
-  {
-    title: "Contact Us",
-    links: [
-      {
-        name: "Join Us",
-        link: "#",
-      },
-      {
-        name: "PhD Applicants",
-        link: "#",
-      },
-      {
         name: "Team",
-        link: "#",
+        link: "about",
       },
       {
         name: "Contact",
-        link: "#",
+        link: "contact",
       },
     ],
   },

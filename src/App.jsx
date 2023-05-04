@@ -6,7 +6,7 @@ import PublicationsPage from './pages/Publications';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import MapPage from './pages/Map'
-
+import ImpactPage from './pages/Impact'
 import Error from './pages/Error'
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/about" element={<AboutPage/>}/>
         <Route exact path="/contact" element={<ContactPage/>}/>
         <Route exact path="/map" element={<MapPage/>}/>
+        <Route exact path="/impact" element={<ImpactPage/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
       </Router>

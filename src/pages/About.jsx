@@ -36,7 +36,7 @@ const About = () => {
         <div className={`${styles.boxWidth}`}>
           <Navbar />
           <h2 className={styles.heading2}>About Us</h2>
-          <Typography className="text-white m-5 text-center">
+          <Typography className={`${styles.paragraph} m-5 text-center`}>
             WE BREAK AEROSPACE SYSTEMS <br />
             If you don’t know how to break it, you don’t know how to fix it.
             <br />

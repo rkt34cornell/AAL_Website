@@ -1,0 +1,66 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "Greenland Satellite Ground Station",
+            "type": "Scientific Ground Station",
+            "organization": "Beijing Normal University (BNU)",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                64.1740278,
+                -51.7444167
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "China Iceland Arctic Research Observatory (CIAO)",
+            "type": "Scientific Ground Station",
+            "organization": "Polar Research Institute of China (PRIC)",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                65.7061389,
+                -17.3649444
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 2,
+            "name": "Ny-Ålesund Yellow River Station",
+            "type": "Scientific Ground Station",
+            "organization": "China",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.9233611,
+                11.9091667
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 3,
+            "name": "China Remote Sensing Satellite North Polar Ground Station (CNPGS) Kiruna",
+            "type": "Scientific/Shenzou Ground Station",
+            "organization": "Institute of Remote Sensing and Digital Earth of China (RADI)",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                67.8833333,
+                21.0666667
+            ]
+        }
+    }
+]

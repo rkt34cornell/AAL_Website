@@ -1,0 +1,34 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "ESEC",
+            "type": "Ground Station",
+            "organization": "European Space Agency",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                50.0025000,
+                5.1469444
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Kiruna Station",
+            "type": "Ground Station",
+            "organization": "European Space Agency",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                67.8568889,
+                20.9670556
+            ]
+        }
+    }
+]

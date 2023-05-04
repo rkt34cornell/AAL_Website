@@ -23,7 +23,7 @@ const Projects = () => {
           >
           <div className="m-10">
             <Card className="w-64">
-              <CardHeader color="black" className="relative h-128 w-auto">
+              <CardHeader floated={false} color="black" className="relative h-128 w-auto">
                 <img src={ssa} alt="uav" className="h-full w-full" />
               </CardHeader>
               <CardBody className="text-center">
@@ -49,7 +49,7 @@ const Projects = () => {
             </div>
             <div className="m-10">
             <Card className="w-64 ">
-              <CardHeader color="black" className="relative h-128 w-auto">
+              <CardHeader floated={false} color="black" className="relative h-128 w-auto">
                 <img src={ssa} alt="uav" className="h-full w-full" />
               </CardHeader>
               <CardBody className="text-center">
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
             <div className="m-10">
             <Card className="w-64 ">
-              <CardHeader color="black" className="relative h-128 w-auto">
+              <CardHeader floated={false} color="black" className="relative h-128 w-auto">
                 <img src={ssa} alt="uav" className="h-full w-full" />
               </CardHeader>
               <CardBody className="text-center">

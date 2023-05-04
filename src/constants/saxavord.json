@@ -1,0 +1,34 @@
+[
+    {
+        "properties": {
+            "id": 0,
+            "name": "SaxaVord UK",
+            "type": "GSaaS",
+            "organization": "SaxaVord UK",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                60.8174722,
+                -0.7733889
+            ]
+        }
+    },
+    {
+        "properties": {
+            "id": 1,
+            "name": "Unst SaxaVord Space Port",
+            "type": "GSaaS and Launch Site",
+            "organization": "SaxaVord UK",
+            "status": "Active"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                60.8174722,
+                -0.7733889
+            ]
+        }
+    }
+]
