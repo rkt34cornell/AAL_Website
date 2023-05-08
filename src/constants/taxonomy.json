@@ -1,0 +1,471 @@
+[
+    {
+        "label": "Physical",
+        "value": "physical",
+        "desc": "",
+        "how": [
+            {
+                "label": "Kinetic",
+                "value": "kinetic",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "MMOD Collision",
+                        "value": "mmod collision",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Space Debris",
+                                "value": "space debris",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Meteoroids",
+                                "value": "meteoroids",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Spacecraft Collision",
+                        "value": "spacecraft collision",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Active not maneuverable",
+                                "value": "active not maneuverable",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Active Maneuverable",
+                                "value": "active maneuverable",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Decommissioned",
+                                "value": "decommissioned",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "ASAT",
+                        "value": "asat",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Co-orbital Kinetic",
+                                "value": "co-orbital kinetic",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Co-orbital Inspection",
+                                "value": "co-orbital inspection",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Co-orbital Dual-Use",
+                                "value": "co-orbital dual-use",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Direct Ascent",
+                                "value": "direct ascent",
+                                "desc": ""
+                            },
+                            {
+                                "label": "High-Altitude Nuclear Explosion",
+                                "value": "high-altitude nuclear explosion",
+                                "desc": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Non-Kinetic",
+                "value": "non-kinetic",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Directed Energy Weapons",
+                        "value": "directed energy weapons",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "High-powered Laser",
+                                "value": "high-powered laser",
+                                "desc": ""
+                            },
+                            {
+                                "label": "High-powered Microwaves",
+                                "value": "high-powered microwaves",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Environmental",
+                        "value": "environmental1",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Plasma Effects on Orbital Drag",
+                                "value": "plasma effects on orbital drag",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Solar Radiation Storm",
+                                "value": "solar radiation storm",
+                                "desc": ""
+                            },
+                            {
+                                "label": "coronal mass ejection",
+                                "value": "coronal mass ejection",
+                                "desc": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Digital",
+        "value": "digital",
+        "desc": "",
+        "how": [
+            {
+                "label": "Electromagnetic",
+                "value": "electromagnetic",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Environmental",
+                        "value": "environmental2",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Solar Radio Burst",
+                                "value": "solar radio burst",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Single Event Effect",
+                                "value": "single event effect",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Man-Made",
+                        "value": "man-made",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "RF Interferences",
+                                "value": "rf interferences",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Eavesdropping",
+                                "value": "eavesdropping",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Spoofing",
+                                "value": "spoofing",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Ultrawideband Weapon",
+                                "value": "ultrawideband weapon",
+                                "desc": ""
+                            },
+                            {
+                                "label": "EMP Weapon",
+                                "value": "emp weapon",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Jamming",
+                                "value": "jamming",
+                                "desc": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Cyber",
+                "value": "cyber",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Technical",
+                        "value": "technical",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Signal Hijacking",
+                                "value": "signal hijacking",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Seizure of Control",
+                                "value": "seizure of control",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Data Corruption/Interception",
+                                "value": "data corruption/interception",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Denial-of-service Attack",
+                                "value": "denial-of-service attack",
+                                "desc": ""
+                            },
+                            {
+                                "label": "SSA Deception",
+                                "value": "ssa deception",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Social Engineering",
+                        "value": "social engineering",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Phishing",
+                                "value": "phishing",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Baiting Attack",
+                                "value": "baiting attack",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Spoofing",
+                                "value": "spoofing",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Quid Pro Quo Attack",
+                                "value": "quid pro quo attack",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Tailgating",
+                                "value": "tailgating",
+                                "desc": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Organizational",
+        "value": "organizational",
+        "desc": "",
+        "how": [
+            {
+                "label": "Production",
+                "value": "production",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Financial",
+                        "value": "financial",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Lack of Innovation",
+                                "value": "lack of innovation",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Corruption",
+                                "value": "corruption",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Human Capital",
+                        "value": "human capital",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Industrial Espionage",
+                                "value": "industrial espionage",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Scarce Availability of Talent",
+                                "value": "scarce availability of talent",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Brain Drain",
+                                "value": "brain drain",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Geographical Dispersion",
+                        "value": "geographical dispersion",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Cultural Differences",
+                                "value": "cultural differences",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Foreign Infiltration",
+                                "value": "foreign infiltration",
+                                "desc": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Management",
+                "value": "management",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "External",
+                        "value": "external",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Technological Dependency",
+                                "value": "technological dependency",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Raw Materials Dependency",
+                                "value": "raw materials dependency",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Technology Theft",
+                                "value": "technology theft",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Sabotage",
+                                "value": "sabotage",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Domestic",
+                        "value": "domestic",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Instability of Resources",
+                                "value": "instability of resources",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Scarce Availability of Materials",
+                                "value": "scarce availability of materials",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Scarce Availability of Services",
+                                "value": "scarce availability of services",
+                                "desc": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Regulatory",
+        "value": "regulatory",
+        "desc": "",
+        "how": [
+            {
+                "label": "Legal",
+                "value": "legal",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "International Law",
+                        "value": "international law",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Liability",
+                                "value": "liability",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Registration",
+                                "value": "registration",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Insurance",
+                        "value": "insurance",
+                        "desc": "",
+                        "which": []
+                    }
+                ]
+            },
+            {
+                "label": "Political",
+                "value": "political",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Domestic Policy",
+                        "value": "domestic policy",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Budgetary",
+                                "value": "budgetary",
+                                "desc": ""
+                            },
+                            {
+                                "label": "Political Direction",
+                                "value": "political direction",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Foreign Policy",
+                        "value": "foreign policy",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "National Security Concerns",
+                                "value": "national security concerns",
+                                "desc": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

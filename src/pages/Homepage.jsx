@@ -22,8 +22,8 @@ const Homepage = () => {
         <Impact />
         <Projects />
         <Publications />
-        <MapSection />
-        <Taxonomy />
+        {/* <MapSection />
+        <Taxonomy /> */}
         <Partners />
         <Team />
         <Footer />
