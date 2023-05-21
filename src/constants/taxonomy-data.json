@@ -1,0 +1,466 @@
+[
+    {
+        "label": "Physical",
+        "value": "physical",
+        "desc": "",
+        "how": [
+            {
+                "label": "Kinetic",
+                "value": "kinetic",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "MMOD Collision",
+                        "value": "mmod collision",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Space Debris",
+                                "value": "space debris",
+                                "desc": "The amount of space debris is increasing due to human activity in outer space, and it includes operational payloads, rocket stages, satellite and rocket fragments, and other hardware. Space debris is produced by thrusters, collisions, and on-orbit satellite fragmentations. The duration of their stay in orbit varies. Space Situational Awareness systems can monitor and predict collisions, but much space debris is too small to track and can collide with each other, generating further debris. ASAT systems are another source of space debris."
+                            },
+                            {
+                                "label": "Meteoroids",
+                                "value": "meteoroids",
+                                "desc": "Meteoroids are a type of natural space debris generated mainly by cometary passage within the Solar System. When Earth intersects with the path of a comet, it generates a meteor shower, with some small meteorites falling to Earth and some entering Earth's orbit, posing a risk to commercial space missions. Another origin of micrometeorites affecting Earth is the asteroid belt, where smaller objects are gradually dragged by solar radiation pressure towards the center of the Solar System and towards Earth."
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Spacecraft Collision",
+                        "value": "spacecraft collision",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Active not maneuverable",
+                                "value": "active not maneuverable",
+                                "desc": "The risk of collisions between spacecrafts, although lower probability than that of collisions with MMOD, is still present and can cause dramatic damage to space missions. It can be caused by active spacecraft with maneuvering capabilities, active spacecraft that lack propulsion systems such as many CubeSats, or by decommissioned spacecrafts. "
+                            },
+                            {
+                                "label": "Active Maneuverable",
+                                "value": "active maneuverable",
+                                "desc": "The risk of collisions between spacecrafts, although lower probability than that of collisions with MMOD, is still present and can cause dramatic damage to space missions. It can be caused by active spacecraft with maneuvering capabilities, active spacecraft that lack propulsion systems such as many CubeSats, or by decommissioned spacecrafts. "
+                            },
+                            {
+                                "label": "Decommissioned",
+                                "value": "decommissioned",
+                                "desc": "The risk of collisions between spacecrafts, although lower probability than that of collisions with MMOD, is still present and can cause dramatic damage to space missions. It can be caused by active spacecraft with maneuvering capabilities, active spacecraft that lack propulsion systems such as many CubeSats, or by decommissioned spacecrafts. "
+                            }
+                        ]
+                    },
+                    {
+                        "label": "ASAT",
+                        "value": "asat",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Co-orbital Kinetic",
+                                "value": "co-orbital kinetic",
+                                "desc": "Co-orbital kinetic ASATs are weapons placed in orbit like normal satellites that collide with the target through different types of maneuvers. Although it is a relatively dated technology, it has generated renewed interest and the number of events attributable to this type of technology has grown. These systems make it difficult to mask the identity of the attacker and can remain dormant in orbit for long periods. Recent events have shown the ability of satellites to deploy smaller maneuverable sub-satellites that could be used as 'co-orbital bullets'. The only way to counter this kind of attack and reduce their advantage is to enhance the capabilities of SSA systems, but the consequences of using this weapon are difficult to forecast and will likely generate space debris with consequences for the target spacecraft."
+                            },
+                            {
+                                "label": "Co-orbital Inspection",
+                                "value": "co-orbital inspection",
+                                "desc": "The use of co-orbital ASAT systems does not always involve destroying the target spacecraft but can also involve maneuvers to approach it in a controlled and non-destructive manner. This can be done to intercept data or disrupt communications through a proximity operation. These systems can be equipped with various payloads such as robotic mechanisms, chemical sprayers, and on-orbit directed energy weapons to attack the target spacecraft."
+                            },
+                            {
+                                "label": "Co-orbital Dual-Use",
+                                "value": "co-orbital dual-use",
+                                "desc": "Various projects to tackle space debris and derelict payloads are being developed. Currently, there are no satellites equipped with robotic mechanisms that can grab objects in space, but this is expected to change in the near future. Additionally, there are projects that use DEW to destroy MMOD and these systems can be equipped on satellites. However, the proliferation of such technologies in orbit, even for peaceful purposes, increases the risk of them being used against active satellites. Furthermore, countries with these technologies deployed in orbit could become targets of cyber and electronic attacks."
+                            },
+                            {
+                                "label": "Direct Ascent",
+                                "value": "direct ascent",
+                                "desc": "Direct-ascent ASAT involves launching a missile from the ground or air to reach a target in orbit, while co-orbital ASAT systems can remain dormant in orbit and are more difficult to attribute. Four nations, including the US, Russia, China, and India, have tested and deployed co-orbital systems, while direct-ascent systems have been extensively tested but generate more debris and are easier to attribute. The amount of debris generated by a direct-ascent ASAT test depends on factors such as the altitude and size of the target and upper atmosphere conditions."
+                            },
+                            {
+                                "label": "High-Altitude Nuclear Explosion",
+                                "value": "high-altitude nuclear explosion",
+                                "desc": "Since the 1963 Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space, and Under Water, there have been no nuclear weapon tests in the upper atmosphere. However, several nations have the capability to conduct such tests today. A High-Altitude Nuclear Explosion (HANE) can cause three main consequences on space infrastructure. The first is kinetic, which includes destructive kinetic effects within the radius of the explosion. The second consequence is electromagnetic, which can cause irreversible or temporary damage to a large number of satellites and ground control stations. The third consequence is the production of nuclear debris, which poses a significant risk to the space environment."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Non-Kinetic",
+                "value": "non-kinetic",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Directed Energy Weapons",
+                        "value": "directed energy weapons",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "High-powered Laser",
+                                "value": "high-powered laser",
+                                "desc": "The high intensity laser beam weapon can disable or destroy a target by precisely aiming at it for a certain amount of time, and several nations have this capability or are developing it. These attacks can be deployed quickly, from anywhere in the world, and are hard to attribute. Research and tests are being conducted to mount this weapon on orbiting satellites to increase their deployment speed."
+                            },
+                            {
+                                "label": "High-powered Microwaves",
+                                "value": "high-powered microwaves",
+                                "desc": "High-powered microwaves entail a large quantity of the same being directed towards a target. The effect of such an attack can range from the total destruction of the satellite to its subcomponents being temporary disabled."
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Environmental",
+                        "value": "environmental1",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Plasma Effects on Orbital Drag",
+                                "value": "plasma effects on orbital drag",
+                                "desc": "The presence of atmospheric gases in space, specifically in the neutral thermosphere and thermosphere, can affect space infrastructures in unexpected ways. This is due to the minimum amount of drag that is always present, which can cause a spacecraft in low Earth orbit to re-enter the atmosphere if not equipped with propulsion. The amount of drag changes with variations in temperature, altitude, and solar activity. Solar activity greatly influences the density of the thermosphere and can lead to sudden drag that a spacecraft may not be able to withstand without propulsion. Therefore, it is important to evaluate solar activity during the design phase of a space mission, especially if it is intended to orbit in LEO for long periods."
+                            },
+                            {
+                                "label": "Solar Radiation Storm",
+                                "value": "solar radiation storm",
+                                "desc": "Solar particle events (SPEs) are composed of SEPs accelerated by flares and CMEs. They can start within minutes or intensify gradually, and have biological effects on astronauts and technological impacts on satellites, including memory impacts, loss of control, and radio blackouts. They can cause permanent or temporary damage, and result in the loss of the spacecraft or a period of denial of service. HF radio blackouts in polar regions are also possible."
+                            },
+                            {
+                                "label": "coronal mass ejection",
+                                "value": "coronal mass ejection",
+                                "desc": "Geomagnetic storms are primarily caused by earthward-directed coronal mass ejections (CMEs) or high-speed streams in the solar wind with appropriately oriented magnetic field structures. Fast CMEs with strong magnetic fields produce the largest storms. Geomagnetic storms cause geomagnetically induced currents (GICs) on the surface of the Earth. Their impact varies considerably in space and time, and it is not possible to predict if a CME will be geoeffective until it is measured by satellites just before it reaches Earth. Geomagnetic storms can cause power system and spacecraft failures, degraded satellite navigation, severe ionospheric disturbances, GNSS degradation, loss of integrity, and HF communication blackout, and are considered a primary risk in most assessments of space weather impact."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Digital",
+        "value": "digital",
+        "desc": "",
+        "how": [
+            {
+                "label": "Electromagnetic",
+                "value": "electromagnetic",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Environmental",
+                        "value": "environmental2",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Solar Radio Burst",
+                                "value": "solar radio burst",
+                                "desc": "Solar radio bursts (SRBs) are a potential risk for space-based technologies and infrastructures during solar storms and superstorms. GNSS systems and technologies dependent on them are particularly vulnerable to SRBs. When located in sunlight, GNSS receivers can lose lock and consequently lose GNSS services for days. While the consequences of SRBs are not permanent, a strong solar storm could result in a prolonged period of GNSS service denial."
+                            },
+                            {
+                                "label": "Single Event Effect",
+                                "value": "single event effect",
+                                "desc": "Single Event Effects (SEEs) is an electronic risk that occurs due to charged particles deposition on microelectronic components of a spacecraft, and can lead to false commands or a complete burnout of a semiconductor. There are different types of SEEs, and their severity and likelihood can be reduced through various methods."
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Man-Made",
+                        "value": "man-made",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "RF Interferences",
+                                "value": "rf interferences",
+                                "desc": "Radio frequency (RF) communications are critical for satellite control and operation. Interference can occur naturally, from sources such as solar storms or Earth's atmosphere, or unintentionally from frequency overlaps. Intentional RF interference, such as jamming, can temporarily disrupt satellite operation without disabling subsystems. This interference is easy to create and can be difficult to attribute, especially if created by co-orbital systems. It poses a significant threat to the normal operation of satellites."
+                            },
+                            {
+                                "label": "Eavesdropping",
+                                "value": "eavesdropping",
+                                "desc": "The interception of radio signals, known as signals intelligence (SIGINT), can be used for both communications intelligence (COMINT) and electronic intelligence (ELINT) purposes. This activity can lead to a significant security loss for the customers of the targeted space infrastructure."
+                            },
+                            {
+                                "label": "Spoofing",
+                                "value": "spoofing",
+                                "desc": "Spoofing is a type of attack that involves capturing, altering, and re-transmitting a communication signal in a way that misleads the recipient. This type of attack allows the attacker to take over a space communication infrastructure by appearing as an authorized user, inserting false commands into a satellite’s command receiver, causing the spacecraft to malfunction or fail its mission. Spoofing is a discreet and deniable form of attack that can cause difficult-to-avoid and identify service interruptions."
+                            },
+                            {
+                                "label": "Ultrawideband Weapon",
+                                "value": "ultrawideband weapon",
+                                "desc": "UWB weapons generate wide-spectrum RF radiation with limited directivity and are not used to cause permanent damage to spacecraft. However, if enough power is applied, the radiation can cause major damage to the satellite's internal communications hardware. UWB radiation enters through the satellite's antenna at its receive frequency and can cause system upset or require operator intervention to return the satellite to its normal state. The attacker's identity is difficult to determine, leading to data losses for customers."
+                            },
+                            {
+                                "label": "EMP Weapon",
+                                "value": "emp weapon",
+                                "desc": "Electromagnetic pulses (EMP) can damage electronic circuits and components, putting at risk any unprotected space infrastructure. The coverage of an EMP signal depends on the size of the yield and the altitude of the burst, and a low-yield nuclear device detonated a few hundred kilometers above the atmosphere could severely damage nearby satellites and reduce their lifetime. The effects of radiation could make satellite operations futile for many months, and even nuclear detonations in the 10-kiloton range could have significant effects on satellites for months. Any actor with a rocket and a simple nuclear device could carry out such an attack."
+                            },
+                            {
+                                "label": "Jamming",
+                                "value": "jamming",
+                                "desc": "Jamming is a deliberate form of electronic attack that aims to disrupt or block satellite communications by overpowering the original signal with noise or other interference. This can prevent legitimate users from accessing the satellite's services or disrupt its normal operation. Jamming can be produced with relatively simple and low-cost equipment and can have severe consequences for the targeted satellite and its users. It is a common form of space-based electronic attack, which is difficult to detect and attribute."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Cyber",
+                "value": "cyber",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Technical",
+                        "value": "technical",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Signal Hijacking",
+                                "value": "signal hijacking",
+                                "desc": "An attacker can identify free communication slots in a satellite transponder by using a computer, a satellite receiver dish, and software. With this information, the attacker could hijack excess capacity without being detected as long as they maintain a low profile. The risk comes from the potential malevolent interference with the normal data stream, leading to denial of service or the transmission of illegal signals. Hijacking a satellite signal is relatively easy and cheap, and identifying the attacker is difficult."
+                            },
+                            {
+                                "label": "Seizure of Control",
+                                "value": "seizure of control",
+                                "desc": "Taking control of a satellite can replace the use of weapons to destroy it, and can be done by independent hackers or governments by intruding into the C2 link, which may not be encrypted for savings and simplicity. By taking control of a satellite, it can be launched into an orbit that leads to its destruction or loss of all functionality, or used for blackmail purposes or as a co-orbital kinetic weapon. Operators should prevent remote introduction of spacecraft commands and third party interference with satellite telemetry reception to mitigate the risk of such attacks."
+                            },
+                            {
+                                "label": "Data Corruption/Interception",
+                                "value": "data corruption/interception",
+                                "desc": "Intercepting or corrupting radio frequency communications is a type of attack that focuses on satellite communication links. This is often possible through an attack on the C2 link of the satellite to take control of the entire satellite communication system. If the C2 link is poorly or not at all encrypted, this type of attack is more efficient than a simple insertion into the downlink beam of a satellite. Such an attack can lead to severe losses of customers due to compromised security."
+                            },
+                            {
+                                "label": "Denial-of-service Attack",
+                                "value": "denial-of-service attack",
+                                "desc": "The attack known as a Denial of Service (DoS) is an attempt to overload a system with excessive data, rendering it unable to function. It is carried out using a botnet, a group of infected computers that saturate the target system with traffic. This attack can disrupt network-based services, including satellite control operations and data transfer, potentially leading to the loss of the satellite."
+                            },
+                            {
+                                "label": "SSA Deception",
+                                "value": "ssa deception",
+                                "desc": "Space Situational Awareness (SSA) systems provide a strategic advantage by offering a better understanding of the space environment, enabling efficient prediction of collisions with other spacecraft, and identifying foreign objects in orbit. However, these systems can be targeted in cyber attacks aimed at preventing observation of space traffic or hiding the presence of spacecraft from the enemy. Such attacks can cause imprecise control of objects in orbit, affecting human activities in space. Moreover, there have been instances where objects launched into orbit were registered in the wrong category and carried out unexpected maneuvers, which could affect military and commercial assets."
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Social Engineering",
+                        "value": "social engineering",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Phishing",
+                                "value": "phishing",
+                                "desc": "Phishing emails may include links that redirect users to dummy websites masked as legitimate web pages, where users are prompted to share confidential information (such as passwords or other credentials) to complete a certain activity, such as downloading a file."
+                            },
+                            {
+                                "label": "Baiting Attack",
+                                "value": "baiting attack",
+                                "desc": "Baiting attacks are designed to exploit human curiosity. A typical example of a baiting attack occurs when hackers strategically leave behind infected flash drives in places where targeted users are likely to find them, with the hope that users will insert the flashdrives into their corporate computers, thereby starting the automatic download of malicious software onto the organization’s networks."
+                            },
+                            {
+                                "label": "Quid Pro Quo Attack",
+                                "value": "quid pro quo attack",
+                                "desc": "Quid pro quo attacks involve the promise of a service in exchange for a user’s login details or sensitive data. Hackers using this method often impersonate IT staff, requesting login details or direct access to an organization’s information system under the pretense of needing to install software or perform updates. Users may also be expected to perform a specific action in order to aid an attack, such as disabling antivirus software or alert notifications. This type of attack may happen remotely (for example, through a user interface that prompts users to enter their login credentials), over the phone, or face to face with the hacker."
+                            },
+                            {
+                                "label": "Tailgating",
+                                "value": "tailgating",
+                                "desc": "Tailgating attacks depart from the reliance on technology required by the types of social engineering attacks mentioned above. Also referred to as “piggybacking”, tailgating involves hackers gaining physical access to the targeted company’s facilities. Hackers using this technique may simply wait for authorized individuals to open the door, and then walk in behind them. As with quid pro quo attacks, attackers might impersonate a delivery man or a driver carrying packages and wait for an employee to open the door for them. Without the correct physical security measures in place, hackers can use this method of attack to gain direct access to an organization’s server rooms or networks."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Organizational",
+        "value": "organizational",
+        "desc": "",
+        "how": [
+            {
+                "label": "Production",
+                "value": "production",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Financial",
+                        "value": "financial",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Lack of Innovation",
+                                "value": "lack of innovation",
+                                "desc": "The lack of innovation in the commercial space industry can pose a risk to the competitiveness and security of space missions. Companies that do not invest in research and development may not be able to keep up with the rapidly evolving market and threats, particularly in the cyber and electronic fields. This could result in an inability to predict or deal with threats immediately and jeopardize the stability and security of services offered. While government security agencies can offer assistance and guidelines, research and development efforts are necessary to be prepared for sudden changes or military threats."
+                            },
+                            {
+                                "label": "Corruption",
+                                "value": "corruption",
+                                "desc": "Corruption is a risk for companies in the space sector due to regulatory gaps and delays, particularly regarding authorization and registration of products. While bribes may speed up these processes in the short term, they can increase legal risks in the long run and weaken a company in the event of disputes related to the failure of its space assets. Additionally, outsourcing and relocation to developing economies may increase the likelihood of corruption and tie the company to foreign governments or potentates, thereby increasing security and legal risks."
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Human Capital",
+                        "value": "human capital",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Industrial Espionage",
+                                "value": "industrial espionage",
+                                "desc": "The risk of industrial espionage is a permanent risk that applies to any company with proprietary and high-level technologies, including those in the space sector. Poor security measures can increase the risk of industrial espionage. The risk is not just economic but also strategic as knowing the weaknesses of software and hardware can provide an advantage in electronic and cyber attacks. High levels of control over the workforce, facilities, and information systems can reduce the risk of industrial espionage, while practices such as relocation and outsourcing can increase it."
+                            },
+                            {
+                                "label": "Scarce Availability of Talent",
+                                "value": "scarce availability of talent",
+                                "desc": "The space sector requires a large and highly skilled workforce with various skills necessary for a space mission. The availability of the necessary professionals may vary from country to country due to different levels of academic preparation. Additionally, some countries have restrictions on hiring foreign expertise due to the strategic importance of the space sector. These factors should be taken into account when planning a space business."
+                            },
+                            {
+                                "label": "Brain Drain",
+                                "value": "brain drain",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Geographical Dispersion",
+                        "value": "geographical dispersion",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Cultural Differences",
+                                "value": "cultural differences",
+                                "desc": "Geographical dispersion is an organizational risk and the fact that different locations can present cultural differences is an aspect of it. Cultural differences can lead to the need of different ways and levels of management making it more difficult. Differences in the work style can slow down the pace of production or lead to higher difficulties in achieving a certain degree of security."
+                            },
+                            {
+                                "label": "Foreign Infiltration",
+                                "value": "foreign infiltration",
+                                "desc": "Relocation and outsourcing make it more difficult to check that there is no infiltration in a production line. Infiltration may have the purpose of carrying out industrial espionage or sabotage."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Management",
+                "value": "management",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "External",
+                        "value": "external",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Technological Dependency",
+                                "value": "technological dependency",
+                                "desc": "The risk factor of depending too much on patents and non-proprietary technologies is a concern for companies in the space sector, as it can lead to unsafe and inflexible supplies and difficulties in verifying the overall security of the space infrastructure. The complexity of the multitude of technologies used in space, produced by various countries with different quality standards, can create vulnerabilities that are difficult to analyze, particularly in the cyber field."
+                            },
+                            {
+                                "label": "Raw Materials Dependency",
+                                "value": "raw materials dependency",
+                                "desc": "Here the criticality is a bit simpler than the one concerning technological dependence. The implications primarily concern the assurance of a stable production process in the medium and long term as excessive shortages of raw material supplies could jeopardize both normal production and that of any components not initially envisaged by the project."
+                            },
+                            {
+                                "label": "Technology Theft",
+                                "value": "technology theft",
+                                "desc": "The risk of industrial espionage is a permanent threat for any company that relies on proprietary and high-level technologies, including the space sector. The likelihood of this threat can be reduced by paying sufficient attention to security and maintaining high levels of control over the workforce, facilities, and information systems. However, practices like relocation and outsourcing can increase the risk. Industrial espionage in the space sector is not only an economic threat, but also a strategic one, as knowledge of weaknesses in software and hardware can provide an advantage in electronic and cyber attacks."
+                            },
+                            {
+                                "label": "Sabotage",
+                                "value": "sabotage",
+                                "desc": "It is a risk very similar to that of industrial espionage and for this reason the strategies to stem it are also very similar. Each space agency or company carries out numerous checks and tests of each infrastructure before it is launched into space, but many events have shown that sometimes defects and malfunctions escape scrutiny. Of whatever type and complexity the space infrastructure is, very high levels of safety must be maintained in post-production and pre-launch checks."
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Domestic",
+                        "value": "domestic",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Instability of Resources",
+                                "value": "instability of resources",
+                                "desc": "A lack of stability in certain phases of the supply chain can be particularly risky. In the case of purchases by third-party sellers or the import of raw materials through third-party channels, they may not be stable and therefore jeopardize the stability of the production line."
+                            },
+                            {
+                                "label": "Scarce Availability of Materials",
+                                "value": "scarce availability of materials",
+                                "desc": "A firm has to understand if the materials that are needed can be bought, if their quantity is sufficient and if the supply is sustainable economically and quantitatively."
+                            },
+                            {
+                                "label": "Scarce Availability of Services",
+                                "value": "scarce availability of services",
+                                "desc": "A firm has to understand if the services that are needed can be bought, if their quantity is sufficient and if the supply is sustainable economically and quantitatively."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Regulatory",
+        "value": "regulatory",
+        "desc": "",
+        "how": [
+            {
+                "label": "Legal",
+                "value": "legal",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "International Law",
+                        "value": "international law",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Liability",
+                                "value": "liability",
+                                "desc": "International law establishes liability for any damage caused by space objects since the Convention on the International Liability for Damage Caused by Space Objects in 1972. The Liability Convention specifies the type of damage caused, and the launching state is liable only for fault if damage occurs to other space objects. Liability for space activities poses a risk for the private sector of space activities, particularly with commercial activities, where satellites are often sold and leased to other operators. The jurisdiction and control exercised by the state of the operator, rather than the state that launched and registered the object, can complicate international litigation in the event of an accident. The launcher state is typically held liable for any damage caused by space objects, including those launched for commercial purposes."
+                            },
+                            {
+                                "label": "Registration",
+                                "value": "registration",
+                                "desc": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Insurance",
+                        "value": "insurance",
+                        "desc": "",
+                        "which": []
+                    }
+                ]
+            },
+            {
+                "label": "Political",
+                "value": "political",
+                "desc": "",
+                "what": [
+                    {
+                        "label": "Domestic Policy",
+                        "value": "domestic policy",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "Budgetary",
+                                "value": "budgetary",
+                                "desc": "State support is crucial for commercial space ventures due to the high costs and strategic importance of space infrastructure. However, budget cuts due to factors such as economic crises, changes in administration, and public opinion can threaten the sustainability of such ventures. These fluctuations in public funding should be anticipated and accounted for as potential risks in the medium and long term."
+                            },
+                            {
+                                "label": "Political Direction",
+                                "value": "political direction",
+                                "desc": "The Apollo missions' success was due to a political decision by former US President John F. Kennedy, with the program's conclusion motivated by both political and economic factors. Public perception of space activities as costly with little immediate value can be a challenge. The space sector remains dependent on the policies of spacefaring nations, which can slow or halt private space projects due to funding cuts. Political, strategic, and economic factors are complex and difficult to prioritize when determining policies."
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Foreign Policy",
+                        "value": "foreign policy",
+                        "desc": "",
+                        "which": [
+                            {
+                                "label": "National Security Concerns",
+                                "value": "national security concerns",
+                                "desc": "Space missions can be affected by regulatory bodies' lack of authorization for national security reasons. This may occur due to non-compliant technologies or the nationalities of company members and shareholders. The likelihood of such risks depends on the country's commitment to UN or international agreements and its policies towards technology and political-military tensions."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

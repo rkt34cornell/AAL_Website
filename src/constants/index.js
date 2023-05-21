@@ -63,17 +63,17 @@ export const publications = [
   {
     id: "publication-1",
     title: "Publication 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "Boschetti, Nicolò, et al. 'A Hybrid Space Architecture for Robust and Resilient Satellite Services.' 2023 IEEE International Conference on Space Mission Challenges for Information Technology (SMC-IT). IEEE Communications Society, 2023.",
   },
   {
     id: "publication-2",
     title: "Publication 2",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "Falco, Gregory, and Nathaniel G. Gordon. 'Cybersecurity and Human Spaceflight Safety.'",
   },
   {
     id: "publication-3",
     title: "Publication 3",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "Byerly, Adam, Nathaniel G. Gordon, and Gregory Falco. 'Spacecraft Diagnostic Generation from Remote Sensing for OSAM Missions.' ASCEND 2022. 2022. 4330.",
   },
 ];
 

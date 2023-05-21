@@ -5,7 +5,7 @@ import orbits from "../assets/orbits.png";
 import antiransomware from "../assets/anti-ransomware.png";
 import uav from "../assets/uav.jpeg";
 import soalrsail from "../assets/solar-sail.jpg";
-
+import gsaas from "../assets/gsaas.png";
 
 import {
   Card,
@@ -27,7 +27,56 @@ const Projects = () => {
           >
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
+                <CardHeader
+                  floated={false}
+                  color="black"
+                  className="relative h-128 w-auto"
+                >
+                  <img src={gsaas} alt="gsaas" className="h-full w-full" />
+                </CardHeader>
+                <CardBody className="text-start">
+                  <Typography variant="h5" className="mb-2">
+                    Space Ground Infrastructure Security Analysis
+                  </Typography>
+                  <Typography>
+                    Satellite Ground Stations and Ground Station as a Service
+                    (GSaaS) networks are the focus of an extensive research
+                    project that merges systems engineering, cybersecurity,
+                    open-source intelligence, and international security
+                    concepts and methods. This research aims to provide a
+                    comprehensive analysis of the current security landscape of
+                    ground space infrastructures. The project has already
+                    produced three research papers, which have provided valuable
+                    insights into the security of GSaaS assets in the Arctic and
+                    High North, and have analyzed the reference architectures of
+                    existing GSaaS networks. Additionally, the project has
+                    explored the potential implementation of future Hybrid Space
+                    Architecture concepts. Overall, this research project is a
+                    valuable contribution to satellite communications. The
+                    results of this research provide insights and
+                    recommendations that can be used to improve these networks'
+                    security, performance, and scalability. Furthermore, the
+                    project has demonstrated the value of a multidisciplinary
+                    research method.
+                  </Typography>
+                </CardBody>
+                <CardFooter
+                  divider
+                  className="flex items-center justify-between py-3"
+                >
+                  <Typography variant="small" color="gray">
+                    Nicolò Boschetti
+                  </Typography>
+                </CardFooter>
+              </Card>
+            </div>
+            <div className="m-10">
+              <Card className="w-auto">
+                <CardHeader
+                  floated={false}
+                  color="black"
+                  className="relative h-128 w-auto"
+                >
                   <img src={orbits} alt="uav" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
@@ -63,7 +112,11 @@ const Projects = () => {
             </div>
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
+                <CardHeader
+                  floated={false}
+                  color="black"
+                  className="relative h-128 w-auto"
+                >
                   <img src={uav} alt="uav" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
@@ -97,7 +150,11 @@ const Projects = () => {
             </div>
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
+                <CardHeader
+                  floated={false}
+                  color="black"
+                  className="relative h-128 w-auto"
+                >
                   <img src={soalrsail} alt="uav" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
@@ -134,8 +191,16 @@ const Projects = () => {
             </div>
             <div className="m-10">
               <Card className="w-auto">
-                <CardHeader floated={false} color="black" className="relative h-128 w-auto">
-                  <img src={antiransomware} alt="uav" className="h-full w-full" />
+                <CardHeader
+                  floated={false}
+                  color="black"
+                  className="relative h-128 w-auto"
+                >
+                  <img
+                    src={antiransomware}
+                    alt="uav"
+                    className="h-full w-full"
+                  />
                 </CardHeader>
                 <CardBody className="text-start">
                   <Typography variant="h5" className="mb-2">
@@ -168,7 +233,6 @@ const Projects = () => {
                 </CardFooter>
               </Card>
             </div>
-            
           </div>
 
           <Footer />

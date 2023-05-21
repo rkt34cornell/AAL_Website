@@ -21,9 +21,11 @@ const Publications = () =>  (
   <section id="publications" className={layout.sectionReverse}>
   
   <div className={`${layout.sectionImgReverse} flex-row`}>
+  <div className="grid grid-cols-3 items-center justify-center">
       {publications.map((publications, index) => (
         <PublicationCard key={publications.id} {...publications} index={index} />
       ))}
+      </div>
     </div>
 
     <div className={`${layout.sectionInfo}`}>
