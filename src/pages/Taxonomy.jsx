@@ -46,11 +46,11 @@ const Taxonomy = () => {
             </a>
             .
           </p>
+          <hr></hr>
           
           <div
             className={`${styles.paddingY} hidden md:flex md:justify-center md:items-center`}
           >
-          <hr></hr>
             <h2 className="font-poppins font-semibold xs:text-[26px] text-[16px] text-white text-start w-64 mr-5">
               Where
             </h2>
@@ -85,7 +85,7 @@ const Taxonomy = () => {
               >
                 {data.map(({ value, desc, how }) => (
                   <TabPanel key={value} value={value}>
-                    {/* {desc} */}
+                    {desc}
                     <Tabs orientation="vertical">
                       <TabsHeader className="w-64 h-96">
                         {how.map(({ label, value }) => (
@@ -103,7 +103,7 @@ const Taxonomy = () => {
                       >
                         {how.map(({ value, desc, what }) => (
                           <TabPanel key={value} value={value}>
-                            {/* {desc} */}
+                            {desc}
                             <Tabs orientation="vertical">
                               <TabsHeader className="w-64 h-96">
                                 {what.map(({ label, value }) => (
@@ -121,7 +121,7 @@ const Taxonomy = () => {
                               >
                                 {what.map(({ value, desc, which }) => (
                                   <TabPanel key={value} value={value}>
-                                    {/* {desc} */}
+                                    {desc}
                                     <Tabs orientation="vertical">
                                       <TabsHeader className="w-64 h-96">
                                         {which.map(({ label, value }) => (
@@ -173,7 +173,7 @@ const Taxonomy = () => {
               >
                 {data.map(({ value, desc, how }) => (
                   <TabPanel key={value} value={value}>
-                    {/* {desc} */}
+                    {desc}
                     <Tabs orientation="horizontal">
                       <TabsHeader className="w-full">
                         {how.map(({ label, value }) => (
@@ -191,7 +191,7 @@ const Taxonomy = () => {
                       >
                         {how.map(({ value, desc, what }) => (
                           <TabPanel key={value} value={value}>
-                            {/* {desc} */}
+                            {desc}
                             <Tabs orientation="horizontal">
                               <TabsHeader className="w-full">
                                 {what.map(({ label, value }) => (
@@ -209,7 +209,7 @@ const Taxonomy = () => {
                               >
                                 {what.map(({ value, desc, which }) => (
                                   <TabPanel key={value} value={value}>
-                                    {/* {desc} */}
+                                    {desc}
                                     <Tabs orientation="horizontal">
                                       <TabsHeader className="w-full">
                                         {which.map(({ label, value }) => (

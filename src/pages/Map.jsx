@@ -38,6 +38,8 @@ const Map = () => {
             of working with ground station operators located in designated
             regions.
           </p>
+          <hr></hr>
+
           <div className="flex justify-between">
             <p className={`${styles.paragraph} m-5 text-center`}>
               Zoom Controls

@@ -420,7 +420,7 @@
                     {
                         "label": "Insurance",
                         "value": "insurance",
-                        "desc": "",
+                        "desc": "Space missions and their launch systems are expensive and risky, with insurance becoming increasingly necessary for more complex and expensive commercial missions. However, insurance premiums remain high and are influenced by the reliability of the company and their choice of launch systems and satellite technologies. Cheaper options or untested technologies could result in backlash. Certain space activities such as space tourism and space mining face even higher premium rates, while emerging markets may struggle to secure insurance at all.",
                         "which": []
                     }
                 ]
