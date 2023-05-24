@@ -1,43 +1,64 @@
+import { useCallback } from "react";
 import styles from "../style";
 import earth from "../assets/earth.png";
 import sat1 from "../assets/sat1.svg";
 import sat2 from "../assets/sat2.svg";
 import sat3 from "../assets/sat3.svg";
-import Particles from "react-tsparticles";
+import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
-const particlesInit = async (main) => {
+const oldParticlesInit = async (main) => {
   await loadFull(main);
 };
 
 const Hero = () => {
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    await loadFull(engine);
+  }, []);
+  
+  const particlesLoaded = useCallback(async (container) => {
+    await console.log(container);
+  }, []);
+  
   return (
     <div>
-      <Particles
-        id="particles"
-        init={particlesInit}
-        options={{
-          fullScreen: {
-            enable: true,
-            zIndex: 0,
-          },
-          particles: {
-            shape: {
-              type: "star",
-            },
-            move: {
-              enable: true,
-              speed: 0.2,
-            },
-            size: {
-              value: 1,
-            },
-            opacity: {
-              random: true,
-            },
-          },
-        }}
-      />
+       <Particles
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{
+                particles: {
+                    color: {
+                        value: "#ffffff",
+                    },
+                    collisions: {
+                        enable: true,
+                    },
+                    move: {
+                        enable: true,
+                        speed: 0.08
+                    },
+                    number: {
+                        density: {
+                            enable: true,
+                            area: 1000,
+                        },
+                        value: 100,
+                    },
+                    opacity: {
+                        random: true,
+                    },
+                    shape: {
+                        type: "star",
+                    },
+                    size: {
+                        value: { min: 1, max: 1.5 },
+                    },
+                },
+            }}
+        />
+
       <section
         id="home"
         className={`flex md:flex-col flex-col ${styles.paddingY} ${styles.marginY}`}
@@ -55,7 +76,7 @@ const Hero = () => {
             <p className={`${styles.paragraph} max-w-[800px] mt-5 text-center`}>
               We design and develop the future of aerospace technology enabling
               secure, resilient and assured autonomous space infrastructure
-              operations. 
+              operations.
             </p>
           </div>
         </div>
@@ -66,132 +87,129 @@ const Hero = () => {
             className="w-[60%] h-[60%] z-10 relative"
           />
         </div>
-        
+
         <Particles
-        id="satellite1"
-        init={particlesInit}
-        options={{
-          interactivity: {
-    events: {
-      onClick: {
-        enable: true,
-        mode: "attract"
-      },
-      onHover:{
-        enable: true,
-        mode: "grab",
-      },
-    },
-          },
-          fullScreen: {
-            enable: true,
-            zIndex: 0,
-          },
-          particles: {
-            shape: {
-              type: "image",
-              image: {
-              src: sat1,
-              replace_color: "#ffffff",
+          id="satellite1"
+          init={oldParticlesInit}
+          options={{
+            interactivity: {
+              events: {
+                onClick: {
+                  enable: true,
+                  mode: "attract",
+                },
+                onHover: {
+                  enable: true,
+                  mode: "grab",
+                },
+              },
             },
-            },
-            move: {
+            fullScreen: {
               enable: true,
-              speed: 0.5,
+              zIndex: 0,
             },
-            size: {
-              value: 10,
+            particles: {
+              shape: {
+                type: "image",
+                image: {
+                  src: sat1,
+                  replace_color: "#ffffff",
+                },
+              },
+              move: {
+                enable: true,
+                speed: 0.5,
+              },
+              size: {
+                value: 10,
+              },
+              number: {
+                value: 1,
+              },
             },
-            number:{
-              value: 1,
+          }}
+        />
+        <Particles
+          id="satellite2"
+          init={oldParticlesInit}
+          options={{
+            interactivity: {
+              events: {
+                onClick: {
+                  enable: true,
+                  mode: "attract",
+                },
+                onHover: {
+                  enable: true,
+                  mode: "grab",
+                },
+              },
             },
-
-          },
-        }}
-      />
-       <Particles
-        id="satellite2"
-        init={particlesInit}
-        options={{
-          interactivity: {
-    events: {
-      onClick: {
-        enable: true,
-        mode: "attract"
-      },
-      onHover:{
-        enable: true,
-        mode: "grab",
-      },
-    },
-          },
-          fullScreen: {
-            enable: true,
-            zIndex: 0,
-          },
-          particles: {
-            shape: {
-              type: "image",
-              image: {
-              src: sat2,
-              replace_color: "#ffffff",
-            },
-            },
-            move: {
+            fullScreen: {
               enable: true,
-              speed: 0.6,
+              zIndex: 0,
             },
-            size: {
-              value: 10,
+            particles: {
+              shape: {
+                type: "image",
+                image: {
+                  src: sat2,
+                  replace_color: "#ffffff",
+                },
+              },
+              move: {
+                enable: true,
+                speed: 0.6,
+              },
+              size: {
+                value: 10,
+              },
+              number: {
+                value: 1,
+              },
             },
-            number:{
-              value: 1,
+          }}
+        />
+        <Particles
+          id="satellite3"
+          init={oldParticlesInit}
+          options={{
+            interactivity: {
+              events: {
+                onClick: {
+                  enable: true,
+                  mode: "attract",
+                },
+                onHover: {
+                  enable: true,
+                  mode: "grab",
+                },
+              },
             },
-
-          },
-        }}
-      />
-       <Particles
-        id="satellite3"
-        init={particlesInit}
-        options={{
-          interactivity: {
-    events: {
-      onClick: {
-        enable: true,
-        mode: "attract"
-      },
-      onHover:{
-        enable: true,
-        mode: "grab",
-      },
-    },
-          },
-          fullScreen: {
-            enable: true,
-            zIndex: 0,
-          },
-          particles: {
-            shape: {
-              type: "image",
-              image: {
-              src: sat3,
-            },
-            },
-            move: {
+            fullScreen: {
               enable: true,
-              speed: 0.3,
+              zIndex: 0,
             },
-            size: {
-              value: 10,
+            particles: {
+              shape: {
+                type: "image",
+                image: {
+                  src: sat3,
+                },
+              },
+              move: {
+                enable: true,
+                speed: 0.3,
+              },
+              size: {
+                value: 10,
+              },
+              number: {
+                value: 1,
+              },
             },
-            number:{
-              value: 1,
-            },
-          },
-        }}
-      />
-  
+          }}
+        />
       </section>
     </div>
   );

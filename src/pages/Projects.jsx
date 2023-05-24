@@ -77,7 +77,7 @@ const Projects = () => {
                   color="black"
                   className="relative h-128 w-auto"
                 >
-                  <img src={orbits} alt="uav" className="h-full w-full" />
+                  <img src={orbits} alt="orbits" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
                   <Typography variant="h5" className="mb-2">
@@ -111,6 +111,7 @@ const Projects = () => {
               </Card>
             </div>
             <div className="m-10">
+            <a href="/groundstationproject">
               <Card className="w-auto">
                 <CardHeader
                   floated={false}
@@ -147,6 +148,7 @@ const Projects = () => {
                   </Typography>
                 </CardFooter>
               </Card>
+              </a>
             </div>
             <div className="m-10">
               <Card className="w-auto">
@@ -155,7 +157,7 @@ const Projects = () => {
                   color="black"
                   className="relative h-128 w-auto"
                 >
-                  <img src={soalrsail} alt="uav" className="h-full w-full" />
+                  <img src={soalrsail} alt="soalrsail" className="h-full w-full" />
                 </CardHeader>
                 <CardBody className="text-start">
                   <Typography variant="h5" className="mb-2">
@@ -198,7 +200,7 @@ const Projects = () => {
                 >
                   <img
                     src={antiransomware}
-                    alt="uav"
+                    alt="antiransomware"
                     className="h-full w-full"
                   />
                 </CardHeader>

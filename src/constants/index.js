@@ -18,15 +18,15 @@ export const navLinks = [
   },
   {
     id: "map",
-    title: "Map",
+    title: "Arctic Space Map",
   },
   {
     id: "taxonomy",
-    title: "Taxonomy",
+    title: "Space Risk Taxonomy",
   },
   {
-    id: "about",
-    title: "About Us",
+    id: "team",
+    title: "Team",
   },
   {
     id: "contact",
@@ -108,11 +108,11 @@ export const footerLinks = [
         link: "publications",
       },
       {
-        name: "Map",
+        name: "Arctic Space Map",
         link: "map",
       },
       {
-        name: "Taxonomy",
+        name: "Space Risk Taxonomy",
         link: "taxonomy",
       },
     ],
@@ -122,7 +122,7 @@ export const footerLinks = [
   //   links: [
   //     {
   //       name: "Help Center",
-  //       link: "#",- [x] About Us - Home+ page - add Greg on top 
+  //       link: "#",
   
   //     },
   //     {
@@ -140,11 +140,11 @@ export const footerLinks = [
   //   ],
   // },
   {
-    title: "Contact Us",
+    title: "Quick Links",
     links: [
       {
         name: "Join Us",
-        link: "about",
+        link: "#",
       },
       {
         name: "Partners",
@@ -152,10 +152,10 @@ export const footerLinks = [
       },
       {
         name: "Team",
-        link: "about",
+        link: "team",
       },
       {
-        name: "Contact",
+        name: "Contact Us",
         link: "contact",
       },
     ],

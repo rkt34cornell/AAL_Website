@@ -12,7 +12,7 @@ const Partners = () => {
   return (
     <div>
        <h2 className={`${styles.heading2} ${styles.marginY} ${styles.padding}`}>Partners</h2>
-    <div id="about" className={`${styles.flexCenter} sm:flex-row flex-col`}>
+    <div id="partners" className={`${styles.flexCenter} sm:flex-row flex-col`}>
       <div className='flex flex-row justify-center items-center'>
       <img src={afrl} alt="afrl" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" />
       <img src={apl} alt="apl" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" />

@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
 import greg from "../assets/Gregory.png";
@@ -26,7 +26,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const About = () => {
+const Team = () => {
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   const setIndex = (i) => {
@@ -37,17 +37,6 @@ const About = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
-          <h2 className={styles.heading2}>About Us</h2>
-          <Typography
-            className={`${styles.paragraph} sm:py-12 py-6 text-center`}
-          >
-            WE BREAK AEROSPACE SYSTEMS <br />
-            If you don’t know how to break it, you don’t know how to fix it.
-            <br />
-            We design and develop the future of aerospace technology enabling
-            secure, resilient and assured autonomous space infrastructure
-            operations.
-          </Typography>
           <h2 className={styles.heading2}>Team</h2>
 
           <div
@@ -770,4 +759,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Team;
