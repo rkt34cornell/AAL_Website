@@ -1,20 +1,10 @@
 import React from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-import ssa from "../assets/ssa.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faTwitter,
-  faResearchgate,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
 
 import {
   Card,
-  CardHeader,
   CardBody,
-  CardFooter,
   Typography,
 } from "@material-tailwind/react";
 

@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-import spd5 from "../assets/spd5.png";
-import nistir from "../assets/nistir.png";
-import isam from "../assets/isam.png";
-import twp from "../assets/twp.jpeg";
-import npr from "../assets/npr.png";
-import aaas from "../assets/aaas.png";
-import dsc from "../assets/dsc.png";
+
+const spd5 = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903706/the-aerospace-adversary/spd5_ok6dlt.png";
+const nistir = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903706/the-aerospace-adversary/nistir_deidkl.png";
+const isam = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903705/the-aerospace-adversary/isam_enobly.png";
+const twp = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903705/the-aerospace-adversary/twp_iykyik.jpg";
+const npr = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903701/the-aerospace-adversary/npr_vit6ui.png";
+const aaas = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903701/the-aerospace-adversary/aaas_efixgl.png";
+const dsc = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903701/the-aerospace-adversary/dsc_rjs07l.jpg";
 
 import {
   Card,

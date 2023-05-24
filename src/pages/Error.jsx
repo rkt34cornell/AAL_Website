@@ -3,7 +3,8 @@ import styles from "../style";
 import { Navbar, Footer } from "../components";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import astro from "../assets/astro.png";
+
+const astro = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684911642/the-aerospace-adversary/astro_tn3uhk.png";
 
 const oldParticlesInit = async (main) => {
   await loadFull(main);

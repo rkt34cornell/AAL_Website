@@ -1,13 +1,14 @@
 import { React, useState } from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-import greg from "../assets/Gregory.png";
-import arpit from "../assets/Arpit.jpg";
-import nathaniel from "../assets/Nathaniel.png";
-import nicolo from "../assets/Nicolo.png";
-import yanni from "../assets/Yanni.jpg";
-import damiano from "../assets/Damiano.png";
-import devang from "../assets/Devang.png";
+
+const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
+const arpit = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903711/the-aerospace-adversary/Arpit_vr4xzb.jpg";
+const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
+const nicolo = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903715/the-aerospace-adversary/Nicolo_ywx48i.png";
+const yanni = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903708/the-aerospace-adversary/Yanni_qmngau.jpg";
+const damiano = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Damiano_jwu5uy.png";
+const devang = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903716/the-aerospace-adversary/Devang_zscwuy.png";
 
 import {
   Card,
