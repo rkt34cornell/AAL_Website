@@ -21,7 +21,7 @@ const Publications = () =>  (
   <section id="publications" className={layout.sectionReverse}>
   
   <div className={`${layout.sectionImgReverse} flex-row`}>
-  <div className="grid grid-cols-3 items-center justify-center">
+  <div className="grid md:grid-cols-3 grid-cols-1 items-center justify-center">
       {publications.map((publications, index) => (
         <PublicationCard key={publications.id} {...publications} index={index} />
       ))}
@@ -36,7 +36,7 @@ const Publications = () =>  (
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
       <a href="/publications">
-      <button type="button" className= "py-4 px-6 font-poppins font-medium text-[18px] text-black bg-white hover:bg-secondary  rounded-[10px] outline-none mt-10">
+      <button type="button" className= "py-4 px-6 font-poppins font-medium text-[18px] text-black bg-white hover:bg-secondary rounded-[10px] outline-none mt-10">
     Know More
   </button>
   </a>

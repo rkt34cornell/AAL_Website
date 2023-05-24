@@ -33,11 +33,10 @@ const Projects = () =>  (
   </a>
     </div>
     
-    <div className={`${layout.sectionImg} flex-col scrollbar-thin scrollbar-thumb-secondary scrollbar-track-white h-96 overflow-y-scroll`}>
+    <div className={`${layout.sectionImg} flex-col md:scrollbar-thin md:scrollbar-thumb-secondary md:scrollbar-track-white md:h-96 md:overflow-y-scroll`}>
       {projects.map((projects, index) => (
         <ProjectCard key={projects.id} {...projects} index={index} />
       ))}
-      <br></br>
     </div>
   </section>
 );

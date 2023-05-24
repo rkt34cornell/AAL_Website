@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-import orbits from "../assets/orbits.png";
-import antiransomware from "../assets/anti-ransomware.png";
-import uav from "../assets/uav.jpeg";
-import soalrsail from "../assets/solar-sail.jpg";
-import gsaas from "../assets/gsaas.png";
+
+const orbits = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903710/the-aerospace-adversary/orbits_babqrk.png";
+const antiransomware = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903707/the-aerospace-adversary/anti-ransomware_gpq7st.png";
+const uav = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903707/the-aerospace-adversary/uav_t3gj8q.jpg";
+const soalrsail = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/solar-sail_x26set.jpg";
+const gsaas = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903701/the-aerospace-adversary/gsaas_sfabn1.png";
 
 import {
   Card,
