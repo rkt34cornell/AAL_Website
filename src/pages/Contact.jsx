@@ -21,7 +21,7 @@ const Contact = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         form.current,
-        import.meta.env.VITE_PUBLIC_KEY,
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -52,20 +52,23 @@ const Contact = () => {
             theme="dark"
           />
           <h2 className={styles.heading2}>Contact Us</h2>
+          <p className={`${styles.paragraph} mt-5 text-center`}>
+                    We warmly welcome inquiries from prospective student members
+                    (undergrad to doctoral) and all those interested in our
+                    lab's work.<br></br> Please feel free to contact us, as we are
+                    excited to hear from you and exploring potential
+                    collaborations.
+                  </p>
           <button onClick={notify}>Notify!</button>
-          <div className="container mx-auto m-20">
+
+          <div className="container mx-auto m-10">
             <div className="-mx-4 flex flex-wrap lg:justify-between">
               <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
                 <div className="mb-12 max-w-[570px] lg:mb-0">
-                  <h2 className="text-secondary mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                  {/* <h2 className="text-secondary mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                     GET IN TOUCH WITH US
-                  </h2>
-                  <p className="text-white mb-9 text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eius tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim adiqua minim veniam quis nostrud exercitation
-                    ullamco
-                  </p>
+                  </h2> */}
+                  
                   <div className="mb-8 flex w-full max-w-[370px]">
                     <div className="bg-white text-secondary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
                       <svg
@@ -128,7 +131,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-                <div className="relative rounded-lg bg-primary p-6 shadow-lg sm:p-8">
+                <div className="relative rounded-lg bg-primary shadow-lg">
                   <form ref={form} onSubmit={handleSubmit(sendEmail)}>
                     <div className="mb-6">
                       <input

@@ -147,6 +147,13 @@ const Projects = () => {
                   >
                     Damiano Marsili
                   </Typography>
+                  <Typography
+                    variant="small"
+                    color="gray"
+                    className="flex flex-col justify-between items-center"
+                  >
+                    Know More
+                  </Typography>
                 </CardFooter>
               </Card>
               </a>

@@ -8,8 +8,7 @@ const Team = () => (
     <div>
       <h2 className={styles.heading2}>Meet our team!</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        WE BREAK AEROSPACE SYSTEMS <br />
-        If you don’t know how to break it, you don’t know how to fix it.
+      We warmly welcome inquiries from prospective student members (undergrad to doctoral) and all those interested in our lab's work. Please feel free to contact us, as we are excited to hear from you and exploring potential collaborations.
       </p>
     </div>
 

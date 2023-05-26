@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { Navbar, Hero, Impact, Projects, Publications, Team, Partners, Footer } from "../components";
+import { Navbar, Hero, Impact, Projects, Team, Partners, Footer } from "../components";
 
 const Homepage = () => {
   return (
@@ -21,9 +21,8 @@ const Homepage = () => {
       <div className={`${styles.boxWidth}`}>
         <Impact />
         <Projects />
-        <Publications />
         <Partners />
-        <Team />
+        {/* <Team /> */}
         <Footer />
       </div>
     </div>
