@@ -31,7 +31,7 @@ const Hero = () => {
             options={{
                 particles: {
                     color: {
-                        value: "#008000",
+                        value: "#ffffff",
                     },
                     collisions: {
                         enable: true,
