@@ -89,53 +89,53 @@ const Hero = () => {
           />
         </div>
 
-       <Particles
-  id="satellite1"
-  init={oldParticlesInit}
-  options={{
-    interactivity: {
-      events: {
-        onClick: {
-          enable: true,
-          mode: "attract",
-        },
-        onHover: {
-          enable: true,
-          mode: "grab",
-        },
-      },
-    },
-    fullScreen: {
-      enable: true,
-      zIndex: 0,
-    },
-    particles: {
-      shape: {
-        type: "image",
-        image: {
-          src: sat1,
-          replace_color: "#00ff00",
-        },
-      },
-      move: {
-        enable: true,
-        speed: 0.5,
-      },
-      size: {
-        value: 10,
-      },
-      number: {
-        value: 1,
-      },
-      color: {
-        value: "#00ff00", // Change this to green
-      },
-      line_linked: {
-        color: "#00ff00", // Change the line color to green
-      },
-    },
-  }}
-/>
+<Particles
+          id="satellite1"
+          init={oldParticlesInit}
+          options={{
+            interactivity: {
+              events: {
+                onClick: {
+                  enable: true,
+                  mode: "attract",
+                },
+                onHover: {
+                  enable: true,
+                  mode: "grab",
+                },
+              },
+            },
+            fullScreen: {
+              enable: true,
+              zIndex: 0,
+            },
+            particles: {
+              shape: {
+                type: "image",
+                image: {
+                  src: sat1,
+                  replace_color: "#00ff00",
+                },
+              },
+              move: {
+                enable: true,
+                speed: 0.5,
+              },
+              size: {
+                value: 10,
+              },
+              number: {
+                value: 1,
+              },
+              color: {
+                value: "#00ff00", // Satellite color (you can change it)
+              },
+              line_linked: {
+                color: "#00ff00", // Line color (green)
+              },
+            },
+          }}
+        />
 
         <Particles
           id="satellite2"
