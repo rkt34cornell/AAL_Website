@@ -127,6 +127,8 @@ const Hero = () => {
               number: {
                 value: 1,
               },
+              color: {
+                value: "#00ff00", // Change this to green
             },
           }}
         />
