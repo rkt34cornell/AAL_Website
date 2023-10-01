@@ -84,7 +84,7 @@ const Team = () => {
                     <Tooltip content="Email">
                       <Typography
                         as="a"
-                        href="mailto: falco@jhu.edu"
+                        href="mailto: gfalco@cornell.edu"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faEnvelope} />
@@ -136,12 +136,7 @@ const Team = () => {
               <div className={selectedIndex == 0 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
-                    Gregory Falco is an assistant professor in the Department of
-                    Civil and Systems Engineering and the Institute for Assured
-                    Autonomy, where he holds an appointment at the Applied
-                    Physics Laboratory in the Asymmetric Operations Sector. He
-                    is also a member of the Center for Systems Science and
-                    Engineering.
+                  Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical and Aerospace Engineering and the Systems Engineering Program at Cornell University. He received his PhD from MIT, where NASA’s Jet Propulsion Laboratory funded his doctoral research in Cybersecurity at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL). Prior to joining Cornell University, he was an Assistant Professor at Johns Hopkins University’s Institute for Assured Autonomy and completed postdoctoral research at Stanford University’s Freeman Spogli Institute and MIT CSAIL. As a hacker, he exploits physics and modern computing systems to achieve missions previously thought to be infeasible. His space technology research is policy-relevant and advances standards and national security conversations relating to space supremacy and cybersecurity. He was listed in Forbes 30 Under 30 for Enterprise Technology, named a DARPA RISER, and received the DARPA Young Faculty Award for his disruptive security and space technology research. His research and patents have been spun out into startups that have achieved international impact and recognition, resulting in acquisition. He consults for a range of big technology companies, space systems and defense contractors including Johns Hopkins University’s Applied Physics Laboratory. Prior to completing his PhD, he was an executive at Accenture.
                   </Typography>
                 </CardFooter>
               </div>
