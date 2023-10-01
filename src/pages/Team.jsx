@@ -8,7 +8,6 @@ const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,
 const nicolo = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903715/the-aerospace-adversary/Nicolo_ywx48i.png";
 const yanni = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903708/the-aerospace-adversary/Yanni_qmngau.jpg";
 const damiano = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Damiano_jwu5uy.png";
-const devang = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903716/the-aerospace-adversary/Devang_zscwuy.png";
 
 import {
   Card,
@@ -481,114 +480,8 @@ const Team = () => {
                 </CardFooter>
               </div>
             </Card>
-            <Card className="sm:w-96" shadow={false} color="white">
-              <CardHeader floated={false}>
-                <img className="h-[100%] w-[100%]" src={devang} alt="devang" />
-              </CardHeader>
-              <CardBody className="flex flex-row items-center justify-between">
-                <div>
-                  <Typography variant="h4" color="black" className="mb-2">
-                    Devang Jain
-                  </Typography>
-                  <Typography
-                    color="black"
-                    className="font-medium flex justify-items-start gap-2 sm:gap-5"
-                  >
-                    Graduate Student
-                    <Tooltip content="LinkedIn">
-                      <Typography
-                        as="a"
-                        href="https://www.linkedin.com/in/djrobin17/"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="GitHub">
-                      <Typography
-                        as="a"
-                        href="https://github.com/djrobin17"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faGithub} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="Twitter">
-                      <Typography
-                        as="a"
-                        href="https://twitter.com/dj_robin17"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faTwitter} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="Email">
-                      <Typography
-                        as="a"
-                        href="mailto: djain7@jh.edu"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faEnvelope} />
-                      </Typography>
-                    </Tooltip>
-                  </Typography>
-                </div>
-                <div>
-                  <Typography
-                    onClick={() => {
-                      setIndex(4);
-                    }}
-                    className="cursor-pointer"
-                  >
-                    {selectedIndex == 4 ? (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                        />
-                      </svg>
-                    ) : (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                      </svg>
-                    )}
-                  </Typography>
-                </div>
-              </CardBody>
-              <div className={selectedIndex == 4 ? "block" : "hidden"}>
-                <CardFooter className="pt-0">
-                  <Typography color="black" className="text-start">
-                    Devang Jain is a Graduate student pursuing Master of Science
-                    in Security Informatics at the Information Security
-                    Institute. At the Aerospace ADVERSARY lab, he is currently
-                    working on developing a new website and easy-to-use tools
-                    like Space Stations Map and Security Risk Taxonomy to help
-                    users understand the research work efficiently. Devang has a
-                    Bachelor of Science degree in Computer Science and is
-                    passionalte about Cybersecurity.
-                  </Typography>
-                </CardFooter>
-              </div>
-            </Card>
+            
+           
             <Card className="sm:w-96" shadow={false} color="white">
               <CardHeader floated={false}>
                 <img
