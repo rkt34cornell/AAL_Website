@@ -1,7 +1,6 @@
 import { React, useState } from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-
 const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
 const nicolo = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903715/the-aerospace-adversary/Nicolo_ywx48i.png";
@@ -251,7 +250,7 @@ const Team = () => {
                     ground networks security, and the Russian space program and
                     policy. He is a Space Generation Advisory Council Space and
                     Cybersecurity Project Group member has published papers in
-                    several AIAA, IEEE and IAF conferences and journals. Testing 456. 
+                    several AIAA, IEEE and IAF conferences and journals.  
                   </Typography>
                 </CardFooter>
               </div>
