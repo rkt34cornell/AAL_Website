@@ -136,7 +136,7 @@ const Hero = () => {
   }}
 />
 
-      <Particles
+<Particles
   id="satellite2"
   init={oldParticlesInit}
   options={{
@@ -182,7 +182,8 @@ const Hero = () => {
     },
   }}
 />
-    <Particles
+
+<Particles
   id="satellite3"
   init={oldParticlesInit}
   options={{
