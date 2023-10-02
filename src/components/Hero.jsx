@@ -136,87 +136,98 @@ const Hero = () => {
   }}
 />
 
-        <Particles
-          id="satellite2"
-          init={oldParticlesInit}
-          options={{
-            interactivity: {
-              events: {
-                onClick: {
-                  enable: true,
-                  mode: "attract",
-                },
-                onHover: {
-                  enable: true,
-                  mode: "grab",
-                },
-              },
-            },
-            fullScreen: {
-              enable: true,
-              zIndex: 0,
-            },
-            particles: {
-              shape: {
-                type: "image",
-                image: {
-                  src: sat2,
-                  replace_color: "#ffffff",
-                },
-              },
-              move: {
-                enable: true,
-                speed: 0.6,
-              },
-              size: {
-                value: 10,
-              },
-              number: {
-                value: 1,
-              },
-            },
-          }}
-        />
-        <Particles
-          id="satellite3"
-          init={oldParticlesInit}
-          options={{
-            interactivity: {
-              events: {
-                onClick: {
-                  enable: true,
-                  mode: "attract",
-                },
-                onHover: {
-                  enable: true,
-                  mode: "grab",
-                },
-              },
-            },
-            fullScreen: {
-              enable: true,
-              zIndex: 0,
-            },
-            particles: {
-              shape: {
-                type: "image",
-                image: {
-                  src: sat3,
-                },
-              },
-              move: {
-                enable: true,
-                speed: 0.3,
-              },
-              size: {
-                value: 10,
-              },
-              number: {
-                value: 1,
-              },
-            },
-          }}
-        />
+      <Particles
+  id="satellite2"
+  init={oldParticlesInit}
+  options={{
+    interactivity: {
+      events: {
+        onClick: {
+          enable: true,
+          mode: "attract",
+        },
+        onHover: {
+          enable: true,
+          mode: "grab",
+        },
+      },
+    },
+    fullScreen: {
+      enable: true,
+      zIndex: 0,
+    },
+    particles: {
+      shape: {
+        type: "image",
+        image: {
+          src: sat2,
+        },
+      },
+      move: {
+        enable: true,
+        speed: 0.6,
+      },
+      size: {
+        value: 10,
+      },
+      number: {
+        value: 1,
+      },
+      color: {
+        value: "#ffffff", // Satellite color (white)
+      },
+      line_linked: {
+        color: "#00ff00", // Line color (green)
+      },
+    },
+  }}
+/>
+    <Particles
+  id="satellite3"
+  init={oldParticlesInit}
+  options={{
+    interactivity: {
+      events: {
+        onClick: {
+          enable: true,
+          mode: "attract",
+        },
+        onHover: {
+          enable: true,
+          mode: "grab",
+        },
+      },
+    },
+    fullScreen: {
+      enable: true,
+      zIndex: 0,
+    },
+    particles: {
+      shape: {
+        type: "image",
+        image: {
+          src: sat3,
+        },
+      },
+      move: {
+        enable: true,
+        speed: 0.3,
+      },
+      size: {
+        value: 10,
+      },
+      number: {
+        value: 1,
+      },
+      color: {
+        value: "#ff0000", // Satellite color (red)
+      },
+      line_linked: {
+        color: "#00ff00", // Line color (green)
+      },
+    },
+  }}
+/>
       </section>
     </div>
   );
