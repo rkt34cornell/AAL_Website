@@ -114,6 +114,8 @@ const Hero = () => {
         type: "image",
         image: {
           src: sat1,
+          replace_color: "#ffffff",
+
         },
       },
       move: {
