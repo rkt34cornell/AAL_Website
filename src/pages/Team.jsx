@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
 import m1 from "../assets/m1.mp4";
