@@ -251,7 +251,7 @@ const Team = () => {
                     ground networks security, and the Russian space program and
                     policy. He is a Space Generation Advisory Council Space and
                     Cybersecurity Project Group member has published papers in
-                    several AIAA, IEEE and IAF conferences and journals.
+                    several AIAA, IEEE and IAF conferences and journals. Testing 456. 
                   </Typography>
                 </CardFooter>
               </div>
