@@ -1,6 +1,8 @@
 import { React, useState } from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
+import m1 from "../assets/m1.mp4";
+
 const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
 const nicolo = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903715/the-aerospace-adversary/Nicolo_ywx48i.png";
@@ -29,8 +31,28 @@ const Team = () => {
   const setIndex = (i) => {
     setSelectedIndex(i == selectedIndex ? -1 : i);
   };
+
+  useEffect(() => {
+    // Auto-play the video when the component mounts
+    const video = document.getElementById("background-video");
+    video.play();
+  }, []);
+
+  
   return (
     <div className="bg-primary w-full overflow-hidden">
+
+      {/* Video Background */}
+      <video
+        id="background-video"
+        className="fixed top-0 left-0 min-w-full min-h-full object-cover z-0"
+        autoPlay
+        loop
+        muted
+      >
+        <source src={m1} type="video/mp4" />
+      </video>
+
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
