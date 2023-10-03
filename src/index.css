@@ -150,3 +150,8 @@
   height: auto;
   z-index: 0;
 }
+
+.custom-content-container {
+  height: calc(100vh - 64px); /* Adjust the height as needed */
+  overflow-y: auto;
+}

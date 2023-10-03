@@ -43,17 +43,18 @@ const Team = () => {
     <div className="bg-primary w-full h-screen overflow-hidden relative">
       {/* Video Background */}
       <video
-        id="background-video"
-        className="fixed top-0 left-0 w-full h-full object-cover z-10"
-        autoPlay
-        loop
-        muted
-      >
+       id="background-video"
+       className="top-0 left-0 w-full h-full object-cover z-10"
+       autoPlay
+       loop
+       muted
+>
         <source src={m1} type="video/mp4" />
       </video>
 
       
-      <div className={`${styles.paddingX} ${styles.flexCenter} min-h-screen`} style={{ position: "relative", zIndex: 20 }}>
+      
+      <div className={`${styles.paddingX} ${styles.flexCenter} custom-content-container`} style={{ position: "relative", zIndex: 20 }}>
 
 
         <div className={`${styles.boxWidth}`}>
