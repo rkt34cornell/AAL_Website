@@ -6,7 +6,7 @@ import sat1 from "../assets/sat1.svg";
 import sat2 from "../assets/sat2.svg";
 import sat3 from "../assets/sat3.svg";
 
-const Hero2 = () => {
+const Bingo = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     await loadFull(engine);
@@ -203,4 +203,4 @@ const Hero2 = () => {
   );
 };
 
-export default Hero2;
+export default Bingo;
