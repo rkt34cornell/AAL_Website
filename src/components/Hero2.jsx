@@ -54,18 +54,7 @@ const Hero2 = () => {
         }}
       />
 
-      <section
-        id="Team"
-        className={`flex md:flex-col flex-col ${styles.paddingY} ${styles.marginY}`}
-      >
-        <div
-          className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 z-10`}
-        >
-          {/* Content can be added here */}
-        </div>
-        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 z-0`}>
-          {/* Remove the image of the earth */}
-        </div>
+   
 
         <Particles
           id="satellite1"
@@ -106,7 +95,7 @@ const Hero2 = () => {
                 value: 1,
               },
               color: {
-                value: "#ffffff", // Satellite color (white)
+                value: "#ffffff", // Satellite color (white) ffffff 
               },
               line_linked: {
                 color: "#00ff00", // Line color (green)
@@ -209,7 +198,7 @@ const Hero2 = () => {
             },
           }}
         />
-      </section>
+    
     </div>
   );
 };
