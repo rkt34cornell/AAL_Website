@@ -53,7 +53,8 @@ const Team = () => {
       </video>
 
       
-      <div className={`${styles.paddingX} ${styles.flexCenter}`} style={{ position: "relative", zIndex: 20 }}>
+      <div className={`${styles.paddingX} ${styles.flexCenter} min-h-screen`} style={{ position: "relative", zIndex: 20 }}>
+
 
         <div className={`${styles.boxWidth}`}>
           <Navbar />
