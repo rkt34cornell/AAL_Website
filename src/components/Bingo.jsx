@@ -243,7 +243,7 @@ const Bingo = () => {
         value: 1, // You can adjust the number of particles for the satellite
       },
       color: {
-        value: "#800080", // Satellite color (pruple)
+        value: "#ff0000", // Satellite color (red)
       },
       line_linked: {
         color: "#00ff00", // Line color (green)
