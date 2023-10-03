@@ -1,20 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { React, useState } from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-import Particles from "react-particles";
-import { loadFull } from "tsparticles";
 
 const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
 const nicolo = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903715/the-aerospace-adversary/Nicolo_ywx48i.png";
 
-const particlesInit = async (engine) => {
-  await loadFull(engine);
-};
-
-useEffect(() => {
-  particlesInit("tsparticles-team");
-}, []);
 
 import {
   Card,
@@ -49,42 +40,6 @@ const Team = () => {
           <div
             className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}
           >
-
-<Particles
-              id="tsparticles-team"
-              init={particlesInit}
-              options={{
-                particles: {
-                  color: {
-                    value: "#ffffff",
-                  },
-                  collisions: {
-                    enable: true,
-                  },
-                  move: {
-                    enable: true,
-                    speed: 0.08,
-                  },
-                  number: {
-                    density: {
-                      enable: true,
-                      area: 1000,
-                    },
-                    value: 100,
-                  },
-                  opacity: {
-                    random: true,
-                  },
-                  shape: {
-                    type: "star",
-                  },
-                  size: {
-                    value: { min: 1, max: 1.5 },
-                  },
-                },
-              }}
-            />
-
             <Card className="sm:w-96" shadow={false} color="white">
               <CardHeader floated={false}>
                 <img src={greg} alt="greg" className="h-[100%] w-[100%]" />
