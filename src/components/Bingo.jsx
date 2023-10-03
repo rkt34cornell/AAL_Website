@@ -1,10 +1,15 @@
 import { useCallback } from "react";
 import styles from "../style";
-import Particles from "react-particles";
-import { loadFull } from "tsparticles";
 import sat1 from "../assets/sat1.svg";
 import sat2 from "../assets/sat2.svg";
 import sat3 from "../assets/sat3.svg";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+
+const oldParticlesInit = async (main) => {
+  await loadFull(main);
+};
+
 
 const Bingo = () => {
   const particlesInit = useCallback(async (engine) => {
