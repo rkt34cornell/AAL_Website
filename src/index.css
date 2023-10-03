@@ -139,19 +139,3 @@
   filter: blur(750px);
 }
 
-/* Styles for the video background */
-#background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-}
-
-.custom-content-container {
-  height: calc(100vh - 64px); /* Adjust the height as needed */
-  overflow-y: auto;
-}

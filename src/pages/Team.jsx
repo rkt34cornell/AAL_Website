@@ -1,7 +1,6 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
-import m1 from "../assets/m1.mp4";
 
 const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
@@ -31,32 +30,9 @@ const Team = () => {
   const setIndex = (i) => {
     setSelectedIndex(i == selectedIndex ? -1 : i);
   };
-
-  useEffect(() => {
-    // Auto-play the video when the component mounts
-    const video = document.getElementById("background-video");
-    video.play();
-  }, []);
-
-  
   return (
-    <div className="bg-primary w-full h-screen overflow-hidden relative">
-      {/* Video Background */}
-      <video
-       id="background-video"
-       className="top-0 left-0 w-full h-full object-cover z-10"
-       autoPlay
-       loop
-       muted
->
-        <source src={m1} type="video/mp4" />
-      </video>
-
-      
-      
-      <div className={`${styles.paddingX} ${styles.flexCenter} custom-content-container`} style={{ position: "relative", zIndex: 20 }}>
-
-
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
           <h2 className={styles.heading2}>Team</h2>
@@ -275,7 +251,7 @@ const Team = () => {
                     ground networks security, and the Russian space program and
                     policy. He is a Space Generation Advisory Council Space and
                     Cybersecurity Project Group member has published papers in
-                    several AIAA, IEEE and IAF conferences and journals.  
+                    several AIAA, IEEE and IAF conferences and journals.
                   </Typography>
                 </CardFooter>
               </div>
