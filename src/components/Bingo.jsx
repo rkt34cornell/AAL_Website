@@ -251,7 +251,53 @@ const Bingo = () => {
     },
   }}
 />
-    
+<Particles
+  id="satellite5"
+  init={oldParticlesInit}
+  options={{
+    interactivity: {
+      events: {
+        onClick: {
+          enable: true,
+          mode: "attract",
+        },
+        onHover: {
+          enable: true,
+          mode: "grab",
+        },
+      },
+    },
+    fullScreen: {
+      enable: true,
+      zIndex: 0,
+    },
+    particles: {
+      shape: {
+        type: "image",
+        image: {
+          src: sat1, // Use the same image as one of the existing satellites
+          replace_color: "#ffffff",
+        },
+      },
+      move: {
+        enable: true,
+        speed: 0.4, // Adjust the speed as needed
+      },
+      size: {
+        value: 10, // Adjust the size as needed
+      },
+      number: {
+        value: 1, // You can adjust the number of particles for the satellite
+      },
+      color: {
+        value: "#0000FF", // Satellite color (blue)
+      },
+      line_linked: {
+        color: "#00ff00", // Line color (green)
+      },
+    },
+  }}
+/>
     </div>
   );
 };
