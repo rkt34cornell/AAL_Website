@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import Hero from  "../components";
 import styles from "../style";
 import { Navbar, Footer } from "../components";
 
@@ -36,7 +37,8 @@ const Team = () => {
         <div className={`${styles.boxWidth}`}>
           <Navbar />
           <h2 className={styles.heading2}>Team</h2>
-
+           {/* Include the Hero component here */}
+           <Hero />
           <div
             className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}
           >
