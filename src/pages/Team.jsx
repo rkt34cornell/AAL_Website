@@ -4,7 +4,8 @@ import { Navbar, Footer, Bingo } from "../components";
 
 const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
-const nicolo = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903715/the-aerospace-adversary/Nicolo_ywx48i.png";
+const nicolo = "src\assets\Nicolo.png";
+
 
 
 import {
@@ -153,6 +154,7 @@ const Team = () => {
           <div className="grid gap-16 grid-cols-1 sm:grid-cols-3 sm:px-16 px-6 sm:py-16 py-6 justify-center items-start justify-items-center">
             <Card className="sm:w-96" shadow={false} color="white">
               <CardHeader floated={false}>
+                
                 <img src={nicolo} alt="nicolo" className="h-[100%] w-[100%]" />
               </CardHeader>
               <CardBody className="flex flex-row items-center justify-between">
