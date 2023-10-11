@@ -247,19 +247,7 @@ const Team = () => {
               <div className={selectedIndex == 1 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
-                    Nicolò Boschetti is pursuing a Ph.D. in Civil and System
-                    Engineering at the Johns Hopkins University and is an
-                    assistant researcher at the Aerospace ADVERSARY Lab at the
-                    JHU’s Whiting School of Engineering. He received his B.A.
-                    Degree in International and Diplomatic Sciences from the
-                    University of Bologna and his M.A. Degree in Politics and
-                    Economics of Eurasia from the Moscow State Institute of
-                    International Relations (MGIMO). His research focuses on the
-                    security of space systems, space cybersecurity, satellite
-                    ground networks security, and the Russian space program and
-                    policy. He is a Space Generation Advisory Council Space and
-                    Cybersecurity Project Group member has published papers in
-                    several AIAA, IEEE and IAF conferences and journals.
+                  Nicolò Boschetti is pursuing a Ph.D. in Aerospace Engineering Engineering at Cornell University and is an assistant researcher at the Aerospace ADVERSARY Lab. He is the Secretary of the IEEE Standard Association's Space Systems Cybersecurity International Working Group. He received his B.A. in International and Diplomatic Sciences from the University of Bologna and his M.A. in Politics and Economics of Eurasia from the Moscow State Institute of International Relations (MGIMO). His research focuses on the security of space systems, space cybersecurity, satellite ground network security, and the Russian space program and policy. He has published papers in several AIAA, IEEE, and IAF conferences and journals. 
                   </Typography>
                 </CardFooter>
               </div>
