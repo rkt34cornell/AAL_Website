@@ -4,7 +4,7 @@ import { Navbar, Footer, Bingo } from "../components";
 
 const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
-const nicolo = "src\assets\Nicolo.png";
+const nicolo = "https://github.com/rkt34cornell/websitepix/blob/main/Nicolo.png";
 
 
 
