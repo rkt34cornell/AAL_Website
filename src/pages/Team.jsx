@@ -264,7 +264,7 @@ const Team = () => {
               <CardBody className="flex flex-row items-center justify-between">
                 <div>
                   <Typography variant="h4" color="black" className="mb-2">
-                    Nathaniel Gordon
+                    Nathaniel Gordon 1
                   </Typography>
                   <Typography
                     color="black"
@@ -357,7 +357,7 @@ const Team = () => {
               </div>
             </Card>
 
-            <Card className="sm:w-96" shadow={false} color="white">
+          <Card className="sm:w-96" shadow={false} color="white">
               <CardHeader floated={false}>
                 <img
                   className="h-[100%] w-[100%]"
