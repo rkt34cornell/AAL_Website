@@ -407,7 +407,7 @@ const Team = () => {
                 <div>
                   <Typography
                     onClick={() => {
-                      setIndex(2);
+                      setIndex(3);
                     }}
                     className="cursor-pointer"
                   >
