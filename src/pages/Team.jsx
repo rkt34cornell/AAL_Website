@@ -5,6 +5,7 @@ import { Navbar, Footer, Bingo } from "../components";
 const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697225651/Nicolo_koamni.png"
+const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697326869/headshot1_-_Cameron_Mehlman_utwqen.jpg"
 
 import {
   Card,
@@ -158,7 +159,7 @@ const Team = () => {
               <CardBody className="flex flex-row items-center justify-between">
                 <div>
                   <Typography variant="h4" color="black" className="mb-2">
-                    Nicolo Boschetti
+                   Nicolò Boschetti
                   </Typography>
                   <Typography
                     color="black"
@@ -360,14 +361,14 @@ const Team = () => {
               <CardHeader floated={false}>
                 <img
                   className="h-[100%] w-[100%]"
-                  src={nathaniel}
-                  alt="nathaniel"
+                  src={cameron}
+                  alt="cameron"
                 />
               </CardHeader>
               <CardBody className="flex flex-row items-center justify-between">
                 <div>
                   <Typography variant="h4" color="black" className="mb-2">
-                    Nathaniel Gordon
+                    Cameron Mehlman
                   </Typography>
                   <Typography
                     color="black"
@@ -447,7 +448,7 @@ const Team = () => {
               <div className={selectedIndex == 2 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
-                    Nathaniel G. Gordon received his B.S in computer engineering
+                    Cam received his B.S in computer engineering
                     and computer science from Northeastern University and M.S.
                     in systems engineering from Johns Hopkins University. He is
                     now a Ph.D. candidate at Johns Hopkins University under the
