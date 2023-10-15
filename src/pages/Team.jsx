@@ -6,7 +6,7 @@ const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_aut
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697225651/Nicolo_koamni.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
-const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
+const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697329118/100rajiv_iqvbxv.png"
 
 import {
   Card,
@@ -546,7 +546,7 @@ const Team = () => {
               <div className={selectedIndex == 4 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
-                  Rajiv Thummala is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in National Security. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Labratory, Rajiv is developing next-gen counterspace capabilities/defenses and disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security.                    </Typography>
+                  Rajiv Thummala is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in National Security. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Labratory, Rajiv is developing next-gen counterspace capabilities/defenses and disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security space.                    </Typography>
                 </CardFooter>
               </div>
             </Card>
