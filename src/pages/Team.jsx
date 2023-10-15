@@ -378,7 +378,7 @@ const Team = () => {
                     <Tooltip content="LinkedIn">
                       <Typography
                         as="a"
-                        href="https://www.linkedin.com/in/nathaniel-gordon/"
+                        href="https://www.linkedin.com/in/cameron-mehlman/"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faLinkedin} />
@@ -387,7 +387,7 @@ const Team = () => {
                     <Tooltip content="ResearchGate">
                       <Typography
                         as="a"
-                        href="https://www.researchgate.net/profile/Nathaniel-Gordon-2"
+                        href="https://www.researchgate.net/scientific-contributions/Cameron-Mehlman-2245968516"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faResearchgate} />
@@ -396,7 +396,7 @@ const Team = () => {
                     <Tooltip content="Email">
                       <Typography
                         as="a"
-                        href="mailto: ngordon9@jhu.edu"
+                        href="mailto: cpm222@cornell.edu"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faEnvelope} />
@@ -448,14 +448,7 @@ const Team = () => {
               <div className={selectedIndex == 3 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
-                    Cam received his B.S in computer engineering
-                    and computer science from Northeastern University and M.S.
-                    in systems engineering from Johns Hopkins University. He is
-                    now a Ph.D. candidate at Johns Hopkins University under the
-                    direction of Dr. Gregory Falco. As a member of the Aerospace
-                    ADVERSARY research group, he investigates resilient space
-                    systems with a particular interest in zero-trust
-                    architectures and multi-agent systems.
+                  Cameron Mehlman is a PhD candidate at Cornell University specializing in dynamic controls and autonomy. His project experience includes designing autonomous path planning algorithms, working with complex ML and RL models for dynamic control, and designing novel physical systems for human-robot interaction. 
                   </Typography>
                 </CardFooter>
               </div>
