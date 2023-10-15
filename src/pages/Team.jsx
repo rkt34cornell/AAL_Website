@@ -6,7 +6,7 @@ const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_aut
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697225651/Nicolo_koamni.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
-const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328515/26_dmxsps.png"
+const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697329118/100rajiv_iqvbxv.png"
 
 import {
   Card,
