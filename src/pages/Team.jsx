@@ -476,7 +476,7 @@ const Team = () => {
                     <Tooltip content="LinkedIn">
                       <Typography
                         as="a"
-                        href="https://www.linkedin.com/in/cameron-mehlman/"
+                        href="https://www.linkedin.com/in/rajivthummala/"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faLinkedin} />
@@ -485,7 +485,7 @@ const Team = () => {
                     <Tooltip content="ResearchGate">
                       <Typography
                         as="a"
-                        href="https://www.researchgate.net/scientific-contributions/Cameron-Mehlman-2245968516"
+                        href="https://www.researchgate.net/profile/Rajiv-Thummala"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faResearchgate} />
