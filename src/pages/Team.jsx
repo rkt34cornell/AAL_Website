@@ -6,6 +6,7 @@ const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_aut
 const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697225651/Nicolo_koamni.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697326869/headshot1_-_Cameron_Mehlman_utwqen.jpg"
+const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328515/26_dmxsps.png"
 
 import {
   Card,
@@ -264,7 +265,7 @@ const Team = () => {
               <CardBody className="flex flex-row items-center justify-between">
                 <div>
                   <Typography variant="h4" color="black" className="mb-2">
-                    Nathaniel Gordon 1
+                    Nathaniel Gordon 
                   </Typography>
                   <Typography
                     color="black"
@@ -453,7 +454,104 @@ const Team = () => {
                 </CardFooter>
               </div>
             </Card>
-   
+
+            <Card className="sm:w-96" shadow={false} color="white">
+              <CardHeader floated={false}>
+                <img
+                  className="h-[100%] w-[100%]"
+                  src={rajiv}
+                  alt="rajiv"
+                />
+              </CardHeader>
+              <CardBody className="flex flex-row items-center justify-between">
+                <div>
+                  <Typography variant="h4" color="black" className="mb-2">
+                    Rajiv Thummala
+                  </Typography>
+                  <Typography
+                    color="black"
+                    className="font-medium flex justify-items-start gap-2 sm:gap-5"
+                  >
+                    PhD Candidate
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/cameron-mehlman/"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="ResearchGate">
+                      <Typography
+                        as="a"
+                        href="https://www.researchgate.net/scientific-contributions/Cameron-Mehlman-2245968516"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faResearchgate} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: rkt34@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(4);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 4 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 4 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="black" className="text-start">
+                  Cameron Mehlman is a PhD candidate at Cornell University specializing in dynamic controls and autonomy. His project experience includes designing autonomous path planning algorithms, working with complex ML and RL models for dynamic control, and designing novel physical systems for human-robot interaction. 
+                  </Typography>
+                </CardFooter>
+              </div>
+            </Card>
+                 
   
           </div>
           <Footer />
