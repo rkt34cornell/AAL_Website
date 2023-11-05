@@ -350,7 +350,7 @@ const Team = () => {
                     Nathaniel G. Gordon received his B.S in computer engineering
                     and computer science from Northeastern University and M.S.
                     in systems engineering from Johns Hopkins University. He is
-                    now a Ph.D. candidate at Johns Hopkins University under the
+                    now a Ph.D. candidate at Cornell University under the
                     direction of Dr. Gregory Falco. As a member of the Aerospace
                     ADVERSARY research group, he investigates resilient space
                     systems with a particular interest in zero-trust
