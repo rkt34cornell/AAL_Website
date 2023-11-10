@@ -85,7 +85,7 @@ const Hero = () => {
           <img
             src={earth}
             alt="earth"
-            className="w-[40%] h-[40%] z-10 relative rotate-animation"
+            className="w-[40%] h-[40%] z-10 relative"
           />
         </div>
 
