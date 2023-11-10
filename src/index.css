@@ -149,7 +149,7 @@
 }
 
 .rotate-animation {
-  animation: rotate 60s linear infinite; /* Adjust the duration as needed */
+  animation: rotate 90s linear infinite; /* Adjust the duration as needed */
 }
 
 
