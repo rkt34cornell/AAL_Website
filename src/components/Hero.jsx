@@ -6,7 +6,7 @@ import sat3 from "../assets/sat3.svg";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
-const earth = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1699596090/AerospaceADVERSARY_Laboratory-PhotoRoom.png-PhotoRoom_v69scc.png";
+const earth = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1700252134/emblem2_aal_mjvzzn.png";
 
 const oldParticlesInit = async (main) => {
   await loadFull(main);
