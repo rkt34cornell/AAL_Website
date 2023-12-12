@@ -14,6 +14,8 @@ const Footer = () => (
         <p className={`${styles.paragraph} mt-4 max-w-[312px] text-center sm:text-start`}>
           Mission-Resilient Autonomy: <br className="sm:block hidden" />{" "}
           When Failure is NOT an Option.
+          Caelos Oppugno
+          
         </p>
       </div>
 
