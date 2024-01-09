@@ -7,6 +7,7 @@ const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697225651/Nicolo_koamni.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
 const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
+const matteo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1704835581/ntnu_shoot_square_pngybh.jpg"
 
 import {
   Card,
@@ -468,7 +469,7 @@ const Team = () => {
               <CardBody className="flex flex-row items-center justify-between">
                 <div>
                   <Typography variant="h4" color="black" className="mb-2">
-                    Rajiv Thummala
+                    Matteo Calabrese
                   </Typography>
                   <Typography
                     color="black"
@@ -507,11 +508,11 @@ const Team = () => {
                 <div>
                   <Typography
                     onClick={() => {
-                      setIndex(4);
+                      setIndex(5);
                     }}
                     className="cursor-pointer"
                   >
-                    {selectedIndex == 4 ? (
+                    {selectedIndex == 5 ? (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -545,14 +546,109 @@ const Team = () => {
                   </Typography>
                 </div>
               </CardBody>
-              <div className={selectedIndex == 4 ? "block" : "hidden"}>
+              <div className={selectedIndex == 5 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
                   Rajiv Thummala is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in National Security. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Laboratory, Rajiv is developing next-gen counterspace capabilities/defenses and disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security space topics.                    </Typography>
                 </CardFooter>
               </div>
             </Card>
-                 
+
+           <Card className="sm:w-96" shadow={false} color="white">
+              <CardHeader floated={false}>
+                <img
+                  className="h-[100%] w-[100%]"
+                  src={matteo}
+                  alt="matteo"
+                />
+              </CardHeader>
+              <CardBody className="flex flex-row items-center justify-between">
+                <div>
+                  <Typography variant="h4" color="black" className="mb-2">
+                    Matteo Calabrese
+                  </Typography>
+                  <Typography
+                    color="black"
+                    className="font-medium flex justify-items-start gap-2 sm:gap-5"
+                  >
+                    PhD Candidate
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/rajivthummala/"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="ResearchGate">
+                      <Typography
+                        as="a"
+                        href="https://www.researchgate.net/profile/Rajiv-Thummala"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faResearchgate} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: rkt34@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(5);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 5 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 5 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="black" className="text-start">
+                  Matteo is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in National Security. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Laboratory, Rajiv is developing next-gen counterspace capabilities/defenses and disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security space topics.                    </Typography>
+                </CardFooter>
+              </div>
+            </Card>       
   
           </div>
           <Footer />
