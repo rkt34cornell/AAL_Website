@@ -645,7 +645,8 @@ const Team = () => {
               <div className={selectedIndex == 5 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
-                  Matteo is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in National Security. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Laboratory, Rajiv is developing next-gen counterspace capabilities/defenses and disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security space topics.                    </Typography>
+                  Matteo Calabrese is pursuing a Ph.D. in Systems Engineering at Cornell University and is an assistant researcher at the Aerospace ADVERSARY Lab. He received his B.A. in Cybersecurity from the University of Milan and a double M.S. in Security and Cloud Computing from Aalto University and the Norwegian University of Science and Technology. During his academic journey he has explored novel threats to space vehicles using machine learning and penetration testing techniques. His current research focuses on the cybersecurity of space systems, satellite ground networks, and small satellites.
+                   </Typography>
                 </CardFooter>
               </div>
             </Card>       
