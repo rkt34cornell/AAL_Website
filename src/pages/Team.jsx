@@ -469,7 +469,7 @@ const Team = () => {
               <CardBody className="flex flex-row items-center justify-between">
                 <div>
                   <Typography variant="h4" color="black" className="mb-2">
-                    Matteo Calabrese
+                    Rajiv Thummala
                   </Typography>
                   <Typography
                     color="black"
@@ -508,11 +508,11 @@ const Team = () => {
                 <div>
                   <Typography
                     onClick={() => {
-                      setIndex(5);
+                      setIndex(4);
                     }}
                     className="cursor-pointer"
                   >
-                    {selectedIndex == 5 ? (
+                    {selectedIndex == 4 ? (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -546,7 +546,7 @@ const Team = () => {
                   </Typography>
                 </div>
               </CardBody>
-              <div className={selectedIndex == 5 ? "block" : "hidden"}>
+              <div className={selectedIndex == 4 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
                   Rajiv Thummala is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in National Security. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Laboratory, Rajiv is developing next-gen counterspace capabilities/defenses and disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security space topics.                    </Typography>
