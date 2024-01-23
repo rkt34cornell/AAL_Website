@@ -575,7 +575,7 @@ const Team = () => {
                     <Tooltip content="LinkedIn">
                       <Typography
                         as="a"
-                        href="https://www.linkedin.com/in/rajivthummala/"
+                        href="https://no.linkedin.com/in/matcala?trk=public_post_feed-actor-name"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faLinkedin} />
@@ -584,7 +584,7 @@ const Team = () => {
                     <Tooltip content="ResearchGate">
                       <Typography
                         as="a"
-                        href="https://www.researchgate.net/profile/Rajiv-Thummala"
+                        href="https://www.researchgate.net/profile/Matteo-Calabrese-5"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faResearchgate} />
@@ -593,7 +593,7 @@ const Team = () => {
                     <Tooltip content="Email">
                       <Typography
                         as="a"
-                        href="mailto: rkt34@cornell.edu"
+                        href="mailto: mc2884@cornell.edu"
                         target="_blank"
                       >
                         <FontAwesomeIcon icon={faEnvelope} />
