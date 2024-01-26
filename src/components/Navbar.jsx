@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link
+
 import logo from "../assets/logo.svg";
 import menu from "../assets/menu.svg";
 import close from "../assets/close.svg";
@@ -7,51 +9,40 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex justify-between items-center navbar z-30 relative">
-      <a
-        href="/"
-        className="ml-2 font-poppins font-normal cursor-pointer text-[14px] text-white"
-      >
-       <img src={logo} alt="iaa" className="w-[160px] h-[90px]" />
-      </a>
-      <ul className="list-none sm:flex hidden items-center flex-1 justify-end">
-        {navLinks.map((nav, index) => (
-          <li
-            key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[14px] text-white hover:text-secondary  ${
-              index === navLinks.length - 1 ? "mr-0" : "mr-10"
-            }`}
-          >
-            <a href={`/${nav.id}`}>{nav.title}</a>
-          </li>
-        ))}
-      </ul>
-      <div className="sm:hidden flex flex-1 justify-end items-center z-20 relative">
-        <img
-          src={toggle ? close : menu}
-          alt="menu"
-          className="w-[16px] h-[16px] object-contain"
-          onClick={() => setToggle((prev) => !prev)}
-        />
-        <div
-          className={`${
-            toggle ? "flex" : "hidden"
-          } p-6 bg-white absolute top-20 tight-0 mx-4 my-2 min-w-[310px] rounded-xl sidebar`}
+    
+      <nav className="w-full flex justify-between items-center navbar z-30 relative">
+        <Link to="/" className="ml-2 font-poppins font-normal cursor-pointer text-[14px] text-white">
+          <img src={logo} alt="iaa" className="w-[160px] h-[90px]" />
+        </Link>
+        <ul className="list-none sm:flex hidden items-center flex-1 justify-end">
+          {navLinks.map((nav, index) => (
+            <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[14px] text-white hover:text-secondary ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}>
+              <Link to={`/${nav.id}`}>{nav.title}</Link>
+            </li>
+          ))}
+        </ul>
+        <div className="sm:hidden flex flex-1 justify-end items-center z-20 relative">
+  <img
+    src={toggle ? close : menu}
+    alt="menu"
+    className="w-[16px] h-[16px] object-contain"
+    onClick={() => setToggle((prev) => !prev)}
+  />
+  <div
+    className={`${toggle ? "flex" : "hidden"} p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[310px] rounded-xl sidebar`}
+  >
+    <ul className="list-none flex flex-col items-center flex-1 justify-end">
+      {navLinks.map((nav, index) => (
+        <li
+          key={nav.id}
+          className={`font-poppins font-normal cursor-pointer text-[14px] text-black ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
         >
-          <ul className="list-none flex flex-col items-center flex-1 justify-end">
-            {navLinks.map((nav, index) => (
-              <li
-                key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[14px] text-black ${
-                  index === navLinks.length - 1 ? "mb-0" : "mb-4"
-                }`}
-              >
-                <a href={`/${nav.id}`}>{nav.title}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+          <Link to={`/${nav.id}`}>{nav.title}</Link> {/* Replace <a> with <Link> */}
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
     </nav>
   );
 };
