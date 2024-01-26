@@ -6,6 +6,10 @@ import Publications from "./pages/Publications";
 import Team from "./pages/Team";
 import Map from "./pages/Map";
 import Taxonomy from "./pages/Taxonomy";
+import Impact from "./pages/Impact";
+import GroundStationProject from "./pages/GroundStationProject";
+import Contact from "./pages/Contact";
+import Error from "./pages/Error";
 
 // ... other imports
 
@@ -29,7 +33,15 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/projects" element={<ProjectsPage />} />
-        <Route exact path="/team" element={<Team/>} />
+        <Route exact path="/publications" element={<Publications />} />
+        <Route exact path="/team" element={<Team />} />
+        <Route exact path="/map" element={<Map />} />
+        <Route exact path="/taxonomy" element={<Taxonomy />} />
+        <Route exact path="/impact" element={<Impact />} />
+        <Route exact path="/groundstationproject" element={<GroundStationProject />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
+
 
         // ... other routes
       </Routes>

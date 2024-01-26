@@ -85,8 +85,7 @@ const Contact = () => {
                         Our Location
                       </h4>
                       <p className="text-white text-base">
-                        The Stieff Silver Building, 800 Wyman Park Dr,
-                        Baltimore, MD 21211
+                      124 Hoy Rd, Ithaca, NY 14850
                       </p>
                     </div>
                   </div>
@@ -125,7 +124,7 @@ const Contact = () => {
                       <h4 className="text-secondary mb-1 text-xl font-bold">
                         Email Address
                       </h4>
-                      <p className="text-white text-base">falco@jhu.edu</p>
+                      <p className="text-white text-base">falco@cornell.edu</p>
                     </div>
                   </div>
                 </div>

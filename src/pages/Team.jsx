@@ -30,23 +30,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Team = () => {
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
-  
-  useEffect(() => {
-    const audio = new Audio(aalaudio); // Replace with the path to your audio file
 
-    const playAudio = () => {
-      if (audio.paused) {
-        audio.play();
-      }
-    };
-
-    document.addEventListener('click', playAudio);
-
-    // Cleanup function to remove the event listener
-    return () => {
-      document.removeEventListener('click', playAudio);
-    };
-  }, []);
 
 
   const setIndex = (i) => {
