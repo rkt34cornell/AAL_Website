@@ -44,7 +44,7 @@ const Footer = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col mb-4 pt-4 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[16px] leading-[27px] text-white">
-        Copyright Ⓒ 2023 The Aerospace Adversary. All Rights Reserved.
+        Copyright Ⓒ 2024 The Aerospace Adversary. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">

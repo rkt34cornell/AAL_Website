@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState, useEffect } from "react"; // Import useEffect here
 import styles from "../style";
 import { Navbar, Footer, Bingo } from "../components";
 
@@ -8,6 +8,7 @@ const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697225651/Ni
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
 const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
 const matteo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1704835581/ntnu_shoot_square_pngybh.jpg"
+const aalaudio = "https://res.cloudinary.com/dlxh3nrry/video/upload/v1706240962/AALMUSIC_fiyfdy.mp3"
 
 import {
   Card,
@@ -28,6 +29,25 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Team = () => {
   const [selectedIndex, setSelectedIndex] = useState(-1);
+
+  
+  useEffect(() => {
+    const audio = new Audio(aalaudio); // Replace with the path to your audio file
+
+    const playAudio = () => {
+      if (audio.paused) {
+        audio.play();
+      }
+    };
+
+    document.addEventListener('click', playAudio);
+
+    // Cleanup function to remove the event listener
+    return () => {
+      document.removeEventListener('click', playAudio);
+    };
+  }, []);
+
 
   const setIndex = (i) => {
     setSelectedIndex(i == selectedIndex ? -1 : i);
