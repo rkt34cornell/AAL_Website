@@ -6,13 +6,17 @@ import menu from "../assets/menu.svg";
 import close from "../assets/close.svg";
 import { navLinks } from "../constants";
 
+const cornelllogo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706427526/Cornell-University-Logo_2_dlzgvp.png";
+
+
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     
       <nav className="w-full flex justify-between items-center navbar z-30 relative">
         <Link to="/" className="ml-2 font-poppins font-normal cursor-pointer text-[14px] text-white">
-          <img src={logo} alt="iaa" className="w-[160px] h-[90px]" />
+          <img src={cornelllogo} alt="iaa" className="w-[160px] h-[90px]" />
         </Link>
         <ul className="list-none sm:flex hidden items-center flex-1 justify-end">
           {navLinks.map((nav, index) => (
