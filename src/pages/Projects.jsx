@@ -22,7 +22,7 @@ const Projects = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
-          <h2 className={styles.heading2}>Projects</h2>
+          <h2 className={styles.heading2}>Research</h2>
           <div
             className={`${styles.flexCenter} ${styles.paddingY} grid grid-cols-1 sm:grid-cols-2 justify-center items-stretch`}
           >
