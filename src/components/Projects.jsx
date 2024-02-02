@@ -24,7 +24,7 @@ const ProjectCard = ({ title, content, index }) => (
 const Projects = () => (
   <section id="projects" className={`${layout.section} items-start justify-start`} >
     <div className={`${layout.sectionInfo}`}>
-      <h2 className={styles.heading2}>Projects</h2>
+      <h2 className={styles.heading2}>Research</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         WE BREAK AEROSPACE SYSTEMS <br></br>
         If you don’t know how to break it, you don’t know how to fix it: this is
