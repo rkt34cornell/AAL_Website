@@ -85,6 +85,8 @@ const Hero = () => {
             src={earth}
             alt="earth"
             className="w-[40%] h-[40%] z-10 relative"
+            style={{ marginTop: '20px' }} // Adjust the '20px' to increase or decrease the space as needed
+
           />
         </div>
 
