@@ -77,7 +77,7 @@ export const publications = [
   },
 ];
 
-/*
+
 export const impact = [
   {
     id: "stats-1",
@@ -94,7 +94,7 @@ export const impact = [
   //   title: "Webinars",
   //   value: "34+",
   // },
-];*/
+];
 
 export const footerLinks = [
   {
