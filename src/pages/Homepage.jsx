@@ -19,7 +19,8 @@ const Homepage = () => {
     
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        //<Impact />
+        {/* <Impact /> */}
+
         <Projects />
         <Partners />
         {/* <Team /> */}
