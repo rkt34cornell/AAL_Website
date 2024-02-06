@@ -80,7 +80,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-15 z-0`}>
+        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 z-0`}>
           <img
             src={earth}
             alt="earth"
