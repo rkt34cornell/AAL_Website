@@ -82,12 +82,12 @@ export const impact = [
   {
     id: "stats-1",
     title: "Projects",
-    value: "7+",
+    value: "",
   },
   {
     id: "stats-2",
     title: "Publicatons",
-    value: "20+",
+    value: "",
   },
   // {
   //   id: "stats-3",
