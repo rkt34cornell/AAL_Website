@@ -1,18 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.svg'; // Assuming this is correctly placed
-import menu from '../assets/menu.svg'; // Ensure this is correctly imported
-import close from '../assets/close.svg'; // Ensure this is correctly imported
-import { navLinks } from '../constants'; // Ensure navLinks is correctly imported
+import logo from '../assets/logo.svg'; // Placeholder, ensure actual import as needed
+import menu from '../assets/menu.svg'; // Placeholder, ensure actual import as needed
+import close from '../assets/close.svg'; // Placeholder, ensure actual import as needed
+import { navLinks } from '../constants'; // Assuming navLinks is correctly structured
 
 const cornelllogo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706427526/Cornell-University-Logo_2_dlzgvp.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [showResearchDropdown, setShowResearchDropdown] = useState(false);
-
-  const showDropdown = () => setShowResearchDropdown(true);
-  const hideDropdown = () => setShowResearchDropdown(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   return (
     <nav className="w-full flex justify-between items-center navbar z-30 relative">
@@ -23,16 +20,22 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li 
             key={nav.id} 
-            onMouseEnter={() => nav.id === 'projects' && setShowResearchDropdown(true)} 
-            onMouseLeave={() => nav.id === 'projects' && setShowResearchDropdown(false)}
             className={`font-poppins font-normal cursor-pointer text-[14px] text-white hover:text-secondary ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
           >
-            <Link to={`/${nav.id}`}>{nav.title}</Link>
-            {nav.id === 'projects' && showResearchDropdown && (
-              <ul className="absolute mt-2 py-2 w-48 bg-white rounded-md shadow-xl">
-                <li className="py-1 px-4 hover:bg-gray-100"><Link to="/2024-present">2024 - Present</Link></li>
-                <li className="py-1 px-4 hover:bg-gray-100"><Link to="/legacy-projects">Legacy Projects</Link></li>
-              </ul>
+            {nav.id === 'projects' ? (
+              <div className="relative">
+                <span onClick={() => setShowDropdown(!showDropdown)} className="cursor-pointer">
+                  {nav.title}
+                </span>
+                {showDropdown && (
+                  <ul className="absolute mt-2 py-2 w-48 bg-white rounded-md shadow-xl">
+                    <li className="py-1 px-4 hover:bg-gray-100"><Link to="/2024-present">2024 - Present</Link></li>
+                    <li className="py-1 px-4 hover:bg-gray-100"><Link to="/legacy-projects">Legacy Projects</Link></li>
+                  </ul>
+                )}
+              </div>
+            ) : (
+              <Link to={`/${nav.id}`}>{nav.title}</Link>
             )}
           </li>
         ))}
@@ -45,7 +48,7 @@ const Navbar = () => {
           onClick={() => setToggle(!toggle)}
         />
         {toggle && (
-          <div className="flex p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl">
+          <div className="flex p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
             <ul className="list-none flex flex-col items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[14px] text-black ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}>
