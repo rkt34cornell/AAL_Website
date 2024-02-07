@@ -181,18 +181,21 @@
 .project-card img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  object-fit: cover; /* Adjusts how the image should be resized to fit its container */
 }
 
 .project-card h3 {
   margin-top: 10px;
   text-align: center;
+  font-size: clamp(16px, 1.5vw, 20px); /* Adjusts between 16px and 20px based on viewport width */
+
 
 }
 
 .project-card p {
   margin-top: 5px;
-  font-size: 0.9rem;
+  font-size: clamp(14px, 1.2vw, 18px); /* Adjusts between 14px and 18px based on viewport width */
+
 }
 
 .expanded-card-backdrop {
