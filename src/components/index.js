@@ -6,6 +6,8 @@ import Team from "./Team";
 import Hero from "./Hero";
 import Partners from "./Partners";
 import Bingo from "./Bingo";
+import ProjectsPanel from "./ProjectsPanel"; // Assuming you have this component
+import ProjectCard from "./ProjectCard"; // Assuming you have this component
 
 export {
   Navbar,
@@ -15,5 +17,7 @@ export {
   Team,
   Hero,
   Partners,
-  Bingo
+  Bingo,
+  ProjectsPanel, // Add this line
+  ProjectCard // Add this line
 };
