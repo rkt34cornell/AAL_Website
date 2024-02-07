@@ -161,7 +161,7 @@
 
 .project-card {
   /* Increase padding for larger overall size */
-  padding: 40px;
+  padding: 20px;
   /* Optional: Set a specific width or max-width */
   max-width: 400px; /* Adjust this value as needed */
   /* Keep your existing styles */
