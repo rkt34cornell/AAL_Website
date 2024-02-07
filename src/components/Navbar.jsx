@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.svg'; // Ensure this is correctly imported
+import logo from '../assets/logo.svg'; // Assuming this is correctly placed
 import menu from '../assets/menu.svg'; // Ensure this is correctly imported
 import close from '../assets/close.svg'; // Ensure this is correctly imported
 import { navLinks } from '../constants'; // Ensure navLinks is correctly imported
@@ -23,8 +23,8 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li 
             key={nav.id} 
-            onMouseEnter={nav.id === 'projects' ? showDropdown : null} 
-            onMouseLeave={nav.id === 'projects' ? hideDropdown : null}
+            onMouseEnter={() => nav.id === 'projects' && setShowResearchDropdown(true)} 
+            onMouseLeave={() => nav.id === 'projects' && setShowResearchDropdown(false)}
             className={`font-poppins font-normal cursor-pointer text-[14px] text-white hover:text-secondary ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
           >
             <Link to={`/${nav.id}`}>{nav.title}</Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
           onClick={() => setToggle(!toggle)}
         />
         {toggle && (
-          <div className="flex p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
+          <div className="flex p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl">
             <ul className="list-none flex flex-col items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[14px] text-black ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}>
