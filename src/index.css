@@ -160,13 +160,19 @@
 }
 
 .project-card {
+  /* Increase padding for larger overall size */
+  padding: 20px;
+  /* Optional: Set a specific width or max-width */
+  max-width: 300px; /* Adjust this value as needed */
+  /* Keep your existing styles */
   cursor: pointer;
   background: white;
-  padding: 10px;
   border-radius: 8px;
   box-shadow: var(--card-shadow);
   transition: transform 0.2s ease-in-out;
+  margin: auto; /* Center the card in its grid cell */
 }
+
 
 .project-card:hover {
   transform: scale(1.05);
@@ -201,14 +207,18 @@
 }
 
 .expanded-card-content {
+  /* Adjust width and height for a more rectangular shape */
+  width: 80%;
+  max-width: 800px; /* Increase for a wider card */
+  height: auto; /* Adjust based on content, or set a specific height */
+  /* Keep your existing styles */
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   position: relative;
-  width: 80%;
-  max-width: 600px; /* Adjust based on your preference */
   box-shadow: var(--card-shadow);
 }
+
 
 .close-button {
   position: absolute;
