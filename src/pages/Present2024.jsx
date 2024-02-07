@@ -5,7 +5,7 @@ import styles from '../style';
 
 const Present2024 = () => {
   // You might want to filter projectsData to only include projects relevant to 2024 - Present
-  const present2024Projects = projectsData.filter(project => project.period === '2024-Present');
+  const present2024Projects = projectsData.filter(project => project.period === '2024-present');
 
   return (
     <div className="bg-primary w-full overflow-hidden">
