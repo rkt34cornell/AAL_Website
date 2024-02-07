@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.svg'; // Ensure this path matches your logo's location
-import menu from '../assets/menu.svg';
-import close from '../assets/close.svg';
-import { navLinks } from '../constants'; // Assuming navLinks is imported correctly
+import logo from '../assets/logo.svg'; // Ensure this is correctly imported
+import menu from '../assets/menu.svg'; // Ensure this is correctly imported
+import close from '../assets/close.svg'; // Ensure this is correctly imported
+import { navLinks } from '../constants'; // Ensure navLinks is correctly imported
 
 const cornelllogo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706427526/Cornell-University-Logo_2_dlzgvp.png";
 
@@ -11,7 +11,6 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [showResearchDropdown, setShowResearchDropdown] = useState(false);
 
-  // Handlers for showing/hiding the dropdown on hover
   const showDropdown = () => setShowResearchDropdown(true);
   const hideDropdown = () => setShowResearchDropdown(false);
 
@@ -24,22 +23,16 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li 
             key={nav.id} 
-            className={`font-poppins font-normal cursor-pointer text-[14px] text-white hover:text-secondary ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
             onMouseEnter={nav.id === 'projects' ? showDropdown : null} 
             onMouseLeave={nav.id === 'projects' ? hideDropdown : null}
+            className={`font-poppins font-normal cursor-pointer text-[14px] text-white hover:text-secondary ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
           >
-            {nav.id === 'projects' ? (
-              <div className="relative">
-                <Link to="/2024-present">{nav.title}</Link>
-                {showResearchDropdown && (
-                  <ul className="absolute mt-2 py-2 w-48 bg-white rounded-md shadow-xl">
-                    <li className="py-1 px-4 hover:bg-gray-100"><Link to="/2024-present">2024 - Present</Link></li>
-                    <li className="py-1 px-4 hover:bg-gray-100"><Link to="/legacy-projects">Legacy Projects</Link></li>
-                  </ul>
-                )}
-              </div>
-            ) : (
-              <Link to={`/${nav.id}`}>{nav.title}</Link>
+            <Link to={`/${nav.id}`}>{nav.title}</Link>
+            {nav.id === 'projects' && showResearchDropdown && (
+              <ul className="absolute mt-2 py-2 w-48 bg-white rounded-md shadow-xl">
+                <li className="py-1 px-4 hover:bg-gray-100"><Link to="/2024-present">2024 - Present</Link></li>
+                <li className="py-1 px-4 hover:bg-gray-100"><Link to="/legacy-projects">Legacy Projects</Link></li>
+              </ul>
             )}
           </li>
         ))}
@@ -47,9 +40,9 @@ const Navbar = () => {
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
-          alt="menu"
+          alt="Menu"
           className="w-[16px] h-[16px] object-contain"
-          onClick={() => setToggle((prev) => !prev)}
+          onClick={() => setToggle(!toggle)}
         />
         {toggle && (
           <div className="flex p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
