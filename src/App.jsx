@@ -10,6 +10,8 @@ import Impact from "./pages/Impact";
 import GroundStationProject from "./pages/GroundStationProject";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+import LegacyProjects from "./pages/LegacyProjects"; // Add this line
+import Present2024 from "./pages/Present2024"; // Add this line
 
 // ... other imports
 
@@ -29,7 +31,6 @@ function App() {
 
   return (
     <Router>
-      {/* Place any global components like Navbar here */}
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/projects" element={<ProjectsPage />} />
@@ -40,12 +41,10 @@ function App() {
         <Route exact path="/impact" element={<Impact />} />
         <Route exact path="/groundstationproject" element={<GroundStationProject />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/legacy-projects" element={<LegacyProjects />} /> // Add this line
+        <Route exact path="/2024-present" element={<Present2024 />} /> // Add this line
         <Route path="*" element={<Error />} />
-
-
-        // ... other routes
       </Routes>
-      {/* Place any global components like Footer here */}
     </Router>
   );
 }

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.svg'; // Placeholder, ensure actual import as needed
-import menu from '../assets/menu.svg'; // Placeholder, ensure actual import as needed
-import close from '../assets/close.svg'; // Placeholder, ensure actual import as needed
-import { navLinks } from '../constants'; // Assuming navLinks is correctly structured
+import logo from '../assets/logo.svg'; // Ensure these imports match your file structure
+import menu from '../assets/menu.svg';
+import close from '../assets/close.svg';
+import { navLinks } from '../constants'; // Ensure this matches your project structure
 
 const cornelllogo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706427526/Cornell-University-Logo_2_dlzgvp.png";
 
@@ -29,8 +29,13 @@ const Navbar = () => {
                 </span>
                 {showDropdown && (
                   <ul className="absolute mt-2 py-2 w-48 bg-white rounded-md shadow-xl">
-                    <li className="py-1 px-4 hover:bg-gray-100"><Link to="/2024-present">2024 - Present</Link></li>
-                    <li className="py-1 px-4 hover:bg-gray-100"><Link to="/legacy-projects">Legacy Projects</Link></li>
+                    <li className="py-1 px-4 hover:bg-gray-100">
+                      <Link to="/2024-present">2024 - Present</Link>
+                    </li>
+                    <li className="py-1 px-4 hover:bg-gray-100">
+                      <Link to="/legacy-projects">Legacy Projects</Link>
+                    </li>
+                    {/* Add any additional project links here */}
                   </ul>
                 )}
               </div>
