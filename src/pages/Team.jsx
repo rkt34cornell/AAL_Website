@@ -1,14 +1,4 @@
 import React, { useState } from 'react';
-import { Card, CardHeader, CardBody, CardFooter, Typography, Tooltip } from '@material-tailwind/react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faResearchgate, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import styles from '../style';
-import { Navbar, Footer, Bingo } from '../components';
-
-const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
-// Other image imports...
-
 const Team = () => {
   const [selectedFalcoIndex, setSelectedFalcoIndex] = useState(false);
 
