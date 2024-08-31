@@ -157,6 +157,8 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
               </div>
             </Card>
           </div>
+         <h2 className={styles.heading2}>Graduate Students</h2>
+
           <div className="grid gap-16 grid-cols-1 sm:grid-cols-3 sm:px-16 px-6 sm:py-16 py-6 justify-center items-start justify-items-center">
             <Card className="sm:w-96" shadow={false} color="white">
               <CardHeader floated={false}>
@@ -655,6 +657,7 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
             </Card>       
   
           </div>
+           <h2 className={styles.heading2}>Undergraduate Students</h2>
           <Footer />
         </div>
       </div>
