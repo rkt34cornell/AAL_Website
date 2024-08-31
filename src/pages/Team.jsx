@@ -1,4 +1,4 @@
- import React, { useState, useEffect } from "react"; // Import useEffect here
+import React, { useState, useEffect } from "react"; // Import useEffect here
 import styles from "../style";
 import { Navbar, Footer, Bingo } from "../components";
 
@@ -38,21 +38,21 @@ const Team = () => {
   };
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <div className={${styles.paddingX} ${styles.flexCenter}}>
-        <div className={${styles.boxWidth}}>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
           
           
           <Navbar />
           <h2 className={styles.heading2}>Team</h2>
            
-          <div className={bg-primary ${styles.flexStart}}>
-             <div className={${styles.boxWidth}}>
+          <div className={`bg-primary ${styles.flexStart}`}>
+             <div className={`${styles.boxWidth}`}>
                <Bingo />
       </div>
 
     </div>
           <div
-            className={${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}}
+            className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}
           >
             <Card className="sm:w-96" shadow={false} color="white">
               <CardHeader floated={false}>
