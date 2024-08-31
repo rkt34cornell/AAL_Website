@@ -1,68 +1,162 @@
-import React, { useState } from 'react';
-const Team = () => {
-  const [selectedFalcoIndex, setSelectedFalcoIndex] = useState(false);
+import React, { useState, useEffect } from "react"; // Import useEffect here
+import styles from "../style";
+import { Navbar, Footer, Bingo } from "../components";
 
+const greg = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Gregory_ghrza5.png";
+const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_auto/v1684903709/the-aerospace-adversary/Nathaniel_mg3xfw.png";
+const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706424728/Boschetti_pic263_div8rv.png"
+const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
+const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
+const matteo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1704835581/ntnu_shoot_square_pngybh.jpg"
+const aalaudio = "https://res.cloudinary.com/dlxh3nrry/video/upload/v1706240962/AALMUSIC_fiyfdy.mp3"
+
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Tooltip,
+} from "@material-tailwind/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faTwitter,
+  faResearchgate,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+const Team = () => {
+  const [selectedIndex, setSelectedIndex] = useState(-1);
+
+
+
+
+  const setIndex = (i) => {
+    setSelectedIndex(i == selectedIndex ? -1 : i);
+  };
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <Navbar />
-        <h2 className={styles.heading2}>Team</h2>
-        <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
-          <div className="relative">
+        <div className={`${styles.boxWidth}`}>
+          
+          
+          <Navbar />
+          <h2 className={styles.heading2}>Team</h2>
+           
+          <div className={`bg-primary ${styles.flexStart}`}>
+             <div className={`${styles.boxWidth}`}>
+               <Bingo />
+      </div>
+
+    </div>
+          <div
+            className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}
+          >
             <Card className="sm:w-96" shadow={false} color="white">
               <CardHeader floated={false}>
-                <img src={greg} alt="Gregory Falco" className="h-[100%] w-[100%]" />
+                <img src={greg} alt="greg" className="h-[100%] w-[100%]" />
               </CardHeader>
               <CardBody className="flex flex-row items-center justify-between">
-                <Typography variant="h4" color="black" className="mb-2">Gregory Falco</Typography>
-                <FontAwesomeIcon
-                  icon={selectedFalcoIndex ? faArrowLeft : faArrowRight}
-                  onClick={() => setSelectedFalcoIndex(!selectedFalcoIndex)}
-                  className="cursor-pointer"
-                />
-              </CardBody>
-            </Card>
-            <div 
-              className={`absolute top-0 left-full w-full h-full bg-white transition-transform duration-300 ${
-                selectedFalcoIndex ? 'transform translate-x-0' : 'transform translate-x-full'
-              }`}
-            >
-              <Card className="w-full h-full" shadow={false} color="white">
-                <CardBody>
-                  <Typography variant="h6" color="black" className="mb-2">
-                    Dr. Gregory Falco is an Assistant Professor at Johns Hopkins University...
-                    {/* Add the rest of Dr. Falco's bio here */}
+                <div>
+                  <Typography variant="h4" color="black" className="mb-2">
+                    Gregory Falco
                   </Typography>
-                </CardBody>
-                <CardFooter className="flex justify-center pt-0">
-                  <Tooltip content="Github">
-                    <Typography as="a" href="#github" variant="lead" color="blue" textGradient>
-                      <FontAwesomeIcon icon={faGithub} className="mx-2" />
-                    </Typography>
-                  </Tooltip>
-                  <Tooltip content="Twitter">
-                    <Typography as="a" href="#twitter" variant="lead" color="light-blue" textGradient>
-                      <FontAwesomeIcon icon={faTwitter} className="mx-2" />
-                    </Typography>
-                  </Tooltip>
-                  <Tooltip content="ResearchGate">
-                    <Typography as="a" href="#researchgate" variant="lead" color="purple" textGradient>
-                      <FontAwesomeIcon icon={faResearchgate} className="mx-2" />
-                    </Typography>
-                  </Tooltip>
-                  <Tooltip content="LinkedIn">
-                    <Typography as="a" href="#linkedin" variant="lead" color="blue" textGradient>
-                      <FontAwesomeIcon icon={faLinkedin} className="mx-2" />
-                    </Typography>
-                  </Tooltip>
-                  <Tooltip content="Email">
-                    <Typography as="a" href="#email" variant="lead" color="blue" textGradient>
-                      <FontAwesomeIcon icon={faEnvelope} className="mx-2" />
-                    </Typography>
-                  </Tooltip>
+                  <Typography
+                    color="black"
+                    className="font-medium flex justify-items-start gap-5"
+                  >
+                    PI
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/gregoryfalco/"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="ResearchGate">
+                      <Typography
+                        as="a"
+                        href="https://www.researchgate.net/profile/Gregory-Falco"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faResearchgate} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Twitter">
+                      <Typography
+                        as="a"
+                        href="https://twitter.com/gregfalco"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: gfalco@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(0);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 0 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 0 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="black" className="text-start">
+                  Prof. Gregory Falco has been at the forefront of space system and critical infrastructure security and autonomy in both industry and academia for the past decade. Falco is an Assistant Professor at Cornell University’s Sibley School of Mechanical and Aerospace Engineering and the Systems Engineering Program. He is the Director of the Aerospace ADVERSARY (Autonomy, Defense and Vulnerability Exploitation for Resilient, Secure and Assured Risk/Yield) Lab. The ADVERSARY designs and develops autonomous, resilient and secure space infrastructure. He is leading the effort to develop an international technical standard for space cybersecurity as the chair of the IEEE Standard for Space System Cybersecurity working group. His research entitled Cybersecurity Principles for Space Systems was highly influential in the development of Space Policy Directive-5, which shared the same title. Falco was the former co-founder and CEO of the blockchain-based industrial control security company NeuroMesh Inc., which was acquired in 2022. He has been listed in Forbes 30 Under 30 for his inventions and contributions to critical infrastructure cyber security, is a Fulbright Scholar and is the recipient of the DARPA RISER and DARPA’s Young Faculty Award for work on building a zero-trust marketplace ecosystem for space systems. Prof. Falco serves as a member of the Department of Homeland Security’s Space Systems Critical Infrastructure Working Group and has been awarded contracts relating to space system security for AFRL, US Space Force, NASA and DARPA. He holds an appointment as a Research Affiliate at MIT’s Computer Science and Artificial Intelligence Laboratory and the Johns Hopkins University Applied Physics Laboratory’s Space Sector. Falco completed his PhD at MIT’s Computer Science and Artificial Intelligence Laboratory, Master’s degree at Columbia University and Bachelor’s degree at Cornell University.
+
+
+                  </Typography>
                 </CardFooter>
-              </Card>
-            </div>
+              </div>
+            </Card>
           </div>
           <div className="grid gap-16 grid-cols-1 sm:grid-cols-3 sm:px-16 px-6 sm:py-16 py-6 justify-center items-start justify-items-center">
             <Card className="sm:w-96" shadow={false} color="white">
