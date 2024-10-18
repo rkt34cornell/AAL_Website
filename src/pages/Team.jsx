@@ -565,7 +565,7 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
               <div className={selectedIndex == 4 ? "block" : "hidden"}>
                 <CardFooter className="pt-0">
                   <Typography color="black" className="text-start">
-                  Rajiv Thummala is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in National Security. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Laboratory, Rajiv is developing disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security space topics.                    </Typography>
+                  Rajiv Thummala is pursuing a PhD in Aerospace Engineering at Cornell University with a minor in International Relations. He graduated summa cum laude and as a NASA Space Grant Scholar from the Pennsylvania State University in 2023, where he earned his M.S and B.S degrees in Cybersecurity. As a graduate researcher at the Aerospace ADVERSARY Laboratory, Rajiv is developing disruptive space technology. His research interests/experiences are in the domain of aerospace security, space combat power projection, and national security space topics.                    </Typography>
                 </CardFooter>
               </div>
             </Card>
