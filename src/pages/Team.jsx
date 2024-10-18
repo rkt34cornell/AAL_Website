@@ -670,263 +670,227 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
           </div>
           <h2 className={styles.heading2}>Undergraduate Students</h2>
 
-<div className="grid gap-16 grid-cols-1 sm:grid-cols-3 sm:px-16 px-6 sm:py-16 py-6 justify-center items-start justify-items-center">
-  {/* Varija Mehta */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={varija} alt="Varija Mehta" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Varija Mehta
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/varija-mehta/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:vvm26@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
-    <CardFooter className="pt-0">
-      <Typography color="black" className="text-start">
-        Varija Mehta is currently a sophomore pursuing a degree in Electrical and Computer Engineering at Cornell University. Her research focuses on optimizing communication pathways for satellites and improving cybersecurity measures for space assets.
+{/* Denis Brown */}
+<Card className="sm:w-96" shadow={false} color="white">
+  <CardHeader floated={false}>
+    <img src={denis} alt="Denis Brown" className="h-[100%] w-[100%]" />
+  </CardHeader>
+  <CardBody className="flex flex-row items-center justify-between">
+    <div>
+      <Typography variant="h4" color="black" className="mb-2">
+        Denis Brown
       </Typography>
-    </CardFooter>
-  </Card>
-
-  {/* Joshua Caplan */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={joshua} alt="Joshua Caplan" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Joshua Caplan
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/joshcaplans/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:jc2567@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
-    <CardFooter className="pt-0">
-      <Typography color="black" className="text-start">
-        Joshua Caplan is a senior majoring in Computer Science at Cornell University. His research in the Aerospace Adversary Lab focuses on cybersecurity solutions for satellite communication systems.
+      <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
+        Undergraduate Student (Senior)
+        <Tooltip content="LinkedIn">
+          <Typography as="a" href="https://www.linkedin.com/in/denisbrownece/" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Typography>
+        </Tooltip>
+        <Tooltip content="Email">
+          <Typography as="a" href="mailto:drb343@cornell.edu" target="_blank">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </Typography>
+        </Tooltip>
       </Typography>
-    </CardFooter>
-  </Card>
-
-  {/* Adhyan Prasad */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={adhyan} alt="Adhyan Prasad" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Adhyan Prasad
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/adhyan-prasad/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:ap842@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
-    <CardFooter className="pt-0">
-      <Typography color="black" className="text-start">
-        Adhyan Prasad is a senior in the College of Engineering at Cornell University. His research includes developing cybersecurity defenses for satellite ground networks.
+    </div>
+    <div>
+      <Typography
+        onClick={() => {
+          setIndex(0);
+        }}
+        className="cursor-pointer"
+      >
+        {selectedIndex == 0 ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4.5 15.75l7.5-7.5 7.5 7.5"
+            />
+          </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        )}
       </Typography>
-    </CardFooter>
-  </Card>
-
-  {/* Jonathan Distler */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={jonathan} alt="Jonathan Distler" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Jonathan Distler
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/jonathan-distler-a870641a9/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:jhd94@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
-    <CardFooter className="pt-0">
-      <Typography color="black" className="text-start">
-        Jonathan Distler is a sophomore at Cornell University majoring in Aerospace Engineering. His work in the lab focuses on space systems security and spacecraft autonomy.
-      </Typography>
-    </CardFooter>
-  </Card>
-
-  {/* Denis Brown */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={denis} alt="Denis Brown" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Denis Brown
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/denisbrownece/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:drb343@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
+    </div>
+  </CardBody>
+  <div className={selectedIndex == 0 ? "block" : "hidden"}>
     <CardFooter className="pt-0">
       <Typography color="black" className="text-start">
         Denis Brown is a senior majoring in Electrical and Computer Engineering. His research in the Aerospace Adversary Lab focuses on the security of space communication networks.
       </Typography>
     </CardFooter>
-  </Card>
+  </div>
+</Card>
 
-  {/* Laurence Lai */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={laurence} alt="Laurence Lai" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Laurence Lai
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/laurencemlai/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:ll758@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
+{/* Joshua Caplan */}
+<Card className="sm:w-96" shadow={false} color="white">
+  <CardHeader floated={false}>
+    <img src={joshua} alt="Joshua Caplan" className="h-[100%] w-[100%]" />
+  </CardHeader>
+  <CardBody className="flex flex-row items-center justify-between">
+    <div>
+      <Typography variant="h4" color="black" className="mb-2">
+        Joshua Caplan
+      </Typography>
+      <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
+        Undergraduate Student (Senior)
+        <Tooltip content="LinkedIn">
+          <Typography as="a" href="https://www.linkedin.com/in/joshcaplans/" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Typography>
+        </Tooltip>
+        <Tooltip content="Email">
+          <Typography as="a" href="mailto:jc2567@cornell.edu" target="_blank">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </Typography>
+        </Tooltip>
+      </Typography>
+    </div>
+    <div>
+      <Typography
+        onClick={() => {
+          setIndex(1);
+        }}
+        className="cursor-pointer"
+      >
+        {selectedIndex == 1 ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4.5 15.75l7.5-7.5 7.5 7.5"
+            />
+          </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        )}
+      </Typography>
+    </div>
+  </CardBody>
+  <div className={selectedIndex == 1 ? "block" : "hidden"}>
     <CardFooter className="pt-0">
       <Typography color="black" className="text-start">
-        Laurence Lai is an undergraduate junior pursuing a B.S. in Computer Science at Cornell University. His research focuses on improving security protocols in aerospace systems.
+        Joshua Caplan is a senior majoring in Computer Science at Cornell University. His research in the Aerospace Adversary Lab focuses on cybersecurity solutions for satellite communication systems.
       </Typography>
     </CardFooter>
-  </Card>
+  </div>
+</Card>
 
-  {/* Matthew Chekhlov */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={matthew} alt="Matthew Chekhlov" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Matthew Chekhlov
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/matthew-chekhlov-4b7b66144/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:mc2339@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
+{/* Adhyan Prasad */}
+<Card className="sm:w-96" shadow={false} color="white">
+  <CardHeader floated={false}>
+    <img src={adhyan} alt="Adhyan Prasad" className="h-[100%] w-[100%]" />
+  </CardHeader>
+  <CardBody className="flex flex-row items-center justify-between">
+    <div>
+      <Typography variant="h4" color="black" className="mb-2">
+        Adhyan Prasad
+      </Typography>
+      <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
+        Undergraduate Student (Senior)
+        <Tooltip content="LinkedIn">
+          <Typography as="a" href="https://www.linkedin.com/in/adhyan-prasad/" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Typography>
+        </Tooltip>
+        <Tooltip content="Email">
+          <Typography as="a" href="mailto:ap842@cornell.edu" target="_blank">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </Typography>
+        </Tooltip>
+      </Typography>
+    </div>
+    <div>
+      <Typography
+        onClick={() => {
+          setIndex(2);
+        }}
+        className="cursor-pointer"
+      >
+        {selectedIndex == 2 ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4.5 15.75l7.5-7.5 7.5 7.5"
+            />
+          </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        )}
+      </Typography>
+    </div>
+  </CardBody>
+  <div className={selectedIndex == 2 ? "block" : "hidden"}>
     <CardFooter className="pt-0">
       <Typography color="black" className="text-start">
-        Matthew Chekhlov is a senior (Class of 2025) pursuing a double major in Aerospace Engineering and Mechanical Engineering. His research in the Aerospace Adversary Lab focuses on machine learning applications in satellite operations.
+        Adhyan Prasad is a senior in the College of Engineering at Cornell University. His research includes developing cybersecurity defenses for satellite ground networks.
       </Typography>
     </CardFooter>
-  </Card>
-
-  {/* William Rosenthal */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={william} alt="William Rosenthal" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          William Rosenthal
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/willmrosenthal/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:wmr48@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-    </CardBody>
-    <CardFooter className="pt-0">
-      <Typography color="black" className="text-start">
-        William Rosenthal is pursuing a B.S. in Computer Science at Cornell University. His research interests lie in cyber defense mechanisms for space systems, particularly focused on intrusion detection.
-      </Typography>
-    </CardFooter>
-  </Card>
-</div>
+  </div>
+</Card>
 
 <Footer />
 </div>
@@ -936,4 +900,5 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
 };
 
 export default Team;
+
 
