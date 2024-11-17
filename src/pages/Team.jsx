@@ -19,7 +19,7 @@ const matthew = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271628/p
 const william = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/wmr48_headshot_-_William_Rosenthal_bbynk5.png";
 
 
-const aalaudio = "https://res.cloudinary.com/dlxh3nrry/video/upload/v1706240962/AALMUSIC_fiyfdy.mp3"
+const aalaudio = ""
 
 import {
   Card,

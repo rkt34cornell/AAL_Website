@@ -9,7 +9,6 @@ const cornelllogo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v17064275
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
 
   return (
     <nav className="w-full flex justify-between items-center navbar z-30 relative">
@@ -23,22 +22,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[14px] text-white hover:text-secondary ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
           >
             {nav.id === 'projects' ? (
-              <div className="relative">
-                <span onClick={() => setShowDropdown(!showDropdown)} className="cursor-pointer">
-                  {nav.title}
-                </span>
-                {showDropdown && (
-                  <ul className="absolute mt-2 py-2 w-48 bg-white rounded-md shadow-xl">
-                    <li className="py-1 px-4 hover:bg-gray-100">
-                      <Link to="/2024-present">2024 - Present</Link>
-                    </li>
-                    <li className="py-1 px-4 hover:bg-gray-100">
-                      <Link to="/legacy-projects">Legacy Projects</Link>
-                    </li>
-                    {/* Add any additional project links here */}
-                  </ul>
-                )}
-              </div>
+              <Link to="/2024-present">Research</Link>
             ) : (
               <Link to={`/${nav.id}`}>{nav.title}</Link>
             )}
@@ -60,6 +44,9 @@ const Navbar = () => {
                   <Link to={`/${nav.id}`}>{nav.title}</Link>
                 </li>
               ))}
+              <li className={`font-poppins font-normal cursor-pointer text-[14px] text-black mb-4`}>
+                <Link to="/2024-present">Research</Link>
+              </li>
             </ul>
           </div>
         )}

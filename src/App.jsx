@@ -15,7 +15,7 @@ import Present2024 from "./pages/Present2024"; // Add this line
 
 // ... other imports
 
-const aalaudio = "https://res.cloudinary.com/dlxh3nrry/video/upload/v1706843296/aal2_lh7zpz.mp3";
+const aalaudio = "";
 
 function App() {
   useEffect(() => {
