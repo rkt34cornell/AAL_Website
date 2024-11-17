@@ -22,14 +22,14 @@ const ProjectCard = ({ title, content, index }) => (
 );
 
 const Projects = () => (
-  <section id="projects" className={`${layout.section} items-start justify-start`} >
-    <div className={`${layout.sectionInfo}`}>
+  <section id="projects" className={`${layout.section} items-start justify-start`}>
+    {/* Remove the Research section */}
+    {/* <div className={`${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>Research</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         WE BREAK AEROSPACE SYSTEMS <br></br>
         If you don’t know how to break it, you don’t know how to fix it: this is
         the core of our many projects! <br></br>
-        
       </p>
       <a href="/projects">
         <button
@@ -39,19 +39,23 @@ const Projects = () => (
           Know More
         </button>
       </a>
-    </div>
-    <div className={`${layout.sectionInfo}`}>
+    </div> */}
+    
+    {/* Remove the Publications section */}
+    {/* <div className={`${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>
         Publications
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       </p>
       <a href="/publications">
-      <button type="button" className= "py-4 px-6 font-poppins font-medium text-[18px] text-black bg-white hover:bg-secondary rounded-[10px] outline-none mt-10">
-    Know More
-  </button>
-  </a>
-    </div>
+        <button type="button" className="py-4 px-6 font-poppins font-medium text-[18px] text-black bg-white hover:bg-secondary rounded-[10px] outline-none mt-10">
+          Know More
+        </button>
+      </a>
+    </div> */}
+    
+    {/* Uncomment this section if you want to display project cards */}
     {/* <div
       className={`${layout.sectionImg} flex-col md:scrollbar-thin md:scrollbar-thumb-secondary md:scrollbar-track-white md:h-96 md:overflow-y-scroll`}
     >
