@@ -7,7 +7,6 @@ const nathaniel = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706424728/Boschetti_pic263_div8rv.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
 const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
-const matteo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1704835581/ntnu_shoot_square_pngybh.jpg"
 
 const varija = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271626/headshot_11_-_Varija_Mehta_codcbf.png";
 const joshua = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271626/IMG_2847_2_-_Joshua_Caplan_psij7u.jpg";
@@ -15,7 +14,6 @@ const adhyan = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271631/cr
 const jonathan = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/IMG_9238_-_Jonathan_Distler_haqgqu.jpg";
 const denis = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271625/8040ad81-72a7-49f3-978b-4f6138eac22e_2-2-2-2_-_Denis_Brown_uqogtc.jpg";
 const laurence = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271625/IMG_6030_-_Laurence_Lai_tcoxqi.jpg";
-const matthew = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271628/photoMe_-_Matthew_Chekhlov_mecusl.jpg";
 const william = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/wmr48_headshot_-_William_Rosenthal_bbynk5.png";
 
 
@@ -570,103 +568,6 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
               </div>
             </Card>
 
-           <Card className="sm:w-96" shadow={false} color="white">
-              <CardHeader floated={false}>
-                <img
-                  className="h-[100%] w-[100%]"
-                  src={matteo}
-                  alt="matteo"
-                />
-              </CardHeader>
-              <CardBody className="flex flex-row items-center justify-between">
-                <div>
-                  <Typography variant="h4" color="black" className="mb-2">
-                    Matteo Calabrese
-                  </Typography>
-                  <Typography
-                    color="black"
-                    className="font-medium flex justify-items-start gap-2 sm:gap-5"
-                  >
-                    PhD Candidate
-                    <Tooltip content="LinkedIn">
-                      <Typography
-                        as="a"
-                        href="https://no.linkedin.com/in/matcala?trk=public_post_feed-actor-name"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="ResearchGate">
-                      <Typography
-                        as="a"
-                        href="https://www.researchgate.net/profile/Matteo-Calabrese-5"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faResearchgate} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="Email">
-                      <Typography
-                        as="a"
-                        href="mailto: mc2884@cornell.edu"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faEnvelope} />
-                      </Typography>
-                    </Tooltip>
-                  </Typography>
-                </div>
-                <div>
-                  <Typography
-                    onClick={() => {
-                      setIndex(5);
-                    }}
-                    className="cursor-pointer"
-                  >
-                    {selectedIndex == 5 ? (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                        />
-                      </svg>
-                    ) : (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                      </svg>
-                    )}
-                  </Typography>
-                </div>
-              </CardBody>
-              <div className={selectedIndex == 5 ? "block" : "hidden"}>
-                <CardFooter className="pt-0">
-                  <Typography color="black" className="text-start">
-                  Matteo Calabrese is pursuing a Ph.D. in Systems Engineering at Cornell University and is an assistant researcher at the Aerospace ADVERSARY Lab. He received his B.A. in Cybersecurity from the University of Milan and a double M.S. in Security and Cloud Computing from Aalto University and the Norwegian University of Science and Technology. During his academic journey he has explored novel threats to space vehicles using machine learning and penetration testing techniques. His current research focuses on the cybersecurity of space systems, satellite ground networks, and small satellites.
-                   </Typography>
-                </CardFooter>
-              </div>
-            </Card>       
-  
           </div>
           <h2 className={styles.heading2}>Undergraduate Students</h2>
 
@@ -786,51 +687,6 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
       <CardFooter className="pt-0">
         <Typography color="black" className="text-start">
           I am a senior majoring in Electrical and Computer Engineering, contributing to the hardware team of the Magpie project. My work focuses on integrating Jetson Nano and LiDAR sensor technology into autonomous drones to enhance real-time navigation and obstacle detection.
-        </Typography>
-      </CardFooter>
-    </div>
-  </Card>
-
-  {/* Matthew Chekhlov - Senior */}
-  <Card className="sm:w-96" shadow={false} color="white">
-    <CardHeader floated={false}>
-      <img src={matthew} alt="Matthew Chekhlov" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="black" className="mb-2">
-          Matthew Chekhlov
-        </Typography>
-        <Typography color="black" className="font-medium flex justify-items-start gap-2 sm:gap-5">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/matthew-chekhlov-4196331b9" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="ResearchGate">
-            <Typography as="a" href="https://www.researchgate.net/profile/Matthew-Chekhlov/" target="_blank">
-              <FontAwesomeIcon icon={faResearchgate} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:mc2339@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-      <div>
-        <Typography onClick={() => { setIndex(9); }} className="cursor-pointer">
-          {selectedIndex == 9 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
-          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
-        </Typography>
-      </div>
-    </CardBody>
-    <div className={selectedIndex == 9 ? "block" : "hidden"}>
-      <CardFooter className="pt-0">
-        <Typography color="black" className="text-start">
-          pursuing a double major in Mathematics and Physics, and my research interests are in in applied mathematics, aerospace engineering, and plasma modeling. My current research focuses primarily on high fidelity models and imaging of the ionosphere, as well as navigation through the ionosphere. I am also researching the effects of RF radiation on the ionosphere and near earth space and its implications for satellite resilience.
         </Typography>
       </CardFooter>
     </div>
