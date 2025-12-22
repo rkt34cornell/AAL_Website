@@ -830,7 +830,7 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
     <div className={selectedIndex == 9 ? "block" : "hidden"}>
       <CardFooter className="pt-0">
         <Typography color="black" className="text-start">
-          I am a senior pursuing a double major in Mathematics and Physics, and my research interests are in in applied mathematics, aerospace engineering, and plasma modeling. My current research focuses primarily on high fidelity models and imaging of the ionosphere, as well as navigation through the ionosphere. I am also researching the effects of RF radiation on the ionosphere and near earth space and its implications for satellite resilience.
+          pursuing a double major in Mathematics and Physics, and my research interests are in in applied mathematics, aerospace engineering, and plasma modeling. My current research focuses primarily on high fidelity models and imaging of the ionosphere, as well as navigation through the ionosphere. I am also researching the effects of RF radiation on the ionosphere and near earth space and its implications for satellite resilience.
         </Typography>
       </CardFooter>
     </div>
