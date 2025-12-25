@@ -67,15 +67,14 @@ const Hero = () => {
           className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 z-10`}
         >
           <div className="flex flex-col justify-between items-center w-full">
-            <h1 className="flex-1 font-poppins font-thin ss:text-[72px] text-[52px] text-white text-center ss:leading-[100.8px] leading-[75px]">
-              The Aerospace <span className="text-secondary">Adversary</span>{" "}
-              Lab
-              <br className="sm:block hidden" />{" "}
-            </h1>
-
+            <img
+              src={adversaryLogo}
+              alt="Aerospace Adversary Lab"
+              className="w-[260px] sm:w-[360px] md:w-[480px] h-auto"
+            />
             <p className={`${styles.paragraph} max-w-[800px] mt-5 text-center`}>
               We design and develop the future of aerospace technology enabling
-              secure, resilient, and assured autonomous space infrastructure operations - testing.
+              secure, resilient, and assured autonomous space infrastructure operations.
             </p>
           </div>
         </div>
