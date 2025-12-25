@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/projects" element={<ProjectsPage />} />
