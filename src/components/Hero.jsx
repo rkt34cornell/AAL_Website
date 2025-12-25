@@ -5,8 +5,7 @@ import sat2 from "../assets/sat2.svg";
 import sat3 from "../assets/sat3.svg";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-
-const earth = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1700252134/emblem2_aal_mjvzzn.png";
+import adversaryLogo from "../assets/adversary-logo-white.png";
 
 const oldParticlesInit = async (main) => {
   await loadFull(main);
@@ -82,8 +81,8 @@ const Hero = () => {
         </div>
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 z-0`}>
           <img
-            src={earth}
-            alt="earth"
+            src={adversaryLogo}
+            alt="Aerospace Adversary Lab logo"
             className="w-[40%] h-[40%] z-10 relative"
           />
         </div>
