@@ -367,7 +367,7 @@ Dr. Gregory Falco is an Assistant Professor at the Sibley School of Mechanical a
                     in systems engineering from Johns Hopkins University. He is
                     now a Ph.D. candidate at Cornell University under the
                     direction of Dr. Gregory Falco. As a member of the Aerospace
-                    ADVERSARY research group, he investigates resilient space
+                    ADVERSARY research group, he investigated resilient space
                     systems with a particular interest in zero-trust
                     architectures and multi-agent systems.
                   </Typography>
