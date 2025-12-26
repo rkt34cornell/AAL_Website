@@ -64,7 +64,7 @@ const Hero = () => {
             <img
               src={adversaryLogo}
               alt="Aerospace Adversary Lab"
-              className="w-[320px] sm:w-[460px] md:w-[620px] h-auto -mt-8 drop-shadow-[0_0_35px_rgba(255,255,255,0.45)] fade-in"
+              className="w-[320px] sm:w-[460px] md:w-[620px] h-auto -mt-8 drop-shadow-[0_0_35px_rgba(255,255,255,0.45)] drop-shadow-[0_0_24px_rgba(255,59,48,0.55)] fade-in"
             />
             <p className={`${styles.paragraph} max-w-[800px] text-center fade-in`}>
               The Aerospace Adversary Laboratory at Cornell University designs and develops the next-generation of space defense technology. The lab is particularly interested in developing national security offensive and defensive technical capabilities for space systems and understanding their ethical and policy implications.
