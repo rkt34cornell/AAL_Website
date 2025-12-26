@@ -21,7 +21,6 @@ const Homepage = () => {
       <div className={`${styles.boxWidth}`}>
         {/* <Impact /> */}
 
-        <Projects />
         <Partners />
         {/* <Team /> */}
         <Footer />

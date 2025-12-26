@@ -5,28 +5,20 @@ import linkedin from "../assets/linkedin.svg";
 
 export const navLinks = [
   {
-    id: "impact",
-    title: "Impact",
+    id: "about",
+    title: "About",
   },
   {
     id: "projects",
     title: "Research",
   },
   {
-    id: "publications",
-    title: "Publications",
-  },
-  {
-    id: "map",
-    title: "Arctic Space Map",
-  },
-  {
-    id: "taxonomy",
-    title: "Space Risk Taxonomy",
-  },
-  {
     id: "team",
     title: "Team",
+  },
+  {
+    id: "impact",
+    title: "Impact",
   },
   {
     id: "contact",
@@ -97,70 +89,7 @@ export const impact = [
 ];
 
 export const footerLinks = [
-  {
-    title: "Research",
-    links: [
-      {
-        name: "Projects",
-        link: "projects",
-      },
-      {
-        name: "Publications",
-        link: "publications",
-      },
-      {
-        name: "Arctic Space Map",
-        link: "map",
-      },
-      {
-        name: "Space Risk Taxonomy",
-        link: "taxonomy",
-      },
-    ],
-  },
-  // {
-  //   title: "Community",
-  //   links: [
-  //     {
-  //       name: "Help Center",
-  //       link: "#",
-  
-  //     },
-  //     {
-  //       name: "Partners",
-  //       link: "#",
-  //     },
-  //     {
-  //       name: "Blog",
-  //       link: "#",
-  //     },
-  //     {
-  //       name: "Newsletters",
-  //       link: "#",
-  //     },
-  //   ],
-  // },
-  {
-    title: "Quick Links",
-    links: [
-      {
-        name: "Join Us",
-        link: "#",
-      },
-      {
-        name: "Partners",
-        link: "#",
-      },
-      {
-        name: "Team",
-        link: "team",
-      },
-      {
-        name: "Contact Us",
-        link: "contact",
-      },
-    ],
-  },
+  // Footer links intentionally removed.
 ];
 
 export const socialMedia = [

@@ -11,15 +11,15 @@ const ussp = "https://res.cloudinary.com/djrobin17/image/upload/q_auto:low,f_aut
 const Partners = () => {
   return (
     <div>
-       <h2 className={`${styles.heading2} ${styles.marginY}`}>Partners</h2>
+       <h2 className={`${styles.heading2} mt-8 mb-4`}>Our Parterners</h2>
     <div id="partners" className={`${styles.flexCenter} sm:flex-row flex-col`}>
       <div className='flex flex-row justify-center items-center'>
-      <img src={afrl} alt="afrl" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" />
-      <img src={apl} alt="apl" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" />
-      <img src={isac} alt="isac" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" />
-      <img src={nist} alt="nist" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" />
-      <img src={darpa} alt="darpa" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[20%] lg:h-[20%] z-1 relative" />
-      <img src={ussp} alt="ussp" className="p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" />
+      <img src={afrl} alt="afrl" className="partner-logo p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" style={{ animationDelay: "0.05s" }} />
+      <img src={apl} alt="apl" className="partner-logo p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" style={{ animationDelay: "0.15s" }} />
+      <img src={isac} alt="isac" className="partner-logo p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" style={{ animationDelay: "0.25s" }} />
+      <img src={nist} alt="nist" className="partner-logo p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" style={{ animationDelay: "0.35s" }} />
+      <img src={darpa} alt="darpa" className="partner-logo p-5 w-[20%] h-[20%] lg:p-10 lg:w-[20%] lg:h-[20%] z-1 relative" style={{ animationDelay: "0.45s" }} />
+      <img src={ussp} alt="ussp" className="partner-logo p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative" style={{ animationDelay: "0.55s" }} />
       </div>
     </div>
     </div>

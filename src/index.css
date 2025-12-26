@@ -18,6 +18,14 @@
   scroll-behavior: smooth;
 }
 
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Poppins", sans-serif;
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -85,6 +93,17 @@
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.fade-in {
+  -webkit-animation: fade-in 0.8s ease-out both;
+  animation: fade-in 0.8s ease-out both;
+}
+
+.partner-logo {
+  opacity: 0;
+  -webkit-animation: fade-in 0.9s ease-out both;
+  animation: fade-in 0.9s ease-out both;
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -102,6 +121,32 @@
     transform: translateY(100px);
   }
   100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }

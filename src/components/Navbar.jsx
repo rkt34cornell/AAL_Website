@@ -23,6 +23,8 @@ const Navbar = () => {
           >
             {nav.id === 'projects' ? (
               <Link to="/2024-present">Research</Link>
+            ) : nav.id === 'about' ? (
+              <Link to="/">About</Link>
             ) : (
               <Link to={`/${nav.id}`}>{nav.title}</Link>
             )}
@@ -41,7 +43,11 @@ const Navbar = () => {
             <ul className="list-none flex flex-col items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[14px] text-black ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}>
-                  <Link to={`/${nav.id}`}>{nav.title}</Link>
+                  {nav.id === 'about' ? (
+                    <Link to="/">About</Link>
+                  ) : (
+                    <Link to={`/${nav.id}`}>{nav.title}</Link>
+                  )}
                 </li>
               ))}
               <li className={`font-poppins font-normal cursor-pointer text-[14px] text-black mb-4`}>
