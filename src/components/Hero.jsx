@@ -61,15 +61,11 @@ const Hero = () => {
           className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 z-10`}
         >
           <div className="flex flex-col items-center w-full gap-8 sm:gap-10">
-            <div className="relative flex items-center justify-center -mt-8 fade-in">
-              <span
-                aria-hidden="true"
-                className="absolute -inset-6 rounded-full bg-red-500/59 blur-[38px]"
-              />
+            <div className="logo-glow flex items-center justify-center -mt-8 fade-in">
               <img
                 src={adversaryLogo}
                 alt="Aerospace Adversary Lab"
-                className="relative z-10 w-[320px] sm:w-[460px] md:w-[620px] h-auto drop-shadow-[0_0_22px_rgba(255,0,0,0.55)] drop-shadow-[0_0_35px_rgba(255,255,255,0.45)]"
+                className="logo-glow__image w-[320px] sm:w-[460px] md:w-[620px] h-auto"
               />
             </div>
             <p className={`${styles.paragraph} max-w-[800px] text-center fade-in`}>
