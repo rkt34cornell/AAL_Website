@@ -64,12 +64,12 @@ const Hero = () => {
             <div className="relative flex items-center justify-center -mt-8 fade-in">
               <span
                 aria-hidden="true"
-                className="absolute -inset-6 rounded-full bg-red-500/55 blur-[42px]"
+                className="absolute -inset-6 rounded-full bg-red-500 opacity-50 blur-2xl"
               />
               <img
                 src={adversaryLogo}
                 alt="Aerospace Adversary Lab"
-                className="relative z-10 w-[320px] sm:w-[460px] md:w-[620px] h-auto drop-shadow-[0_0_22px_rgba(255,0,0,0.55)] drop-shadow-[0_0_35px_rgba(255,255,255,0.45)]"
+                className="relative z-10 w-[320px] sm:w-[460px] md:w-[620px] h-auto drop-shadow-[0_0_35px_rgba(255,255,255,0.45)]"
               />
             </div>
             <p className={`${styles.paragraph} max-w-[800px] text-center fade-in`}>
