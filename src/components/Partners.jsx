@@ -34,7 +34,7 @@ const Partners = () => {
 
   return (
     <div ref={sectionRef}>
-       <h2 className={`${styles.heading2} mt-8 mb-4`}>Our Parterners</h2>
+       <h2 className={`${styles.heading2} mt-8 mb-4`}>Our Partners</h2>
     <div id="partners" className={`${styles.flexCenter} sm:flex-row flex-col`}>
       <div className='flex flex-row justify-center items-center'>
       <img src={afrl} alt="afrl" className={`partner-logo ${isVisible ? "partner-logo--visible" : ""} p-5 w-[20%] h-[20%] lg:p-10 lg:w-[15%] lg:h-[15%] z-1 relative`} style={{ animationDelay: "0.05s" }} />
