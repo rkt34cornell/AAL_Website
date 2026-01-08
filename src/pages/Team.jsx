@@ -469,7 +469,7 @@ const Team = () => {
                     color="white"
                     className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
                   >
-                    Graduate Student
+                    PhD Candidate
                     <Tooltip content="LinkedIn">
                       <Typography
                         as="a"
@@ -557,7 +557,7 @@ const Team = () => {
                     color="white"
                     className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
                   >
-                    Graduate Student
+                    J.D. Candidate
                     <Tooltip content="LinkedIn">
                       <Typography
                         as="a"
@@ -645,7 +645,7 @@ const Team = () => {
                     color="white"
                     className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
                   >
-                    Graduate Student
+                    PhD Candidate
                     <Tooltip content="Email">
                       <Typography
                         as="a"
