@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-01-05T12:24:02.218Z",
+  "updatedAt": "2026-01-12T12:25:22.525Z",
   "items": [
+    {
+      "id": "https://openalex.org/W7119233271",
+      "title": "Out-of-Band Power Side-Channel Detection for Semiconductor Supply Chain Integrity at Scale",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2601.01054",
+      "publicationDate": "2026-01-03"
+    },
+    {
+      "id": "https://openalex.org/W7118299873",
+      "title": "Learning realistic lip motions for humanoid face robots",
+      "venue": "DRYAD",
+      "year": 2025,
+      "url": "https://doi.org/10.5061/dryad.j6q573nrc",
+      "publicationDate": "2025-12-03"
+    },
     {
       "id": "https://openalex.org/W4417462206",
       "title": "Adversarial Pursuits in Cislunar Space",
@@ -58,19 +74,19 @@
       "publicationDate": "2025-04-04"
     },
     {
-      "id": "https://openalex.org/W4412406063",
-      "title": "Testable Cyber Requirements for Space Flight Software",
-      "venue": "",
-      "year": 2025,
-      "url": "https://doi.org/10.1109/aero63441.2025.11068629",
-      "publicationDate": "2025-03-01"
-    },
-    {
       "id": "https://openalex.org/W4412405210",
       "title": "Space Cybersecurity Incident Response Framework: A Viasat Case Study",
       "venue": "",
       "year": 2025,
       "url": "https://doi.org/10.1109/aero63441.2025.11068784",
+      "publicationDate": "2025-03-01"
+    },
+    {
+      "id": "https://openalex.org/W4412406063",
+      "title": "Testable Cyber Requirements for Space Flight Software",
+      "venue": "",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/aero63441.2025.11068629",
       "publicationDate": "2025-03-01"
     },
     {
@@ -130,19 +146,19 @@
       "publicationDate": "2025-01-01"
     },
     {
-      "id": "https://openalex.org/W4408100223",
-      "title": "An On-Orbit Data Marketplace for Distributed Space Domain Awareness",
-      "venue": "IEEE Access",
-      "year": 2025,
-      "url": "https://doi.org/10.1109/access.2025.3547271",
-      "publicationDate": "2025-01-01"
-    },
-    {
       "id": "https://openalex.org/W4407207953",
       "title": "The MAGPIE: Satellite Autonomy for Uncooperative Environments",
       "venue": "Proceedings of the ... Annual Hawaii International Conference on System Sciences/Proceedings of the Annual Hawaii International Conference on System Sciences",
       "year": 2025,
       "url": "https://doi.org/10.24251/hicss.2025.870",
+      "publicationDate": "2025-01-01"
+    },
+    {
+      "id": "https://openalex.org/W4408100223",
+      "title": "An On-Orbit Data Marketplace for Distributed Space Domain Awareness",
+      "venue": "IEEE Access",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/access.2025.3547271",
       "publicationDate": "2025-01-01"
     },
     {
@@ -330,19 +346,19 @@
       "publicationDate": "2024-01-01"
     },
     {
-      "id": "https://openalex.org/W4387740901",
-      "title": "Satellite Cybersecurity Testbed to Improve Commercial Space Security",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.2514/6.2023-4768",
-      "publicationDate": "2023-10-17"
-    },
-    {
       "id": "https://openalex.org/W4387741293",
       "title": "Atmospheric Outposts Security: Attack Tree Analysis of High Altitude Air Platforms (HAPSs)",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.2514/6.2023-4800",
+      "publicationDate": "2023-10-17"
+    },
+    {
+      "id": "https://openalex.org/W4387740901",
+      "title": "Satellite Cybersecurity Testbed to Improve Commercial Space Security",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.2514/6.2023-4768",
       "publicationDate": "2023-10-17"
     },
     {
@@ -674,6 +690,14 @@
       "publicationDate": "2021-07-08"
     },
     {
+      "id": "https://openalex.org/W3185358349",
+      "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk Governance",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021,
+      "url": "https://doi.org/10.48550/arxiv.2107.14065",
+      "publicationDate": "2021-07-08"
+    },
+    {
       "id": "https://openalex.org/W4210863149",
       "title": "CubeSat Security Attack Tree Analysis",
       "venue": "",
@@ -688,14 +712,6 @@
       "year": 2021,
       "url": "https://doi.org/10.1109/ciss50987.2021.9400218",
       "publicationDate": "2021-03-24"
-    },
-    {
-      "id": "https://openalex.org/W3185358349",
-      "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk Governance",
-      "venue": "arXiv (Cornell University)",
-      "year": 2021,
-      "url": "https://doi.org/10.13140/rg.2.2.23475.55843",
-      "publicationDate": "2021-01-01"
     },
     {
       "id": "https://openalex.org/W3095256694",
