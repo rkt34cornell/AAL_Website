@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-01-12T12:25:22.525Z",
+  "updatedAt": "2026-01-19T12:25:31.458Z",
   "items": [
+    {
+      "id": "https://openalex.org/W7124136121",
+      "title": "Learning realistic lip motions for humanoid face robots",
+      "venue": "Science Robotics",
+      "year": 2026,
+      "url": "https://doi.org/10.1126/scirobotics.adx3017",
+      "publicationDate": "2026-01-14"
+    },
     {
       "id": "https://openalex.org/W7119233271",
       "title": "Out-of-Band Power Side-Channel Detection for Semiconductor Supply Chain Integrity at Scale",
