@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-19T12:25:31.458Z",
+  "updatedAt": "2026-02-02T12:33:19.651Z",
   "items": [
     {
       "id": "https://openalex.org/W7124136121",
@@ -10,11 +10,19 @@
       "publicationDate": "2026-01-14"
     },
     {
-      "id": "https://openalex.org/W7119233271",
+      "id": "https://openalex.org/W7126067550",
+      "title": "Cyber Resilient Attitude Determination and Control for Space Vehicles",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.2514/6.2026-1083",
+      "publicationDate": "2026-01-08"
+    },
+    {
+      "id": "https://openalex.org/W7119087140",
       "title": "Out-of-Band Power Side-Channel Detection for Semiconductor Supply Chain Integrity at Scale",
       "venue": "arXiv (Cornell University)",
       "year": 2026,
-      "url": "http://arxiv.org/abs/2601.01054",
+      "url": "https://doi.org/10.48550/arxiv.2601.01054",
       "publicationDate": "2026-01-03"
     },
     {
@@ -114,19 +122,11 @@
       "publicationDate": "2025-01-06"
     },
     {
-      "id": "https://openalex.org/W4407415382",
-      "title": "Withdrawn: QuickSAT/SHERLOCK, an AI Architecture for Vehicle Health Management, Fault Detection and Fault Management",
+      "id": "https://openalex.org/W4407414940",
+      "title": "A Meta-Analysis of Radio Frequency Interactions in the Ionosphere and Near-Earth Space",
       "venue": "",
       "year": 2025,
-      "url": "https://doi.org/10.2514/6.2025-2271",
-      "publicationDate": "2025-01-03"
-    },
-    {
-      "id": "https://openalex.org/W4407411290",
-      "title": "VHF Reconfigurable Intelligent Surfaces for Meteor Burst Communication",
-      "venue": "",
-      "year": 2025,
-      "url": "https://doi.org/10.2514/6.2025-2719",
+      "url": "https://doi.org/10.2514/6.2025-1604",
       "publicationDate": "2025-01-03"
     },
     {
@@ -138,19 +138,27 @@
       "publicationDate": "2025-01-03"
     },
     {
-      "id": "https://openalex.org/W4407414940",
-      "title": "A Meta-Analysis of Radio Frequency Interactions in the Ionosphere and Near-Earth Space",
+      "id": "https://openalex.org/W4407411290",
+      "title": "VHF Reconfigurable Intelligent Surfaces for Meteor Burst Communication",
       "venue": "",
       "year": 2025,
-      "url": "https://doi.org/10.2514/6.2025-1604",
+      "url": "https://doi.org/10.2514/6.2025-2719",
       "publicationDate": "2025-01-03"
     },
     {
-      "id": "https://openalex.org/W4416381411",
-      "title": "Hybrid Space and Submarine Architecture to Ensure Information Security of Telecommunications (HEIST)",
-      "venue": "IEEE Access",
+      "id": "https://openalex.org/W4407415382",
+      "title": "Withdrawn: QuickSAT/SHERLOCK, an AI Architecture for Vehicle Health Management, Fault Detection and Fault Management",
+      "venue": "",
       "year": 2025,
-      "url": "https://doi.org/10.1109/access.2025.3631359",
+      "url": "https://doi.org/10.2514/6.2025-2271",
+      "publicationDate": "2025-01-03"
+    },
+    {
+      "id": "https://openalex.org/W4413472477",
+      "title": "Securing Heterogeneous Network (HetNet) Communications for Wildfire Management: Mitigating the Effects of Adversarial and Environmental Threats",
+      "venue": "IEEE Journal of Radio Frequency Identification",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/jrfid.2025.3601843",
       "publicationDate": "2025-01-01"
     },
     {
@@ -162,14 +170,6 @@
       "publicationDate": "2025-01-01"
     },
     {
-      "id": "https://openalex.org/W4408100223",
-      "title": "An On-Orbit Data Marketplace for Distributed Space Domain Awareness",
-      "venue": "IEEE Access",
-      "year": 2025,
-      "url": "https://doi.org/10.1109/access.2025.3547271",
-      "publicationDate": "2025-01-01"
-    },
-    {
       "id": "https://openalex.org/W4407208611",
       "title": "Underwater Cyber Warfare: Submarine Communications Cables Architecture and Cybersecurity Analysis",
       "venue": "Proceedings of the ... Annual Hawaii International Conference on System Sciences/Proceedings of the Annual Hawaii International Conference on System Sciences",
@@ -178,11 +178,19 @@
       "publicationDate": "2025-01-01"
     },
     {
-      "id": "https://openalex.org/W4413472477",
-      "title": "Securing Heterogeneous Network (HetNet) Communications for Wildfire Management: Mitigating the Effects of Adversarial and Environmental Threats",
-      "venue": "IEEE Journal of Radio Frequency Identification",
+      "id": "https://openalex.org/W4416381411",
+      "title": "Hybrid Space and Submarine Architecture to Ensure Information Security of Telecommunications (HEIST)",
+      "venue": "IEEE Access",
       "year": 2025,
-      "url": "https://doi.org/10.1109/jrfid.2025.3601843",
+      "url": "https://doi.org/10.1109/access.2025.3631359",
+      "publicationDate": "2025-01-01"
+    },
+    {
+      "id": "https://openalex.org/W4408100223",
+      "title": "An On-Orbit Data Marketplace for Distributed Space Domain Awareness",
+      "venue": "IEEE Access",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/access.2025.3547271",
       "publicationDate": "2025-01-01"
     },
     {
@@ -354,19 +362,19 @@
       "publicationDate": "2024-01-01"
     },
     {
-      "id": "https://openalex.org/W4387741293",
-      "title": "Atmospheric Outposts Security: Attack Tree Analysis of High Altitude Air Platforms (HAPSs)",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.2514/6.2023-4800",
-      "publicationDate": "2023-10-17"
-    },
-    {
       "id": "https://openalex.org/W4387740901",
       "title": "Satellite Cybersecurity Testbed to Improve Commercial Space Security",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.2514/6.2023-4768",
+      "publicationDate": "2023-10-17"
+    },
+    {
+      "id": "https://openalex.org/W4387741293",
+      "title": "Atmospheric Outposts Security: Attack Tree Analysis of High Altitude Air Platforms (HAPSs)",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.2514/6.2023-4800",
       "publicationDate": "2023-10-17"
     },
     {
@@ -378,27 +386,11 @@
       "publicationDate": "2023-08-26"
     },
     {
-      "id": "https://openalex.org/W4385730179",
-      "title": "A Research Agenda for Space Flight Software Security",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/smc-it56444.2023.00016",
-      "publicationDate": "2023-07-01"
-    },
-    {
       "id": "https://openalex.org/W4385730252",
       "title": "WannaFly: An Approach to Satellite Ransomware",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
-      "publicationDate": "2023-07-01"
-    },
-    {
-      "id": "https://openalex.org/W4385730189",
-      "title": "How to Scrub a Launch: Spaceport Cybersecurity",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/smc-it56444.2023.00015",
       "publicationDate": "2023-07-01"
     },
     {
@@ -410,12 +402,20 @@
       "publicationDate": "2023-07-01"
     },
     {
-      "id": "https://openalex.org/W4385730883",
-      "title": "AI Forensics",
+      "id": "https://openalex.org/W4385730179",
+      "title": "A Research Agenda for Space Flight Software Security",
       "venue": "",
       "year": 2023,
-      "url": "https://doi.org/10.1109/icaa58325.2023.00023",
-      "publicationDate": "2023-06-01"
+      "url": "https://doi.org/10.1109/smc-it56444.2023.00016",
+      "publicationDate": "2023-07-01"
+    },
+    {
+      "id": "https://openalex.org/W4385730189",
+      "title": "How to Scrub a Launch: Spaceport Cybersecurity",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/smc-it56444.2023.00015",
+      "publicationDate": "2023-07-01"
     },
     {
       "id": "https://openalex.org/W4385730920",
@@ -423,6 +423,14 @@
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/icaa58325.2023.00024",
+      "publicationDate": "2023-06-01"
+    },
+    {
+      "id": "https://openalex.org/W4385730883",
+      "title": "AI Forensics",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/icaa58325.2023.00023",
       "publicationDate": "2023-06-01"
     },
     {
@@ -450,14 +458,6 @@
       "publicationDate": "2023-03-06"
     },
     {
-      "id": "https://openalex.org/W4376606435",
-      "title": "Slipping Through Attackers' Fingers: Fast Neutron Communications for Space Cybersecurity",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/aero55745.2023.10115666",
-      "publicationDate": "2023-03-04"
-    },
-    {
       "id": "https://openalex.org/W4376606366",
       "title": "Ground Station as a Service Reference Architectures and Cyber Security Attack Tree Analysis",
       "venue": "",
@@ -471,6 +471,14 @@
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/aero55745.2023.10115750",
+      "publicationDate": "2023-03-04"
+    },
+    {
+      "id": "https://openalex.org/W4376606435",
+      "title": "Slipping Through Attackers' Fingers: Fast Neutron Communications for Space Cybersecurity",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/aero55745.2023.10115666",
       "publicationDate": "2023-03-04"
     },
     {
@@ -514,11 +522,11 @@
       "publicationDate": "2022-10-15"
     },
     {
-      "id": "https://openalex.org/W4306316845",
-      "title": "Cybersecurity of On-Orbit Servicing, Assembly, and Manufacturing (OSAM) Systems",
+      "id": "https://openalex.org/W4306316817",
+      "title": "Building A Moat: Fortifying Satellite Software from Vulnerabilities",
       "venue": "ASCEND 2022",
       "year": 2022,
-      "url": "https://doi.org/10.2514/6.2022-4379",
+      "url": "https://doi.org/10.2514/6.2022-4329",
       "publicationDate": "2022-10-15"
     },
     {
@@ -530,14 +538,6 @@
       "publicationDate": "2022-10-15"
     },
     {
-      "id": "https://openalex.org/W4306316898",
-      "title": "Developing Scenarios Supporting Space-based IDS",
-      "venue": "ASCEND 2022",
-      "year": 2022,
-      "url": "https://doi.org/10.2514/6.2022-4219",
-      "publicationDate": "2022-10-15"
-    },
-    {
       "id": "https://openalex.org/W4306316753",
       "title": "Spacecraft Diagnostic Generation from Remote Sensing for OSAM Missions",
       "venue": "ASCEND 2022",
@@ -546,11 +546,19 @@
       "publicationDate": "2022-10-15"
     },
     {
-      "id": "https://openalex.org/W4306316817",
-      "title": "Building A Moat: Fortifying Satellite Software from Vulnerabilities",
+      "id": "https://openalex.org/W4306316898",
+      "title": "Developing Scenarios Supporting Space-based IDS",
       "venue": "ASCEND 2022",
       "year": 2022,
-      "url": "https://doi.org/10.2514/6.2022-4329",
+      "url": "https://doi.org/10.2514/6.2022-4219",
+      "publicationDate": "2022-10-15"
+    },
+    {
+      "id": "https://openalex.org/W4306316845",
+      "title": "Cybersecurity of On-Orbit Servicing, Assembly, and Manufacturing (OSAM) Systems",
+      "venue": "ASCEND 2022",
+      "year": 2022,
+      "url": "https://doi.org/10.2514/6.2022-4379",
       "publicationDate": "2022-10-15"
     },
     {
@@ -562,19 +570,19 @@
       "publicationDate": "2022-06-07"
     },
     {
-      "id": "https://openalex.org/W4299632624",
-      "title": "The Space Digital Dome: Autonomous Defense of Space Vehicles from Radio Frequency Interference",
-      "venue": "2022 IEEE Aerospace Conference (AERO)",
-      "year": 2022,
-      "url": "https://doi.org/10.1109/aero53065.2022.9843425",
-      "publicationDate": "2022-03-05"
-    },
-    {
       "id": "https://openalex.org/W4300932067",
       "title": "The Impact of Message Encryption on Teleoperation for Space Applications",
       "venue": "2022 IEEE Aerospace Conference (AERO)",
       "year": 2022,
       "url": "https://doi.org/10.1109/aero53065.2022.9843424",
+      "publicationDate": "2022-03-05"
+    },
+    {
+      "id": "https://openalex.org/W4299632624",
+      "title": "The Space Digital Dome: Autonomous Defense of Space Vehicles from Radio Frequency Interference",
+      "venue": "2022 IEEE Aerospace Conference (AERO)",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/aero53065.2022.9843425",
       "publicationDate": "2022-03-05"
     },
     {
