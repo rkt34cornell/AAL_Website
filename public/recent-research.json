@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-02T12:33:19.651Z",
+  "updatedAt": "2026-02-09T12:41:46.845Z",
   "items": [
     {
       "id": "https://openalex.org/W7124136121",
@@ -10,11 +10,27 @@
       "publicationDate": "2026-01-14"
     },
     {
+      "id": "https://openalex.org/W7127304236",
+      "title": "When to Compute in Space",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.2514/6.2026-2663",
+      "publicationDate": "2026-01-08"
+    },
+    {
       "id": "https://openalex.org/W7126067550",
       "title": "Cyber Resilient Attitude Determination and Control for Space Vehicles",
       "venue": "",
       "year": 2026,
       "url": "https://doi.org/10.2514/6.2026-1083",
+      "publicationDate": "2026-01-08"
+    },
+    {
+      "id": "https://openalex.org/W7127384414",
+      "title": "Adversarial Pursuits in Cislunar Space",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.2514/6.2026-2495",
       "publicationDate": "2026-01-08"
     },
     {
@@ -386,19 +402,19 @@
       "publicationDate": "2023-08-26"
     },
     {
-      "id": "https://openalex.org/W4385730252",
-      "title": "WannaFly: An Approach to Satellite Ransomware",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
-      "publicationDate": "2023-07-01"
-    },
-    {
       "id": "https://openalex.org/W4385730095",
       "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00021",
+      "publicationDate": "2023-07-01"
+    },
+    {
+      "id": "https://openalex.org/W4385730252",
+      "title": "WannaFly: An Approach to Satellite Ransomware",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
       "publicationDate": "2023-07-01"
     },
     {
@@ -636,7 +652,7 @@
     {
       "id": "https://openalex.org/W4393199208",
       "title": "“AI systems to ensure cyber security in space”",
-      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "venue": "",
       "year": 2022,
       "url": "https://hal.science/hal-04318104",
       "publicationDate": "2022-01-01"
@@ -700,15 +716,7 @@
     {
       "id": "https://openalex.org/W4287082730",
       "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk\\n Governance",
-      "venue": "arXiv (Cornell University)",
-      "year": 2021,
-      "url": "https://doi.org/10.48550/arxiv.2107.14065",
-      "publicationDate": "2021-07-08"
-    },
-    {
-      "id": "https://openalex.org/W3185358349",
-      "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk Governance",
-      "venue": "arXiv (Cornell University)",
+      "venue": "",
       "year": 2021,
       "url": "https://doi.org/10.48550/arxiv.2107.14065",
       "publicationDate": "2021-07-08"
@@ -728,6 +736,14 @@
       "year": 2021,
       "url": "https://doi.org/10.1109/ciss50987.2021.9400218",
       "publicationDate": "2021-03-24"
+    },
+    {
+      "id": "https://openalex.org/W3185358349",
+      "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk Governance",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021,
+      "url": "https://doi.org/10.13140/rg.2.2.23475.55843",
+      "publicationDate": "2021-01-01"
     },
     {
       "id": "https://openalex.org/W3095256694",
