@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-09T12:41:46.845Z",
+  "updatedAt": "2026-02-16T12:36:51.942Z",
   "items": [
     {
       "id": "https://openalex.org/W7124136121",
@@ -402,19 +402,19 @@
       "publicationDate": "2023-08-26"
     },
     {
-      "id": "https://openalex.org/W4385730095",
-      "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/smc-it56444.2023.00021",
-      "publicationDate": "2023-07-01"
-    },
-    {
       "id": "https://openalex.org/W4385730252",
       "title": "WannaFly: An Approach to Satellite Ransomware",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
+      "publicationDate": "2023-07-01"
+    },
+    {
+      "id": "https://openalex.org/W4385730095",
+      "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/smc-it56444.2023.00021",
       "publicationDate": "2023-07-01"
     },
     {
@@ -652,7 +652,7 @@
     {
       "id": "https://openalex.org/W4393199208",
       "title": "“AI systems to ensure cyber security in space”",
-      "venue": "",
+      "venue": "SPIRE - Sciences Po Institutional REpository",
       "year": 2022,
       "url": "https://hal.science/hal-04318104",
       "publicationDate": "2022-01-01"
@@ -716,7 +716,7 @@
     {
       "id": "https://openalex.org/W4287082730",
       "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk\\n Governance",
-      "venue": "",
+      "venue": "arXiv (Cornell University)",
       "year": 2021,
       "url": "https://doi.org/10.48550/arxiv.2107.14065",
       "publicationDate": "2021-07-08"
