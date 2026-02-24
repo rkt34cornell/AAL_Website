@@ -21,6 +21,7 @@ const jackey = jackeyHeadshot;
 const aidan = aidanHeadshot;
 const madison = madisonHeadshot;
 const katherine = katherineHeadshot;
+const luke = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1771956468/e7b139f8-8aeb-4d54-86d8-8ab8c67645b9_spyqz2";
 
 const varija = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271626/headshot_11_-_Varija_Mehta_codcbf.png";
 const jonathan = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/IMG_9238_-_Jonathan_Distler_haqgqu.jpg";
@@ -1309,6 +1310,40 @@ const Team = () => {
       <CardFooter className="pt-0">
         <Typography color="white" className="text-start text-dimWhite">
           Katherine Winton is an undergraduate in Cornell’s College of Arts & Science studying Computer Science with a minor in Policy Analysis & Management. She studies out-of-band supply chain screening mechanisms for aerospace and semiconductor components. Katie has co-authored multiple technical manuscripts pertaining to side-channel security.
+        </Typography>
+      </CardFooter>
+    </div>
+  </Card>
+
+  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+    <CardHeader floated={false}>
+      <img src={luke} alt="G. Luke Flores" className="h-[100%] w-[100%]" />
+    </CardHeader>
+    <CardBody className="flex flex-row items-center justify-between">
+      <div>
+        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+          G. Luke Flores
+        </Typography>
+        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
+          Undergraduate Student
+          <Tooltip content="LinkedIn">
+            <Typography as="a" href="https://www.linkedin.com/in/g-luke-flores-87ab013a7/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Typography>
+          </Tooltip>
+        </Typography>
+      </div>
+      <div>
+        <Typography onClick={() => { setIndex(18); }} className="cursor-pointer">
+          {selectedIndex == 18 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
+        </Typography>
+      </div>
+    </CardBody>
+    <div className={selectedIndex == 18 ? "block" : "hidden"}>
+      <CardFooter className="pt-0">
+        <Typography color="white" className="text-start text-dimWhite">
+          G. Luke Flores is a sophomore at IHS with research interests in semiconductor manufacturing and cybersecurity. At the Aerospace ADVERSARY Laboratory, Luke serves as a hardware technician and researcher, with expertise in operating side-channel exploitation and voltage fault injection platforms. His research explores the cyber-physical impacts of electromagnetic fault injection on aerospace components. Luke's technical manuscripts on automating semiconductor supply chain security screening with machine learning have been profiled in leading semiconductor industry publications, and he has provided technical guidance to the Amazon Web Services (AWS) System-on-a-Chip (SoC) Security Team.
         </Typography>
       </CardFooter>
     </div>
