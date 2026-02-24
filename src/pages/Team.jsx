@@ -1089,7 +1089,7 @@ const Team = () => {
           Laurence Lai
         </Typography>
         <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
-          Undergraduate Student
+          High School Student
           <Tooltip content="LinkedIn">
             <Typography as="a" href="https://www.linkedin.com/in/laurencemlai/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
@@ -1292,6 +1292,11 @@ const Team = () => {
               <FontAwesomeIcon icon={faLinkedin} />
             </Typography>
           </Tooltip>
+          <Tooltip content="Email">
+            <Typography as="a" href="mailto:glukeflores@gmail.com" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Typography>
+          </Tooltip>
         </Typography>
       </div>
       <div>
@@ -1304,7 +1309,7 @@ const Team = () => {
     <div className={selectedIndex == 18 ? "block" : "hidden"}>
       <CardFooter className="pt-0">
         <Typography color="white" className="text-start text-dimWhite">
-          G. Luke Flores is a sophomore at IHS with research interests in semiconductor manufacturing and cybersecurity. At the Aerospace ADVERSARY Laboratory, Luke serves as a hardware technician and researcher, with expertise in operating side-channel exploitation and voltage fault injection platforms. His research explores the cyber-physical impacts of electromagnetic fault injection on aerospace components. Luke's technical manuscripts on automating semiconductor supply chain security screening with machine learning have been profiled in leading semiconductor industry publications, and he has provided technical guidance to the Amazon Web Services (AWS) System-on-a-Chip (SoC) Security Team.
+          G. Luke Flores is a sophomore at IHS with research interests in semiconductor manufacturing and cybersecurity. At the Aerospace ADVERSARY Laboratory, Luke serves as a hardware technician and researcher, with expertise in operating side-channel exploitation and voltage fault injection platforms. His research explores the cyber-physical impacts of electromagnetic fault injection on aerospace components. Luke's technical manuscripts on automating semiconductor supply chain security screening with machine learning have been profiled in leading semiconductor industry publications. He has provided technical guidance to the Amazon Web Services (AWS) System-on-a-Chip (SoC) Security Team based on his research.
         </Typography>
       </CardFooter>
     </div>
