@@ -21,7 +21,7 @@ const jackey = jackeyHeadshot;
 const aidan = aidanHeadshot;
 const madison = madisonHeadshot;
 const katherine = katherineHeadshot;
-const luke = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1771956468/e7b139f8-8aeb-4d54-86d8-8ab8c67645b9_spyqz2";
+const luke = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1771973583/croppedgus_ezsash";
 
 const varija = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271626/headshot_11_-_Varija_Mehta_codcbf.png";
 const jonathan = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/IMG_9238_-_Jonathan_Distler_haqgqu.jpg";
