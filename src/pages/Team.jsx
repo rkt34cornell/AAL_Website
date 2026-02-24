@@ -3,12 +3,24 @@ import styles from "../style";
 import { Navbar, Footer, Bingo } from "../components";
 
 import greg from "../assets/gregory-falco22.png";
+import aidanHeadshot from "../assets/aidan-mulvey.jpg";
+import salHeadshot from "../assets/sal-ciminello.jpg";
+import jackeyHeadshot from "../assets/jackey-kong.jpeg";
+import madisonHeadshot from "../assets/madison-schaaff.jpeg";
+import katherineHeadshot from "../assets/katherine-winton.jpg";
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706424728/Boschetti_pic263_div8rv.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
 const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
 const jackson = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/jacksonHeadshot_qn0qm9.jpg";
 const anurag = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/AnuragHeadshot_r1ryyc.png";
 const john = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/johnHeadshot_wt8flk.jpg";
+const arjun = "https://drive.google.com/thumbnail?id=1xHzLCNJIIYYqTPFNmlFeseumX9IYV-H5&sz=w1000";
+const sal = salHeadshot;
+const gabrielle = "https://drive.google.com/thumbnail?id=1GjFs_yddaUySmjoFQZ2hGw1L6AglvPRT&sz=w1000";
+const jackey = jackeyHeadshot;
+const aidan = aidanHeadshot;
+const madison = madisonHeadshot;
+const katherine = katherineHeadshot;
 
 const varija = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271626/headshot_11_-_Varija_Mehta_codcbf.png";
 const jonathan = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/IMG_9238_-_Jonathan_Distler_haqgqu.jpg";
@@ -707,6 +719,358 @@ const Team = () => {
               </div>
             </Card>
 
+            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+              <CardHeader floated={false}>
+                <img
+                  className="h-[100%] w-[100%]"
+                  src={sal}
+                  alt="Salvatore Ciminello"
+                />
+              </CardHeader>
+              <CardBody className="flex flex-row items-center justify-between">
+                <div>
+                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+                    Salvatore Ciminello
+                  </Typography>
+                  <Typography
+                    color="white"
+                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
+                  >
+                    Early Master's Student
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/sal-ciminello/"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: stc92@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(8);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 8 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 8 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="white" className="text-start text-dimWhite">
+                    Sal Ciminello is an Early Master's student in Aerospace Engineering at Cornell University, where he is currently completing his BS in Mechanical Engineering (Spring 2026). His academic interests focus specifically on flight dynamics, controls, and autonomous engineering. At the Adversary Lab, Sal works with the integration, modeling, and testing of satellite platforms to model multi-degree-of-freedom satellites in constellation orbit.
+                  </Typography>
+                </CardFooter>
+              </div>
+            </Card>
+
+            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+              <CardHeader floated={false}>
+                <img
+                  className="h-[100%] w-[100%]"
+                  src={gabrielle}
+                  alt="Gabrielle Garra"
+                />
+              </CardHeader>
+              <CardBody className="flex flex-row items-center justify-between">
+                <div>
+                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+                    Gabrielle Garra
+                  </Typography>
+                  <Typography
+                    color="white"
+                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
+                  >
+                    Early M.Eng. Student
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/gabrielle-garra"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: gmg96@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(9);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 9 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 9 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="white" className="text-start text-dimWhite">
+                    Gabrielle Garra is a senior Mechanical Engineering student at Cornell University and an early M.Eng. student in Aerospace Engineering with interests in spacecraft systems and mechanical design. In the Aerospace Adversary Lab, she works on the design and manufacturing team for a constellation satellite project, contributing to mechanical design, CAD, prototyping, and hardware integration.
+                  </Typography>
+                </CardFooter>
+              </div>
+            </Card>
+
+            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+              <CardHeader floated={false}>
+                <img
+                  className="h-[100%] w-[100%]"
+                  src={aidan}
+                  alt="Aidan Mulvey"
+                />
+              </CardHeader>
+              <CardBody className="flex flex-row items-center justify-between">
+                <div>
+                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+                    Aidan Mulvey
+                  </Typography>
+                  <Typography
+                    color="white"
+                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
+                  >
+                    M.Eng. Candidate
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/aidan-mulvey/"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: ajm486@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(10);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 10 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 10 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="white" className="text-start text-dimWhite">
+                    Aidan Mulvey is pursuing a Master of Engineering in Aerospace Engineering after graduating with a Bachelor of Science in Mechanical Engineering at Cornell University. At the Aerospace ADVERSARY Lab, he is working on modeling and evaluating cybersecurity vulnerabilities in satellite constellations.
+                  </Typography>
+                </CardFooter>
+              </div>
+            </Card>
+
+            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+              <CardHeader floated={false}>
+                <img
+                  className="h-[100%] w-[100%]"
+                  src={madison}
+                  alt="Madison Schaaff"
+                />
+              </CardHeader>
+              <CardBody className="flex flex-row items-center justify-between">
+                <div>
+                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+                    Madison Schaaff
+                  </Typography>
+                  <Typography
+                    color="white"
+                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
+                  >
+                    M.Eng. Candidate
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/madison-schaaff/"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: mrs425@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(14);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 14 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 14 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="white" className="text-start text-dimWhite">
+                    Madison Schaaff is pursuing a Master of Engineering in Aerospace Engineering at Cornell University after earning her B.S. in Mechanical Engineering. Her academic work focuses on design, manufacturing, and controls with applications to high-performance aerospace systems. Her project experience includes thermal system modeling, manufacturing processes and operations, and structural analysis. Madison’s interests center on advanced manufacturing, defense systems, and next-generation aerospace technologies.
+                  </Typography>
+                </CardFooter>
+              </div>
+            </Card>
+
           </div>
           <h2 className="font-poppins font-normal text-white text-[28px] text-center w-full mt-10">
             Undergraduate Students
@@ -828,6 +1192,123 @@ const Team = () => {
       <CardFooter className="pt-0">
         <Typography color="white" className="text-start text-dimWhite">
           My name is Jonathan Distler. I am a sophomore studying Mechanical Engineering at the College of Engineering. I'm currently working on the Magpie project as a part of Mr. Mehlman's research group. For the project, I'm trying to develop a controllable attitude for a drone simulation, so that our prototype can be tested virtually before running real-world tests.
+        </Typography>
+      </CardFooter>
+    </div>
+  </Card>
+
+  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+    <CardHeader floated={false}>
+      <img src={arjun} alt="Arjun Mulchandani" className="h-[100%] w-[100%]" />
+    </CardHeader>
+    <CardBody className="flex flex-row items-center justify-between">
+      <div>
+        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+          Arjun Mulchandani
+        </Typography>
+        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
+          Undergraduate Student
+          <Tooltip content="LinkedIn">
+            <Typography as="a" href="https://www.linkedin.com/in/arjunbmulchandani/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Typography>
+          </Tooltip>
+          <Tooltip content="Email">
+            <Typography as="a" href="mailto:abm254@cornell.edu" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Typography>
+          </Tooltip>
+        </Typography>
+      </div>
+      <div>
+        <Typography onClick={() => { setIndex(15); }} className="cursor-pointer">
+          {selectedIndex == 15 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
+        </Typography>
+      </div>
+    </CardBody>
+    <div className={selectedIndex == 15 ? "block" : "hidden"}>
+      <CardFooter className="pt-0">
+        <Typography color="white" className="text-start text-dimWhite">
+          I’m a Cornell University student studying Information Science and an undergraduate researcher in Cornell’s Drone Adversary Lab, with additional work on NSF AI-MI, Kids Teach Tech (a technology education nonprofit I founded and run), and early work at OpenDefense. I build and deploy full-stack software systems across a wide range of languages and open-source tools. I’ve received the Presidential Lifetime Volunteer Service Award, competed at the Tournament of Champions in International Extemporaneous Speaking, and earned other national and regional awards.
+        </Typography>
+      </CardFooter>
+    </div>
+  </Card>
+
+  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+    <CardHeader floated={false}>
+      <img src={jackey} alt="Jackey Kong" className="h-[100%] w-[100%]" />
+    </CardHeader>
+    <CardBody className="flex flex-row items-center justify-between">
+      <div>
+        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+          Jackey Kong
+        </Typography>
+        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
+          Undergraduate Student
+          <Tooltip content="LinkedIn">
+            <Typography as="a" href="https://www.linkedin.com/in/jackey-kong?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Typography>
+          </Tooltip>
+          <Tooltip content="Email">
+            <Typography as="a" href="mailto:jk2963@cornell.edu" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Typography>
+          </Tooltip>
+        </Typography>
+      </div>
+      <div>
+        <Typography onClick={() => { setIndex(16); }} className="cursor-pointer">
+          {selectedIndex == 16 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
+        </Typography>
+      </div>
+    </CardBody>
+    <div className={selectedIndex == 16 ? "block" : "hidden"}>
+      <CardFooter className="pt-0">
+        <Typography color="white" className="text-start text-dimWhite">
+          Jackey Kong is an undergraduate freshmen pursuing a B.S in Mechanical Engineering with a minor in Aerospace and Business. Prior to attending Cornell, he spent the past 5 years working on aircrafts to earn his Federal Aviation Administration mechanics licenses.
+        </Typography>
+      </CardFooter>
+    </div>
+  </Card>
+
+  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+    <CardHeader floated={false}>
+      <img src={katherine} alt="Katherine Winton" className="h-[100%] w-[100%]" />
+    </CardHeader>
+    <CardBody className="flex flex-row items-center justify-between">
+      <div>
+        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+          Katherine Winton
+        </Typography>
+        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
+          Undergraduate Student
+          <Tooltip content="LinkedIn">
+            <Typography as="a" href="https://www.linkedin.com/in/katherine-winton/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Typography>
+          </Tooltip>
+          <Tooltip content="Email">
+            <Typography as="a" href="mailto:kgw45@cornell.edu" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Typography>
+          </Tooltip>
+        </Typography>
+      </div>
+      <div>
+        <Typography onClick={() => { setIndex(17); }} className="cursor-pointer">
+          {selectedIndex == 17 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
+        </Typography>
+      </div>
+    </CardBody>
+    <div className={selectedIndex == 17 ? "block" : "hidden"}>
+      <CardFooter className="pt-0">
+        <Typography color="white" className="text-start text-dimWhite">
+          Katherine Winton is an undergraduate in Cornell’s College of Arts & Science studying Computer Science with a minor in Policy Analysis & Management. She studies out-of-band supply chain screening mechanisms for aerospace and semiconductor components. Katie has co-authored multiple technical manuscripts pertaining to side-channel security.
         </Typography>
       </CardFooter>
     </div>
