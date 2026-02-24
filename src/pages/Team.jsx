@@ -1089,7 +1089,7 @@ const Team = () => {
           Laurence Lai
         </Typography>
         <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
-          High School Student
+          Undergraduate Student
           <Tooltip content="LinkedIn">
             <Typography as="a" href="https://www.linkedin.com/in/laurencemlai/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
@@ -1286,7 +1286,7 @@ const Team = () => {
           G. Luke Flores
         </Typography>
         <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
-          Undergraduate Student
+          High School Student
           <Tooltip content="LinkedIn">
             <Typography as="a" href="https://www.linkedin.com/in/g-luke-flores-87ab013a7/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
