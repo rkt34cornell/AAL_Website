@@ -14,7 +14,7 @@ const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt
 const jackson = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/jacksonHeadshot_qn0qm9.jpg";
 const anurag = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/AnuragHeadshot_r1ryyc.png";
 const john = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/johnHeadshot_wt8flk.jpg";
-const arjun = "https://drive.google.com/thumbnail?id=1xHzLCNJIIYYqTPFNmlFeseumX9IYV-H5&sz=w1000";
+const arjun = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1771899114/IMG_5988_-_Arjun_Mulchandani_vzb0js";
 const sal = salHeadshot;
 const gabrielle = "https://drive.google.com/thumbnail?id=1GjFs_yddaUySmjoFQZ2hGw1L6AglvPRT&sz=w1000";
 const jackey = jackeyHeadshot;
