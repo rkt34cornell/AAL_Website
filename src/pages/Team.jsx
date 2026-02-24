@@ -1309,7 +1309,7 @@ const Team = () => {
     <div className={selectedIndex == 18 ? "block" : "hidden"}>
       <CardFooter className="pt-0">
         <Typography color="white" className="text-start text-dimWhite">
-          G. Luke Flores is a sophomore at IHS with research interests in semiconductor manufacturing and cybersecurity. At the Aerospace ADVERSARY Laboratory, Luke serves as a hardware technician and researcher, with expertise in operating side-channel exploitation and voltage fault injection platforms. His research explores the cyber-physical impacts of electromagnetic fault injection on aerospace components. Luke's technical manuscripts on automating semiconductor supply chain security screening with machine learning have been profiled in leading semiconductor industry publications. He has provided technical guidance to the Amazon Web Services (AWS) System-on-a-Chip (SoC) Security Team based on his research.
+          G. Luke Flores is a sophomore at IHS with research interests in semiconductor manufacturing and cybersecurity. At the Aerospace ADVERSARY Laboratory, Luke serves as a hardware technician and researcher, with expertise in operating side-channel exploitation and voltage fault injection platforms. His research explores the cyber-physical impacts of electromagnetic attacks on aerospace components. Luke's technical manuscripts on automating semiconductor supply chain security screening with machine learning have been profiled in leading semiconductor industry publications. He has provided technical guidance to the Amazon Web Services (AWS) System-on-a-Chip (SoC) Security Team based on his research.
         </Typography>
       </CardFooter>
     </div>
