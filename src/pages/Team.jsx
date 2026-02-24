@@ -1118,46 +1118,6 @@ const Team = () => {
     </div>
   </Card>
 
-  {/* Varija Mehta - Sophomore */}
-  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
-    <CardHeader floated={false}>
-      <img src={varija} alt="Varija Mehta" className="h-[100%] w-[100%]" />
-    </CardHeader>
-    <CardBody className="flex flex-row items-center justify-between">
-      <div>
-        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
-          Varija Mehta
-        </Typography>
-        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
-          Undergraduate Student
-          <Tooltip content="LinkedIn">
-            <Typography as="a" href="https://www.linkedin.com/in/varija-mehta/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Email">
-            <Typography as="a" href="mailto:vvm26@cornell.edu" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Typography>
-          </Tooltip>
-        </Typography>
-      </div>
-      <div>
-        <Typography onClick={() => { setIndex(12); }} className="cursor-pointer">
-          {selectedIndex == 12 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
-          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
-        </Typography>
-      </div>
-    </CardBody>
-    <div className={selectedIndex == 12 ? "block" : "hidden"}>
-      <CardFooter className="pt-0">
-        <Typography color="white" className="text-start text-dimWhite">
-          Varija Mehta is currently a sophomore pursuing a Bachelor's in Computer Science at Cornell University. As a student researcher at the Aerospace ADVERSARY Lab, Varija is researching the security of space systems and consolidating security principles to be used by organizations like the IEEE. Her research interests lie in national security and threat intelligence topics.
-        </Typography>
-      </CardFooter>
-    </div>
-  </Card>
-
   {/* Jonathan Distler - Sophomore */}
   <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
     <CardHeader floated={false}>
@@ -1310,6 +1270,46 @@ const Team = () => {
       <CardFooter className="pt-0">
         <Typography color="white" className="text-start text-dimWhite">
           G. Luke Flores is a sophomore at IHS with research interests in semiconductor manufacturing and cybersecurity. At the Aerospace ADVERSARY Laboratory, Luke serves as a hardware technician and researcher, with expertise in operating side-channel exploitation and voltage fault injection platforms. His research explores the cyber-physical impacts of electromagnetic attacks on aerospace components. Luke's technical manuscripts on automating semiconductor supply chain security screening with machine learning have been profiled in leading semiconductor industry publications. He has provided technical guidance to the Amazon Web Services (AWS) System-on-a-Chip (SoC) Security Team based on his research.
+        </Typography>
+      </CardFooter>
+    </div>
+  </Card>
+
+  {/* Varija Mehta - Sophomore */}
+  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+    <CardHeader floated={false}>
+      <img src={varija} alt="Varija Mehta" className="h-[100%] w-[100%]" />
+    </CardHeader>
+    <CardBody className="flex flex-row items-center justify-between">
+      <div>
+        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+          Varija Mehta
+        </Typography>
+        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
+          Undergraduate Student
+          <Tooltip content="LinkedIn">
+            <Typography as="a" href="https://www.linkedin.com/in/varija-mehta/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Typography>
+          </Tooltip>
+          <Tooltip content="Email">
+            <Typography as="a" href="mailto:vvm26@cornell.edu" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Typography>
+          </Tooltip>
+        </Typography>
+      </div>
+      <div>
+        <Typography onClick={() => { setIndex(12); }} className="cursor-pointer">
+          {selectedIndex == 12 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
+        </Typography>
+      </div>
+    </CardBody>
+    <div className={selectedIndex == 12 ? "block" : "hidden"}>
+      <CardFooter className="pt-0">
+        <Typography color="white" className="text-start text-dimWhite">
+          Varija Mehta is currently a sophomore pursuing a Bachelor's in Computer Science at Cornell University. As a student researcher at the Aerospace ADVERSARY Lab, Varija is researching the security of space systems and consolidating security principles to be used by organizations like the IEEE. Her research interests lie in national security and threat intelligence topics.
         </Typography>
       </CardFooter>
     </div>
