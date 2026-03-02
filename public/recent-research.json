@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-23T12:37:40.123Z",
+  "updatedAt": "2026-03-02T12:32:59.957Z",
   "items": [
     {
       "id": "https://openalex.org/W7124136121",
@@ -402,19 +402,19 @@
       "publicationDate": "2023-08-26"
     },
     {
-      "id": "https://openalex.org/W4385730252",
-      "title": "WannaFly: An Approach to Satellite Ransomware",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
-      "publicationDate": "2023-07-01"
-    },
-    {
       "id": "https://openalex.org/W4385730095",
       "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00021",
+      "publicationDate": "2023-07-01"
+    },
+    {
+      "id": "https://openalex.org/W4385730252",
+      "title": "WannaFly: An Approach to Satellite Ransomware",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
       "publicationDate": "2023-07-01"
     },
     {
