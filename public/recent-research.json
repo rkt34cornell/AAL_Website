@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-02T12:32:59.957Z",
+  "updatedAt": "2026-03-09T12:35:29.580Z",
   "items": [
     {
       "id": "https://openalex.org/W7124136121",
@@ -50,9 +50,17 @@
       "publicationDate": "2025-12-03"
     },
     {
+      "id": "https://openalex.org/W7133347056",
+      "title": "Space-Based Fog Computing Across LEO and MEO Constellations for On-Orbit Hypersonic Detection and Space Domain Awareness",
+      "venue": "",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/tps-isa67132.2025.00058",
+      "publicationDate": "2025-11-12"
+    },
+    {
       "id": "https://openalex.org/W4417462206",
       "title": "Adversarial Pursuits in Cislunar Space",
-      "venue": "arXiv (Cornell University)",
+      "venue": "ArXiv.org",
       "year": 2025,
       "url": "https://doi.org/10.48550/arxiv.2509.20330",
       "publicationDate": "2025-09-24"
@@ -100,7 +108,7 @@
     {
       "id": "https://openalex.org/W4416125124",
       "title": "I Can Hear You Coming: RF Sensing for Uncooperative Satellite Evasion",
-      "venue": "arXiv (Cornell University)",
+      "venue": "ArXiv.org",
       "year": 2025,
       "url": "https://doi.org/10.48550/arxiv.2504.03983",
       "publicationDate": "2025-04-04"
