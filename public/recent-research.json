@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-03-09T12:35:29.580Z",
+  "updatedAt": "2026-03-16T12:44:08.786Z",
   "items": [
+    {
+      "id": "https://openalex.org/W7134245007",
+      "title": "Situational Awareness for Proactive Rerouting: Enhancing Resilience in Submarine Communication Cables",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.57767/jobs_2026_003",
+      "publicationDate": "2026-03-03"
+    },
     {
       "id": "https://openalex.org/W7124136121",
       "title": "Learning realistic lip motions for humanoid face robots",
