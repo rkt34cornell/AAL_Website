@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T13:03:34.476Z",
+  "updatedAt": "2026-04-27T13:15:24.890Z",
   "items": [
     {
       "id": "https://openalex.org/W7148508973",
@@ -259,7 +259,7 @@
     },
     {
       "id": "https://openalex.org/W4403795727",
-      "title": "Cat-and-Mouse Satellite Dynamics: Divergent Adversarial Reinforcement Learning for Contested Multi-Agent Space Operations",
+      "title": "Satellite Chasers: Divergent Adversarial Reinforcement Learning to Engage Intelligent Adversaries on Orbit",
       "venue": "arXiv (Cornell University)",
       "year": 2024,
       "url": "https://doi.org/10.48550/arxiv.2409.17443",
@@ -426,19 +426,19 @@
       "publicationDate": "2023-08-26"
     },
     {
-      "id": "https://openalex.org/W4385730095",
-      "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/smc-it56444.2023.00021",
-      "publicationDate": "2023-07-01"
-    },
-    {
       "id": "https://openalex.org/W4385730252",
       "title": "WannaFly: An Approach to Satellite Ransomware",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
+      "publicationDate": "2023-07-01"
+    },
+    {
+      "id": "https://openalex.org/W4385730095",
+      "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/smc-it56444.2023.00021",
       "publicationDate": "2023-07-01"
     },
     {
