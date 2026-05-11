@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-05-04T13:19:51.004Z",
+  "updatedAt": "2026-05-11T14:22:57.098Z",
   "items": [
+    {
+      "id": "https://openalex.org/W7154284521",
+      "title": "Security of Emerging Satellite Mega-Constellations",
+      "venue": "IEEE RESOURCE CENTERS",
+      "year": 2026,
+      "url": "https://doi.org/10.17023/9k20-ax35",
+      "publicationDate": "2026-04-14"
+    },
     {
       "id": "https://openalex.org/W7148508973",
       "title": "Efficient and Robust Marketplace Platforms for Heterogeneous On-Orbit Networks",
@@ -56,6 +64,14 @@
       "year": 2026,
       "url": "https://doi.org/10.48550/arxiv.2601.01054",
       "publicationDate": "2026-01-03"
+    },
+    {
+      "id": "https://openalex.org/W7117078624",
+      "title": "When to compute in space",
+      "venue": "ArXiv.org",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2512.17054",
+      "publicationDate": "2025-12-18"
     },
     {
       "id": "https://openalex.org/W7118299873",
@@ -676,7 +692,7 @@
     {
       "id": "https://openalex.org/W4393199208",
       "title": "“AI systems to ensure cyber security in space”",
-      "venue": "SPIRE - Sciences Po Institutional REpository",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
       "year": 2022,
       "url": "https://hal.science/hal-04318104",
       "publicationDate": "2022-01-01"
@@ -928,6 +944,14 @@
       "year": 2018,
       "url": "http://hdl.handle.net/1721.1/118226",
       "publicationDate": "2018-01-01"
+    },
+    {
+      "id": "https://openalex.org/W2886757804",
+      "title": "Drawing together approaches and experiences in the Italian coastal research: the new challenges of RITMARE Project",
+      "venue": "The EGU General Assembly",
+      "year": 2017,
+      "url": "https://arts.units.it/bitstream/11368/2928153/1/2017_poster%20EGU_EGU2017-16122-1.pdf",
+      "publicationDate": "2017-04-01"
     },
     {
       "id": "https://openalex.org/W2610032766",
