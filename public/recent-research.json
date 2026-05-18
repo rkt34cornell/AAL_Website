@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T14:22:57.098Z",
+  "updatedAt": "2026-05-18T14:51:26.261Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -64,6 +64,14 @@
       "year": 2026,
       "url": "https://doi.org/10.48550/arxiv.2601.01054",
       "publicationDate": "2026-01-03"
+    },
+    {
+      "id": "https://openalex.org/W7161302643",
+      "title": "Space hacktivism and the Russo–Ukrainian war: an open source space security analysis",
+      "venue": "Journal of Cybersecurity",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/cybsec/tyag013",
+      "publicationDate": "2026-01-01"
     },
     {
       "id": "https://openalex.org/W7117078624",
