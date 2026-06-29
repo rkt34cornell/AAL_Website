@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T16:25:20.187Z",
+  "updatedAt": "2026-06-29T15:26:49.923Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -42,19 +42,19 @@
       "publicationDate": "2026-01-08"
     },
     {
-      "id": "https://openalex.org/W7126067550",
-      "title": "Cyber Resilient Attitude Determination and Control for Space Vehicles",
-      "venue": "",
-      "year": 2026,
-      "url": "https://doi.org/10.2514/6.2026-1083",
-      "publicationDate": "2026-01-08"
-    },
-    {
       "id": "https://openalex.org/W7127384414",
       "title": "Adversarial Pursuits in Cislunar Space",
       "venue": "",
       "year": 2026,
       "url": "https://doi.org/10.2514/6.2026-2495",
+      "publicationDate": "2026-01-08"
+    },
+    {
+      "id": "https://openalex.org/W7126067550",
+      "title": "Cyber Resilient Attitude Determination and Control for Space Vehicles",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.2514/6.2026-1083",
       "publicationDate": "2026-01-08"
     },
     {
