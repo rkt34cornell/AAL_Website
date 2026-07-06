@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T15:26:49.923Z",
+  "updatedAt": "2026-07-06T14:54:34.825Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -76,7 +76,7 @@
     {
       "id": "https://openalex.org/W7117078624",
       "title": "When to compute in space",
-      "venue": "ArXiv.org",
+      "venue": "arXiv (Cornell University)",
       "year": 2025,
       "url": "http://arxiv.org/abs/2512.17054",
       "publicationDate": "2025-12-18"
@@ -100,7 +100,7 @@
     {
       "id": "https://openalex.org/W4417462206",
       "title": "Adversarial Pursuits in Cislunar Space",
-      "venue": "ArXiv.org",
+      "venue": "arXiv (Cornell University)",
       "year": 2025,
       "url": "https://doi.org/10.48550/arxiv.2509.20330",
       "publicationDate": "2025-09-24"
@@ -148,7 +148,7 @@
     {
       "id": "https://openalex.org/W4416125124",
       "title": "I Can Hear You Coming: RF Sensing for Uncooperative Satellite Evasion",
-      "venue": "ArXiv.org",
+      "venue": "arXiv (Cornell University)",
       "year": 2025,
       "url": "https://doi.org/10.48550/arxiv.2504.03983",
       "publicationDate": "2025-04-04"
