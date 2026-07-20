@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T14:00:44.166Z",
+  "updatedAt": "2026-07-20T13:45:15.991Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -570,6 +570,14 @@
       "publicationDate": "2023-01-01"
     },
     {
+      "id": "https://openalex.org/W4367591757",
+      "title": "Modelling the Impact of Space Situational Awareness Disruption on the European and Arctic Security Landscape",
+      "venue": "Lecture notes in computer science",
+      "year": 2023,
+      "url": "https://doi.org/10.1007/978-3-031-31268-7_18",
+      "publicationDate": "2023-01-01"
+    },
+    {
       "id": "https://openalex.org/W4317928091",
       "title": "Commercial Space Risk Framework Assessing the Satellite Ground Station Security Landscape for NATO in the Arctic and High North",
       "venue": "MILCOM 2022 - 2022 IEEE Military Communications Conference (MILCOM)",
@@ -674,11 +682,27 @@
       "publicationDate": "2022-01-06"
     },
     {
+      "id": "https://openalex.org/W4398776293",
+      "title": "Preface",
+      "venue": "",
+      "year": 2022,
+      "url": "https://doi.org/10.1093/oso/9780197526545.002.0005",
+      "publicationDate": "2022-01-06"
+    },
+    {
       "id": "https://openalex.org/W4398789914",
       "title": "Notes",
       "venue": "",
       "year": 2022,
       "url": "https://doi.org/10.1093/oso/9780197526545.002.0007",
+      "publicationDate": "2022-01-06"
+    },
+    {
+      "id": "https://openalex.org/W4398766630",
+      "title": "Dedication",
+      "venue": "",
+      "year": 2022,
+      "url": "https://doi.org/10.1093/oso/9780197526545.002.0006",
       "publicationDate": "2022-01-06"
     },
     {
