@@ -69,7 +69,7 @@ const Hero = () => {
               />
             </div>
             <p className={`${styles.paragraph} max-w-[800px] text-center fade-in`}>
-              The Aerospace Adversary Laboratory at Cornell University designs and develops the next-generation of space defense technology. The lab is particularly interested in developing national security offensive and defensive technical capabilities for space systems and understanding their ethical and policy implications.
+              The Aerospace Adversary Laboratory designs and develops the next-generation of space defense technology. The lab is particularly interested in developing national security offensive and defensive technical capabilities for space systems and understanding their ethical and policy implications.
             </p>
             <div className="w-full max-w-[900px] mt-6 sm:mt-10">
               <div className="relative w-full pb-[56.25%]">
