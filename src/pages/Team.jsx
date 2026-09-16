@@ -12,7 +12,6 @@ const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706424728/Bo
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
 const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
 const jackson = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/jacksonHeadshot_qn0qm9.jpg";
-const anurag = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/AnuragHeadshot_r1ryyc.png";
 const john = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/johnHeadshot_wt8flk.jpg";
 const arjun = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1771899114/IMG_5988_-_Arjun_Mulchandani_vzb0js";
 const sal = salHeadshot;
@@ -548,94 +547,6 @@ const Team = () => {
                 <CardFooter className="pt-0">
                   <Typography color="white" className="text-start text-dimWhite">
                     Jackson is a first year PhD student who came to Cornell to study satellite constellation design. He graduated from Princeton University with a Bachelor's in Mechanical and Aerospace Engineering and from Johns Hopkins University with a Master's in Space System Engineering. He spent 5 years working in the Aerospace and Defense Industry, focusing on mission level analysis. He is interested in identifying new ways to improve the efficacy of current and future constellations for humanitarian aid and national security.
-                  </Typography>
-                </CardFooter>
-              </div>
-            </Card>
-
-            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
-              <CardHeader floated={false}>
-                <img
-                  className="h-[100%] w-[100%]"
-                  src={anurag}
-                  alt="Anurag Koyyada"
-                />
-              </CardHeader>
-              <CardBody className="flex flex-row items-center justify-between">
-                <div>
-                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
-                    Anurag Koyyada
-                  </Typography>
-                  <Typography
-                    color="white"
-                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
-                  >
-                    J.D. Candidate
-                    <Tooltip content="LinkedIn">
-                      <Typography
-                        as="a"
-                        href="https://www.linkedin.com/in/anu-koy/"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="Email">
-                      <Typography
-                        as="a"
-                        href="mailto: ak2542@cornell.edu"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faEnvelope} />
-                      </Typography>
-                    </Tooltip>
-                  </Typography>
-                </div>
-                <div>
-                  <Typography
-                    onClick={() => {
-                      setIndex(6);
-                    }}
-                    className="cursor-pointer"
-                  >
-                    {selectedIndex == 6 ? (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                        />
-                      </svg>
-                    ) : (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                      </svg>
-                    )}
-                  </Typography>
-                </div>
-              </CardBody>
-              <div className={selectedIndex == 6 ? "block" : "hidden"}>
-                <CardFooter className="pt-0">
-                  <Typography color="white" className="text-start text-dimWhite">
-                    Anurag Koyyada enjoys designing new technologies and creatively interpreting rules. He is pursuing a J.D. at Cornell Law School and is a graduate researcher in the Aerospace ADVERSARY Lab. Anurag is also a Lloyd N. Cutler Fellow in International Law at the Salzburg Seminar and a Reppy Fellow at the Judith Reppy Institute for Peace and Conflict Studies. He is currently developing a hybrid space architecture for NATO’s HEIST project and researching the cybersecurity of remote sensing space systems. Anurag has previously worked with the U.S. Department of Defense (DIU/NSIN), Stargate Project (SoftBank), Flock Safety, SynMax, and Chatham House. He did his undergraduate studies at King’s College London and grew up in the San Francisco Bay Area.
                   </Typography>
                 </CardFooter>
               </div>
@@ -1363,6 +1274,9 @@ const Team = () => {
               <p className="font-poppins font-normal text-white text-[18px]">
                 Dr. Nathaniel Gordon '25 -{" "}
                 <em>Efficient and Robust Marketplace Platforms for Heterogenous On-Orbit Networks</em>
+              </p>
+              <p className="font-poppins font-normal text-white text-[18px] mt-2">
+                Anurag Koyyada
               </p>
             </div>
           </div>
