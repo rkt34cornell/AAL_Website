@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T13:45:15.991Z",
+  "updatedAt": "2026-09-16T21:51:16.804Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -20,7 +20,7 @@
     {
       "id": "https://openalex.org/W7134245007",
       "title": "Situational Awareness for Proactive Rerouting: Enhancing Resilience in Submarine Communication Cables",
-      "venue": "Open MIND",
+      "venue": "Journal on Baltic Security./Journal on Baltic security",
       "year": 2026,
       "url": "https://doi.org/10.57767/jobs_2026_003",
       "publicationDate": "2026-03-03"
@@ -32,6 +32,14 @@
       "year": 2026,
       "url": "https://doi.org/10.1126/scirobotics.adx3017",
       "publicationDate": "2026-01-14"
+    },
+    {
+      "id": "https://openalex.org/W7126067550",
+      "title": "Cyber Resilient Attitude Determination and Control for Space Vehicles",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.2514/6.2026-1083",
+      "publicationDate": "2026-01-08"
     },
     {
       "id": "https://openalex.org/W7127304236",
@@ -47,14 +55,6 @@
       "venue": "",
       "year": 2026,
       "url": "https://doi.org/10.2514/6.2026-2495",
-      "publicationDate": "2026-01-08"
-    },
-    {
-      "id": "https://openalex.org/W7126067550",
-      "title": "Cyber Resilient Attitude Determination and Control for Space Vehicles",
-      "venue": "",
-      "year": 2026,
-      "url": "https://doi.org/10.2514/6.2026-1083",
       "publicationDate": "2026-01-08"
     },
     {
@@ -74,11 +74,19 @@
       "publicationDate": "2026-01-01"
     },
     {
-      "id": "https://openalex.org/W7117078624",
+      "id": "https://openalex.org/W7172251133",
+      "title": "Why is Space Cybersecurity Unique?",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.14722/spacesec.2026.23055",
+      "publicationDate": "2026-01-01"
+    },
+    {
+      "id": "https://openalex.org/W7116986016",
       "title": "When to compute in space",
       "venue": "arXiv (Cornell University)",
       "year": 2025,
-      "url": "http://arxiv.org/abs/2512.17054",
+      "url": "https://doi.org/10.48550/arxiv.2512.17054",
       "publicationDate": "2025-12-18"
     },
     {
@@ -186,14 +194,6 @@
       "publicationDate": "2025-01-06"
     },
     {
-      "id": "https://openalex.org/W4407414940",
-      "title": "A Meta-Analysis of Radio Frequency Interactions in the Ionosphere and Near-Earth Space",
-      "venue": "",
-      "year": 2025,
-      "url": "https://doi.org/10.2514/6.2025-1604",
-      "publicationDate": "2025-01-03"
-    },
-    {
       "id": "https://openalex.org/W4407411135",
       "title": "Star Tracker Attacks and Defenses",
       "venue": "",
@@ -210,20 +210,20 @@
       "publicationDate": "2025-01-03"
     },
     {
+      "id": "https://openalex.org/W4407414940",
+      "title": "A Meta-Analysis of Radio Frequency Interactions in the Ionosphere and Near-Earth Space",
+      "venue": "",
+      "year": 2025,
+      "url": "https://doi.org/10.2514/6.2025-1604",
+      "publicationDate": "2025-01-03"
+    },
+    {
       "id": "https://openalex.org/W4407415382",
       "title": "Withdrawn: QuickSAT/SHERLOCK, an AI Architecture for Vehicle Health Management, Fault Detection and Fault Management",
       "venue": "",
       "year": 2025,
       "url": "https://doi.org/10.2514/6.2025-2271",
       "publicationDate": "2025-01-03"
-    },
-    {
-      "id": "https://openalex.org/W4413472477",
-      "title": "Securing Heterogeneous Network (HetNet) Communications for Wildfire Management: Mitigating the Effects of Adversarial and Environmental Threats",
-      "venue": "IEEE Journal of Radio Frequency Identification",
-      "year": 2025,
-      "url": "https://doi.org/10.1109/jrfid.2025.3601843",
-      "publicationDate": "2025-01-01"
     },
     {
       "id": "https://openalex.org/W4407207953",
@@ -242,19 +242,27 @@
       "publicationDate": "2025-01-01"
     },
     {
-      "id": "https://openalex.org/W4416381411",
-      "title": "Hybrid Space and Submarine Architecture to Ensure Information Security of Telecommunications (HEIST)",
-      "venue": "IEEE Access",
-      "year": 2025,
-      "url": "https://doi.org/10.1109/access.2025.3631359",
-      "publicationDate": "2025-01-01"
-    },
-    {
       "id": "https://openalex.org/W4408100223",
       "title": "An On-Orbit Data Marketplace for Distributed Space Domain Awareness",
       "venue": "IEEE Access",
       "year": 2025,
       "url": "https://doi.org/10.1109/access.2025.3547271",
+      "publicationDate": "2025-01-01"
+    },
+    {
+      "id": "https://openalex.org/W4413472477",
+      "title": "Securing Heterogeneous Network (HetNet) Communications for Wildfire Management: Mitigating the Effects of Adversarial and Environmental Threats",
+      "venue": "IEEE Journal of Radio Frequency Identification",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/jrfid.2025.3601843",
+      "publicationDate": "2025-01-01"
+    },
+    {
+      "id": "https://openalex.org/W4416381411",
+      "title": "Hybrid Space and Submarine Architecture to Ensure Information Security of Telecommunications (HEIST)",
+      "venue": "IEEE Access",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/access.2025.3631359",
       "publicationDate": "2025-01-01"
     },
     {
@@ -298,11 +306,11 @@
       "publicationDate": "2024-07-27"
     },
     {
-      "id": "https://openalex.org/W4405601621",
-      "title": "Minimum Requirements for Space System Cybersecurity - Ensuring Cyber Access to Space",
+      "id": "https://openalex.org/W4405601425",
+      "title": "Emerging Threats of AI-Integration in Space User Segment: A Reference Architecture and Attack Tree Analysis",
       "venue": "",
       "year": 2024,
-      "url": "https://doi.org/10.1109/smc-it61443.2024.00016",
+      "url": "https://doi.org/10.1109/smc-it61443.2024.00011",
       "publicationDate": "2024-07-15"
     },
     {
@@ -314,11 +322,11 @@
       "publicationDate": "2024-07-15"
     },
     {
-      "id": "https://openalex.org/W4405601425",
-      "title": "Emerging Threats of AI-Integration in Space User Segment: A Reference Architecture and Attack Tree Analysis",
+      "id": "https://openalex.org/W4405601621",
+      "title": "Minimum Requirements for Space System Cybersecurity - Ensuring Cyber Access to Space",
       "venue": "",
       "year": 2024,
-      "url": "https://doi.org/10.1109/smc-it61443.2024.00011",
+      "url": "https://doi.org/10.1109/smc-it61443.2024.00016",
       "publicationDate": "2024-07-15"
     },
     {
@@ -402,19 +410,19 @@
       "publicationDate": "2024-03-02"
     },
     {
-      "id": "https://openalex.org/W4391303005",
-      "title": "Hacktivism Goes Orbital: Investigating NB65's Breach of ROSCOSMOS",
-      "venue": "",
-      "year": 2024,
-      "url": "https://doi.org/10.2514/6.2024-0268",
-      "publicationDate": "2024-01-04"
-    },
-    {
       "id": "https://openalex.org/W4391302954",
       "title": "A Hosted Payload Cyber Attack Against Satellites",
       "venue": "",
       "year": 2024,
       "url": "https://doi.org/10.2514/6.2024-0270",
+      "publicationDate": "2024-01-04"
+    },
+    {
+      "id": "https://openalex.org/W4391303005",
+      "title": "Hacktivism Goes Orbital: Investigating NB65's Breach of ROSCOSMOS",
+      "venue": "",
+      "year": 2024,
+      "url": "https://doi.org/10.2514/6.2024-0268",
       "publicationDate": "2024-01-04"
     },
     {
@@ -450,14 +458,6 @@
       "publicationDate": "2023-08-26"
     },
     {
-      "id": "https://openalex.org/W4385730252",
-      "title": "WannaFly: An Approach to Satellite Ransomware",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
-      "publicationDate": "2023-07-01"
-    },
-    {
       "id": "https://openalex.org/W4385730095",
       "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
       "venue": "",
@@ -482,12 +482,12 @@
       "publicationDate": "2023-07-01"
     },
     {
-      "id": "https://openalex.org/W4385730920",
-      "title": "Space Booby Traps: Hacking Back and Assured Cyber Deterrence in Space",
+      "id": "https://openalex.org/W4385730252",
+      "title": "WannaFly: An Approach to Satellite Ransomware",
       "venue": "",
       "year": 2023,
-      "url": "https://doi.org/10.1109/icaa58325.2023.00024",
-      "publicationDate": "2023-06-01"
+      "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
+      "publicationDate": "2023-07-01"
     },
     {
       "id": "https://openalex.org/W4385730883",
@@ -495,6 +495,14 @@
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/icaa58325.2023.00023",
+      "publicationDate": "2023-06-01"
+    },
+    {
+      "id": "https://openalex.org/W4385730920",
+      "title": "Space Booby Traps: Hacking Back and Assured Cyber Deterrence in Space",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/icaa58325.2023.00024",
       "publicationDate": "2023-06-01"
     },
     {
@@ -530,19 +538,19 @@
       "publicationDate": "2023-03-04"
     },
     {
-      "id": "https://openalex.org/W4376606549",
-      "title": "Cybersecurity and Human Spaceflight Safety",
-      "venue": "",
-      "year": 2023,
-      "url": "https://doi.org/10.1109/aero55745.2023.10115750",
-      "publicationDate": "2023-03-04"
-    },
-    {
       "id": "https://openalex.org/W4376606435",
       "title": "Slipping Through Attackers' Fingers: Fast Neutron Communications for Space Cybersecurity",
       "venue": "",
       "year": 2023,
       "url": "https://doi.org/10.1109/aero55745.2023.10115666",
+      "publicationDate": "2023-03-04"
+    },
+    {
+      "id": "https://openalex.org/W4376606549",
+      "title": "Cybersecurity and Human Spaceflight Safety",
+      "venue": "",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/aero55745.2023.10115750",
       "publicationDate": "2023-03-04"
     },
     {
@@ -586,11 +594,11 @@
       "publicationDate": "2022-11-28"
     },
     {
-      "id": "https://openalex.org/W4306316827",
-      "title": "Space Cybersecurity Lessons Learned from the ViaSat Cyberattack",
+      "id": "https://openalex.org/W4306316753",
+      "title": "Spacecraft Diagnostic Generation from Remote Sensing for OSAM Missions",
       "venue": "ASCEND 2022",
       "year": 2022,
-      "url": "https://doi.org/10.2514/6.2022-4380",
+      "url": "https://doi.org/10.2514/6.2022-4330",
       "publicationDate": "2022-10-15"
     },
     {
@@ -602,27 +610,11 @@
       "publicationDate": "2022-10-15"
     },
     {
-      "id": "https://openalex.org/W4306316875",
-      "title": "An International Technical Standard for Commercial Space System Cybersecurity - A Call to Action",
+      "id": "https://openalex.org/W4306316827",
+      "title": "Space Cybersecurity Lessons Learned from the ViaSat Cyberattack",
       "venue": "ASCEND 2022",
       "year": 2022,
-      "url": "https://doi.org/10.2514/6.2022-4302",
-      "publicationDate": "2022-10-15"
-    },
-    {
-      "id": "https://openalex.org/W4306316753",
-      "title": "Spacecraft Diagnostic Generation from Remote Sensing for OSAM Missions",
-      "venue": "ASCEND 2022",
-      "year": 2022,
-      "url": "https://doi.org/10.2514/6.2022-4330",
-      "publicationDate": "2022-10-15"
-    },
-    {
-      "id": "https://openalex.org/W4306316898",
-      "title": "Developing Scenarios Supporting Space-based IDS",
-      "venue": "ASCEND 2022",
-      "year": 2022,
-      "url": "https://doi.org/10.2514/6.2022-4219",
+      "url": "https://doi.org/10.2514/6.2022-4380",
       "publicationDate": "2022-10-15"
     },
     {
@@ -634,20 +626,28 @@
       "publicationDate": "2022-10-15"
     },
     {
+      "id": "https://openalex.org/W4306316875",
+      "title": "An International Technical Standard for Commercial Space System Cybersecurity - A Call to Action",
+      "venue": "ASCEND 2022",
+      "year": 2022,
+      "url": "https://doi.org/10.2514/6.2022-4302",
+      "publicationDate": "2022-10-15"
+    },
+    {
+      "id": "https://openalex.org/W4306316898",
+      "title": "Developing Scenarios Supporting Space-based IDS",
+      "venue": "ASCEND 2022",
+      "year": 2022,
+      "url": "https://doi.org/10.2514/6.2022-4219",
+      "publicationDate": "2022-10-15"
+    },
+    {
       "id": "https://openalex.org/W4283271269",
       "title": "Space Cognitive Communications: Characterizing Radiofrequency Interference to Improve Digital Space Domain Awareness",
       "venue": "",
       "year": 2022,
       "url": "https://doi.org/10.1109/icl-gnss54081.2022.9797033",
       "publicationDate": "2022-06-07"
-    },
-    {
-      "id": "https://openalex.org/W4300932067",
-      "title": "The Impact of Message Encryption on Teleoperation for Space Applications",
-      "venue": "2022 IEEE Aerospace Conference (AERO)",
-      "year": 2022,
-      "url": "https://doi.org/10.1109/aero53065.2022.9843424",
-      "publicationDate": "2022-03-05"
     },
     {
       "id": "https://openalex.org/W4299632624",
@@ -658,12 +658,12 @@
       "publicationDate": "2022-03-05"
     },
     {
-      "id": "https://openalex.org/W4281769634",
-      "title": "Robustness Assurance Quotient: Demonstrating Context Matters for AI Performance and ML Security",
-      "venue": "",
+      "id": "https://openalex.org/W4300932067",
+      "title": "The Impact of Message Encryption on Teleoperation for Space Applications",
+      "venue": "2022 IEEE Aerospace Conference (AERO)",
       "year": 2022,
-      "url": "https://doi.org/10.1109/icaa52185.2022.00012",
-      "publicationDate": "2022-03-01"
+      "url": "https://doi.org/10.1109/aero53065.2022.9843424",
+      "publicationDate": "2022-03-05"
     },
     {
       "id": "https://openalex.org/W4229336085",
@@ -674,11 +674,19 @@
       "publicationDate": "2022-03-01"
     },
     {
-      "id": "https://openalex.org/W4398789913",
-      "title": "Copyright Page",
+      "id": "https://openalex.org/W4281769634",
+      "title": "Robustness Assurance Quotient: Demonstrating Context Matters for AI Performance and ML Security",
       "venue": "",
       "year": 2022,
-      "url": "https://doi.org/10.1093/oso/9780197526545.002.0003",
+      "url": "https://doi.org/10.1109/icaa52185.2022.00012",
+      "publicationDate": "2022-03-01"
+    },
+    {
+      "id": "https://openalex.org/W4398766630",
+      "title": "Dedication",
+      "venue": "",
+      "year": 2022,
+      "url": "https://doi.org/10.1093/oso/9780197526545.002.0006",
       "publicationDate": "2022-01-06"
     },
     {
@@ -690,19 +698,19 @@
       "publicationDate": "2022-01-06"
     },
     {
+      "id": "https://openalex.org/W4398789913",
+      "title": "Copyright Page",
+      "venue": "",
+      "year": 2022,
+      "url": "https://doi.org/10.1093/oso/9780197526545.002.0003",
+      "publicationDate": "2022-01-06"
+    },
+    {
       "id": "https://openalex.org/W4398789914",
       "title": "Notes",
       "venue": "",
       "year": 2022,
       "url": "https://doi.org/10.1093/oso/9780197526545.002.0007",
-      "publicationDate": "2022-01-06"
-    },
-    {
-      "id": "https://openalex.org/W4398766630",
-      "title": "Dedication",
-      "venue": "",
-      "year": 2022,
-      "url": "https://doi.org/10.1093/oso/9780197526545.002.0006",
       "publicationDate": "2022-01-06"
     },
     {
@@ -771,7 +779,7 @@
     },
     {
       "id": "https://openalex.org/W3203477062",
-      "title": "A Stress Testing Framework For Autonomous System Verification And Validation (V&amp;V)",
+      "title": "A Stress Testing Framework For Autonomous System Verification And Validation (V&V)",
       "venue": "",
       "year": 2021,
       "url": "https://doi.org/10.1109/icas49788.2021.9551154",
@@ -858,19 +866,19 @@
       "publicationDate": "2020-02-13"
     },
     {
-      "id": "https://openalex.org/W4287870119",
-      "title": "A Distributed `Black Box' Audit Trail Design Specification for Connected\\n and Automated Vehicle Data and Software Assurance",
-      "venue": "arXiv (Cornell University)",
-      "year": 2020,
-      "url": "https://doi.org/10.48550/arxiv.2002.02780",
-      "publicationDate": "2020-02-07"
-    },
-    {
       "id": "https://openalex.org/W3005399509",
       "title": "Assuring Automotive Data and Software Integrity Employing Distributed Hash Tables and Blockchain",
       "venue": "arXiv (Cornell University)",
       "year": 2020,
       "url": "https://arxiv.org/abs/2002.02780",
+      "publicationDate": "2020-02-07"
+    },
+    {
+      "id": "https://openalex.org/W4287870119",
+      "title": "A Distributed `Black Box' Audit Trail Design Specification for Connected\\n and Automated Vehicle Data and Software Assurance",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020,
+      "url": "https://doi.org/10.48550/arxiv.2002.02780",
       "publicationDate": "2020-02-07"
     },
     {
@@ -994,19 +1002,19 @@
       "publicationDate": "2017-01-01"
     },
     {
-      "id": "https://openalex.org/W2338453537",
-      "title": "City Resilience through Data Analytics: A Human-centric Approach",
-      "venue": "Procedia Engineering",
-      "year": 2015,
-      "url": "https://doi.org/10.1016/j.proeng.2015.08.542",
-      "publicationDate": "2015-01-01"
-    },
-    {
       "id": "https://openalex.org/W2190447243",
       "title": "Water Microgrids: The Future of Water Infrastructure Resilience",
       "venue": "Procedia Engineering",
       "year": 2015,
       "url": "https://doi.org/10.1016/j.proeng.2015.08.403",
+      "publicationDate": "2015-01-01"
+    },
+    {
+      "id": "https://openalex.org/W2338453537",
+      "title": "City Resilience through Data Analytics: A Human-centric Approach",
+      "venue": "Procedia Engineering",
+      "year": 2015,
+      "url": "https://doi.org/10.1016/j.proeng.2015.08.542",
       "publicationDate": "2015-01-01"
     }
   ]
