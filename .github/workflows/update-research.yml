@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update-research:
@@ -27,7 +28,9 @@ jobs:
       - name: Fetch OpenAlex works
         run: node scripts/fetch-openalex.mjs
 
-      - name: Commit updates
+      - name: Commit updates and deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if git status --porcelain | grep -q "public/recent-research.json"; then
             git config user.name "github-actions[bot]"
@@ -35,6 +38,9 @@ jobs:
             git add public/recent-research.json
             git commit -m "Update recent research feed"
             git push
+            # Pushes made with GITHUB_TOKEN don't trigger other workflows,
+            # but workflow_dispatch does, so start the Pages deploy explicitly.
+            gh workflow run deploy.yml --ref main
           else
             echo "No changes to commit."
           fi
