@@ -39,8 +39,7 @@
     "react-tsparticles": "^2.6.0",
     "react-world-map": "^2.4.0",
     "tailwind-scrollbar": "^3.0.0",
-    "tsparticles": "^2.6.0",
-    "tsparticles-path-curves": "^2.6.0"
+    "tsparticles": "^2.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.4",
