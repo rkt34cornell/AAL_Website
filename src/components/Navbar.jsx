@@ -5,15 +5,13 @@ import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
 import { navLinks } from '../constants'; // Ensure this matches your project structure
 
-const cornelllogo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706427526/Cornell-University-Logo_2_dlzgvp.png";
-
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className="w-full flex justify-between items-center navbar z-30 relative">
       <Link to="/" className="ml-2 font-poppins font-normal cursor-pointer text-[14px] text-white">
-        <img src={cornelllogo} alt="Logo" className="w-[210px] h-[120px]" />
+        <img src={logo} alt="Aerospace Adversary Lab" className="w-[210px] h-[120px] object-contain" />
       </Link>
       <ul className="list-none sm:flex hidden items-center flex-1 justify-end">
         {navLinks.map((nav, index) => (
