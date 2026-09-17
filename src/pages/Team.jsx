@@ -1276,7 +1276,7 @@ const Team = () => {
                 <em>Efficient and Robust Marketplace Platforms for Heterogenous On-Orbit Networks</em>
               </p>
               <p className="font-poppins font-normal text-white text-[18px] mt-2">
-                Anurag Koyyada
+                Anurag Koyyada, J.D.
               </p>
             </div>
           </div>
