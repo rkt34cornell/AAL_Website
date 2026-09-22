@@ -24,9 +24,10 @@ const LaserCursor = () => {
     let frame = 0;
 
     const render = () => {
-      // Ease the glow toward the pointer so fast movement smears the beam.
-      glowX += (pointerX - glowX) * 0.18;
-      glowY += (pointerY - glowY) * 0.18;
+      // Ease the glow toward the pointer — just enough lag to soften fast
+      // movement without the halo visibly lagging behind the core.
+      glowX += (pointerX - glowX) * 0.55;
+      glowY += (pointerY - glowY) * 0.55;
       core.style.transform = `translate3d(${pointerX}px, ${pointerY}px, 0) translate(-50%, -50%)`;
       glow.style.transform = `translate3d(${glowX}px, ${glowY}px, 0) translate(-50%, -50%)`;
       frame = window.requestAnimationFrame(render);
