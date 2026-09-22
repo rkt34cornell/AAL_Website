@@ -10,6 +10,7 @@ import GroundStationProject from "./pages/GroundStationProject";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import LegacyProjects from "./pages/LegacyProjects"; // Add this line
+import LaserCursor from "./components/LaserCursor";
 import Present2024 from "./pages/Present2024"; // Add this line
 
 // ... other imports
@@ -50,7 +51,9 @@ function App() {
   }, []);
 
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <>
+      <LaserCursor />
+      <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/projects" element={<ProjectsPage />} />
@@ -63,8 +66,9 @@ function App() {
         <Route exact path="/legacy-projects" element={<LegacyProjects />} /> // Add this line
         <Route exact path="/2024-present" element={<Present2024 />} /> // Add this line
         <Route path="*" element={<Error />} />
-      </Routes>
-    </Router>
+        </Routes>
+      </Router>
+    </>
   );
 }
 

@@ -316,16 +316,103 @@ select {
   font-weight: bold;
 }
 
-/* Laser pointer cursor — "Laser Pointers" set by Biker (rw-designer.com), public domain */
-html,
-body {
-  cursor: url("/cursors/laser-pointer.png") 31 0, auto;
+/* ---- Laser pointer cursor -------------------------------------------------
+   The system cursor is hidden only once the JS component mounts, so anyone
+   without JS keeps a normal pointer. */
+.laser-cursor-active,
+.laser-cursor-active * {
+  cursor: none;
 }
 
-/* Tailwind's cursor-pointer utility applies to clickable elements, so keep the laser there too */
-.cursor-pointer,
-a,
-button,
-[role="button"] {
-  cursor: url("/cursors/laser-pointer.png") 31 0, pointer;
+.laser-cursor__core,
+.laser-cursor__glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+  pointer-events: none;
+  will-change: transform;
+  opacity: 1;
+  transition: opacity 180ms ease, width 140ms ease, height 140ms ease;
+}
+
+/* Hot white centre with a red bloom — the actual pointing spot. */
+.laser-cursor__core {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 0%, #ffe3e4 35%, #ed1c24 70%, rgba(237, 28, 36, 0) 100%);
+  box-shadow: 0 0 6px 2px rgba(237, 28, 36, 0.9), 0 0 16px 6px rgba(237, 28, 36, 0.45);
+}
+
+/* Soft halo that trails the core and breathes. */
+.laser-cursor__glow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(237, 28, 36, 0.42) 0%, rgba(237, 28, 36, 0.16) 45%, rgba(237, 28, 36, 0) 72%);
+  filter: blur(1px);
+  mix-blend-mode: screen;
+  animation: laser-cursor-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes laser-cursor-pulse {
+  0%,
+  100% {
+    opacity: 0.75;
+    scale: 1;
+  }
+  50% {
+    opacity: 1;
+    scale: 1.28;
+  }
+}
+
+/* Over links and buttons the beam widens and burns brighter. */
+.laser-cursor-hot .laser-cursor__core {
+  width: 12px;
+  height: 12px;
+  box-shadow: 0 0 10px 3px rgba(237, 28, 36, 1), 0 0 26px 10px rgba(237, 28, 36, 0.55);
+}
+
+.laser-cursor-hot .laser-cursor__glow {
+  width: 62px;
+  height: 62px;
+}
+
+/* Clicking fires the laser: a brief tight flare. */
+.laser-cursor-firing .laser-cursor__core {
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 14px 5px rgba(255, 255, 255, 0.9), 0 0 34px 14px rgba(237, 28, 36, 0.7);
+}
+
+.laser-cursor-firing .laser-cursor__glow {
+  width: 78px;
+  height: 78px;
+}
+
+/* Pointer left the window. */
+.laser-cursor-hidden .laser-cursor__core,
+.laser-cursor-hidden .laser-cursor__glow {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .laser-cursor__glow {
+    animation: none;
+  }
+}
+
+/* Touch and coarse pointers keep the normal cursor entirely. */
+@media (hover: none), (pointer: coarse) {
+  .laser-cursor-active,
+  .laser-cursor-active * {
+    cursor: auto;
+  }
+
+  .laser-cursor__core,
+  .laser-cursor__glow {
+    display: none;
+  }
 }
