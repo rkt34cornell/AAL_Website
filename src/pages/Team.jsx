@@ -1231,7 +1231,7 @@ const Team = () => {
             </h2>
             <div className="mt-6 text-center">
               <p className="font-poppins font-normal text-white text-[18px]">
-                Dr. Nathaniel Gordon '25 -{" "}
+                Nathaniel Gordon, PhD '25 -{" "}
                 <em>Efficient and Robust Marketplace Platforms for Heterogenous On-Orbit Networks</em>
               </p>
               <p className="font-poppins font-normal text-white text-[18px] mt-2">
