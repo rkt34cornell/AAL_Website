@@ -1,10 +1,9 @@
 import { useEffect, useRef } from "react";
 
-// Draws a laser-pointer dot that follows the pointer. The core tracks the
-// pointer exactly so clicks stay predictable; the glow trails slightly behind.
+// Draws a laser-pointer dot that tracks the pointer exactly, so the spot it
+// lands on is the spot that gets clicked.
 const LaserCursor = () => {
   const coreRef = useRef(null);
-  const glowRef = useRef(null);
 
   useEffect(() => {
     const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
@@ -13,23 +12,15 @@ const LaserCursor = () => {
     }
 
     const core = coreRef.current;
-    const glow = glowRef.current;
     const root = document.documentElement;
     root.classList.add("laser-cursor-active");
 
     let pointerX = window.innerWidth / 2;
     let pointerY = window.innerHeight / 2;
-    let glowX = pointerX;
-    let glowY = pointerY;
     let frame = 0;
 
     const render = () => {
-      // Ease the glow toward the pointer — just enough lag to soften fast
-      // movement without the halo visibly lagging behind the core.
-      glowX += (pointerX - glowX) * 0.55;
-      glowY += (pointerY - glowY) * 0.55;
       core.style.transform = `translate3d(${pointerX}px, ${pointerY}px, 0) translate(-50%, -50%)`;
-      glow.style.transform = `translate3d(${glowX}px, ${glowY}px, 0) translate(-50%, -50%)`;
       frame = window.requestAnimationFrame(render);
     };
     frame = window.requestAnimationFrame(render);
@@ -70,10 +61,7 @@ const LaserCursor = () => {
   }, []);
 
   return (
-    <div aria-hidden="true">
-      <div ref={glowRef} className="laser-cursor__glow" />
-      <div ref={coreRef} className="laser-cursor__core" />
-    </div>
+    <div ref={coreRef} className="laser-cursor__core" aria-hidden="true" />
   );
 };
 

@@ -324,47 +324,29 @@ select {
   cursor: none;
 }
 
-.laser-cursor__core,
-.laser-cursor__glow {
+/* Hot white centre with a red bloom — the actual pointing spot. */
+.laser-cursor__core {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2147483647;
-  pointer-events: none;
-  will-change: transform;
-  opacity: 1;
-  transition: opacity 180ms ease, width 140ms ease, height 140ms ease;
-}
-
-/* Hot white centre with a red bloom — the actual pointing spot. */
-.laser-cursor__core {
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
   background: radial-gradient(circle, #ffffff 0%, #ffe3e4 35%, #ed1c24 70%, rgba(237, 28, 36, 0) 100%);
-  box-shadow: 0 0 6px 2px rgba(237, 28, 36, 0.9), 0 0 16px 6px rgba(237, 28, 36, 0.45);
+  animation: laser-cursor-burn 1.6s ease-in-out infinite;
+  transition: opacity 180ms ease, width 140ms ease, height 140ms ease;
 }
 
-/* Soft halo that trails the core and breathes. */
-.laser-cursor__glow {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(237, 28, 36, 0.42) 0%, rgba(237, 28, 36, 0.16) 45%, rgba(237, 28, 36, 0) 72%);
-  filter: blur(1px);
-  mix-blend-mode: screen;
-  animation: laser-cursor-pulse 1.6s ease-in-out infinite;
-}
-
-@keyframes laser-cursor-pulse {
+@keyframes laser-cursor-burn {
   0%,
   100% {
-    opacity: 0.75;
-    scale: 1;
+    box-shadow: 0 0 5px 2px rgba(237, 28, 36, 0.85), 0 0 12px 4px rgba(237, 28, 36, 0.35);
   }
   50% {
-    opacity: 1;
-    scale: 1.28;
+    box-shadow: 0 0 8px 3px rgba(237, 28, 36, 1), 0 0 18px 7px rgba(237, 28, 36, 0.5);
   }
 }
 
@@ -372,34 +354,25 @@ select {
 .laser-cursor-hot .laser-cursor__core {
   width: 12px;
   height: 12px;
-  box-shadow: 0 0 10px 3px rgba(237, 28, 36, 1), 0 0 26px 10px rgba(237, 28, 36, 0.55);
-}
-
-.laser-cursor-hot .laser-cursor__glow {
-  width: 62px;
-  height: 62px;
+  animation: none;
+  box-shadow: 0 0 10px 3px rgba(237, 28, 36, 1), 0 0 22px 8px rgba(237, 28, 36, 0.5);
 }
 
 /* Clicking fires the laser: a brief tight flare. */
 .laser-cursor-firing .laser-cursor__core {
   width: 16px;
   height: 16px;
-  box-shadow: 0 0 14px 5px rgba(255, 255, 255, 0.9), 0 0 34px 14px rgba(237, 28, 36, 0.7);
-}
-
-.laser-cursor-firing .laser-cursor__glow {
-  width: 78px;
-  height: 78px;
+  animation: none;
+  box-shadow: 0 0 14px 5px rgba(255, 255, 255, 0.9), 0 0 30px 12px rgba(237, 28, 36, 0.65);
 }
 
 /* Pointer left the window. */
-.laser-cursor-hidden .laser-cursor__core,
-.laser-cursor-hidden .laser-cursor__glow {
+.laser-cursor-hidden .laser-cursor__core {
   opacity: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .laser-cursor__glow {
+  .laser-cursor__core {
     animation: none;
   }
 }
@@ -411,8 +384,7 @@ select {
     cursor: auto;
   }
 
-  .laser-cursor__core,
-  .laser-cursor__glow {
+  .laser-cursor__core {
     display: none;
   }
 }
