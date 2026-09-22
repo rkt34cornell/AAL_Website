@@ -15,20 +15,9 @@ const Contact = () => {
                     lab's work.
                   </p>
           <div className="mt-12 flex flex-col items-center gap-6">
-            <div className="text-center">
-              <h4 className="text-secondary mb-1 text-xl font-normal">
-                Our Location
-              </h4>
-              <p className="text-white text-base">
-                124 Hoy Rd, Ithaca, NY 14850
-              </p>
-            </div>
-            <div className="text-center">
-              <h4 className="text-secondary mb-1 text-xl font-normal">
-                Email Address
-              </h4>
-              <p className="text-white text-base">gfalco@cornell.edu</p>
-            </div>
+            <p className="text-white text-base text-center">
+              Please contact gfalco@cornell.edu
+            </p>
           </div>
           <Footer />
         </div>
