@@ -315,3 +315,17 @@ select {
   text-align: center;
   font-weight: bold;
 }
+
+/* Laser pointer cursor — "Laser Pointers" set by Biker (rw-designer.com), public domain */
+html,
+body {
+  cursor: url("/cursors/laser-pointer.png") 31 0, auto;
+}
+
+/* Tailwind's cursor-pointer utility applies to clickable elements, so keep the laser there too */
+.cursor-pointer,
+a,
+button,
+[role="button"] {
+  cursor: url("/cursors/laser-pointer.png") 31 0, pointer;
+}
