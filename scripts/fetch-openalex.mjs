@@ -8,6 +8,7 @@ const ORCIDS = [
   { name: "Cameron Mehlman", orcid: "0000-0003-2385-3631" },
   { name: "Jackson Artis", orcid: "0009-0009-3578-6529" },
   { name: "John Miller", orcid: "0009-0006-4649-4052" },
+  { name: "Nathaniel Gordon", orcid: "0000-0003-3787-1478" },
 ];
 
 const MAILTO = "aerospaceadversarylab@gmail.com";

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T20:29:08.652Z",
+  "updatedAt": "2026-09-22T20:36:42.320Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -8,6 +8,14 @@
       "year": 2026,
       "url": "https://doi.org/10.17023/9k20-ax35",
       "publicationDate": "2026-04-14"
+    },
+    {
+      "id": "https://openalex.org/W7148508973",
+      "title": "Efficient and Robust Marketplace Platforms for Heterogeneous On-Orbit Networks",
+      "venue": "eCommons (Cornell University)",
+      "year": 2026,
+      "url": "https://doi.org/10.7298/djj8-pq63",
+      "publicationDate": "2026-04-02"
     },
     {
       "id": "https://openalex.org/W7134245007",
