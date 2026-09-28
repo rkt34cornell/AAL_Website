@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T20:36:42.320Z",
+  "updatedAt": "2026-09-28T18:53:43.322Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -130,6 +130,14 @@
       "publicationDate": "2025-09-08"
     },
     {
+      "id": "https://openalex.org/W4416812693",
+      "title": "Mission aware cyber safe mode for spacecraft",
+      "venue": "",
+      "year": 2025,
+      "url": "https://doi.org/10.2172/3005460",
+      "publicationDate": "2025-09-01"
+    },
+    {
       "id": "https://openalex.org/W4413029491",
       "title": "On the Role of Communications for Space Domain Awareness",
       "venue": "Journal of Aerospace Information Systems",
@@ -175,6 +183,14 @@
       "venue": "",
       "year": 2025,
       "url": "https://doi.org/10.1109/aero63441.2025.11068629",
+      "publicationDate": "2025-03-01"
+    },
+    {
+      "id": "https://openalex.org/W7130586007",
+      "title": "Guardians of the Galaxy: Protecting Space Systems from Cyber Threats (Dagstuhl Seminar 25101).",
+      "venue": "CISPA Helmholtz Center",
+      "year": 2025,
+      "url": "https://doi.org/10.60882/cispa.31366702.v1",
       "publicationDate": "2025-03-01"
     },
     {
@@ -642,6 +658,14 @@
       "publicationDate": "2022-10-15"
     },
     {
+      "id": "https://openalex.org/W4306316840",
+      "title": "Exploring the Applications of Frequency Modulation to Secure CubeSats from Eavesdropping, Jamming, and Interference",
+      "venue": "ASCEND 2022",
+      "year": 2022,
+      "url": "https://doi.org/10.2514/6.2022-4381",
+      "publicationDate": "2022-10-15"
+    },
+    {
       "id": "https://openalex.org/W4283271269",
       "title": "Space Cognitive Communications: Characterizing Radiofrequency Interference to Improve Digital Space Domain Awareness",
       "venue": "",
@@ -887,6 +911,14 @@
       "venue": "International Journal of Technology Policy and Management",
       "year": 2020,
       "url": "https://doi.org/10.1504/ijtpm.2020.10030767",
+      "publicationDate": "2020-01-01"
+    },
+    {
+      "id": "https://openalex.org/W3048497587",
+      "title": "A Non-Hohmann Method for Orbital Element Database Pre-Processing",
+      "venue": "Digital Commons - USU (Utah State University)",
+      "year": 2020,
+      "url": "https://digitalcommons.usu.edu/smallsat/2020/all2020/7",
       "publicationDate": "2020-01-01"
     },
     {
