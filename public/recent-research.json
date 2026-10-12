@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T18:53:43.322Z",
+  "updatedAt": "2026-10-12T20:32:50.615Z",
   "items": [
     {
       "id": "https://openalex.org/W7154284521",
@@ -36,7 +36,7 @@
     {
       "id": "https://openalex.org/W7126067550",
       "title": "Cyber Resilient Attitude Determination and Control for Space Vehicles",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2026,
       "url": "https://doi.org/10.2514/6.2026-1083",
       "publicationDate": "2026-01-08"
@@ -44,7 +44,7 @@
     {
       "id": "https://openalex.org/W7127304236",
       "title": "When to Compute in Space",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2026,
       "url": "https://doi.org/10.2514/6.2026-2663",
       "publicationDate": "2026-01-08"
@@ -52,7 +52,7 @@
     {
       "id": "https://openalex.org/W7127384414",
       "title": "Adversarial Pursuits in Cislunar Space",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2026,
       "url": "https://doi.org/10.2514/6.2026-2495",
       "publicationDate": "2026-01-08"
@@ -100,18 +100,10 @@
     {
       "id": "https://openalex.org/W7133347056",
       "title": "Space-Based Fog Computing Across LEO and MEO Constellations for On-Orbit Hypersonic Detection and Space Domain Awareness",
-      "venue": "",
+      "venue": "IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)",
       "year": 2025,
       "url": "https://doi.org/10.1109/tps-isa67132.2025.00058",
       "publicationDate": "2025-11-12"
-    },
-    {
-      "id": "https://openalex.org/W4417462206",
-      "title": "Adversarial Pursuits in Cislunar Space",
-      "venue": "arXiv (Cornell University)",
-      "year": 2025,
-      "url": "https://doi.org/10.48550/arxiv.2509.20330",
-      "publicationDate": "2025-09-24"
     },
     {
       "id": "https://openalex.org/W4414217443",
@@ -148,7 +140,7 @@
     {
       "id": "https://openalex.org/W4414405116",
       "title": "Ad-Hoc Satcom Mega-Constellations through Heterogeneous Network Smart Contracting",
-      "venue": "",
+      "venue": "IEEE International Conference on Communications workshops",
       "year": 2025,
       "url": "https://doi.org/10.1109/iccworkshops67674.2025.11162152",
       "publicationDate": "2025-06-08"
@@ -172,7 +164,7 @@
     {
       "id": "https://openalex.org/W4412405210",
       "title": "Space Cybersecurity Incident Response Framework: A Viasat Case Study",
-      "venue": "",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2025,
       "url": "https://doi.org/10.1109/aero63441.2025.11068784",
       "publicationDate": "2025-03-01"
@@ -180,23 +172,15 @@
     {
       "id": "https://openalex.org/W4412406063",
       "title": "Testable Cyber Requirements for Space Flight Software",
-      "venue": "",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2025,
       "url": "https://doi.org/10.1109/aero63441.2025.11068629",
       "publicationDate": "2025-03-01"
     },
     {
-      "id": "https://openalex.org/W7130586007",
-      "title": "Guardians of the Galaxy: Protecting Space Systems from Cyber Threats (Dagstuhl Seminar 25101).",
-      "venue": "CISPA Helmholtz Center",
-      "year": 2025,
-      "url": "https://doi.org/10.60882/cispa.31366702.v1",
-      "publicationDate": "2025-03-01"
-    },
-    {
       "id": "https://openalex.org/W4409060007",
       "title": "Adaptive Detection of On-Orbit Jamming for Securing GEO Satellite Links",
-      "venue": "",
+      "venue": "Advanced Satellite Multimedia Systems Conference and the Signal Processing for Space Communications Workshop (ASMS/SPSC)",
       "year": 2025,
       "url": "https://doi.org/10.1109/asms/spsc64465.2025.10946028",
       "publicationDate": "2025-02-26"
@@ -204,7 +188,7 @@
     {
       "id": "https://openalex.org/W4407415853",
       "title": "Correction: A Meta-Analysis of Radio Frequency Interactions in the Ionosphere and Near-Earth Space",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2025,
       "url": "https://doi.org/10.2514/6.2025-1604.c1",
       "publicationDate": "2025-01-06"
@@ -212,7 +196,7 @@
     {
       "id": "https://openalex.org/W4407411135",
       "title": "Star Tracker Attacks and Defenses",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2025,
       "url": "https://doi.org/10.2514/6.2025-2721",
       "publicationDate": "2025-01-03"
@@ -220,7 +204,7 @@
     {
       "id": "https://openalex.org/W4407411290",
       "title": "VHF Reconfigurable Intelligent Surfaces for Meteor Burst Communication",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2025,
       "url": "https://doi.org/10.2514/6.2025-2719",
       "publicationDate": "2025-01-03"
@@ -228,7 +212,7 @@
     {
       "id": "https://openalex.org/W4407414940",
       "title": "A Meta-Analysis of Radio Frequency Interactions in the Ionosphere and Near-Earth Space",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2025,
       "url": "https://doi.org/10.2514/6.2025-1604",
       "publicationDate": "2025-01-03"
@@ -236,7 +220,7 @@
     {
       "id": "https://openalex.org/W4407415382",
       "title": "Withdrawn: QuickSAT/SHERLOCK, an AI Architecture for Vehicle Health Management, Fault Detection and Fault Management",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2025,
       "url": "https://doi.org/10.2514/6.2025-2271",
       "publicationDate": "2025-01-03"
@@ -284,7 +268,7 @@
     {
       "id": "https://openalex.org/W4406894503",
       "title": "Securing Satellite Link Segment: A Secure-by-Component Design",
-      "venue": "",
+      "venue": "IEEE International Conference on Wireless for Space and Extreme Environments (WiSEE)",
       "year": 2024,
       "url": "https://doi.org/10.1109/wisee61249.2024.10850060",
       "publicationDate": "2024-12-16"
@@ -292,26 +276,10 @@
     {
       "id": "https://openalex.org/W4406894896",
       "title": "A Software Defined Networking Architecture for Time Triggered Ethernet in Space Systems",
-      "venue": "",
+      "venue": "IEEE International Conference on Wireless for Space and Extreme Environments (WiSEE)",
       "year": 2024,
       "url": "https://doi.org/10.1109/wisee61249.2024.10850170",
       "publicationDate": "2024-12-16"
-    },
-    {
-      "id": "https://openalex.org/W4404987964",
-      "title": "Adaptive Detection of On-Orbit Jamming for Securing GEO Satellite Links",
-      "venue": "arXiv (Cornell University)",
-      "year": 2024,
-      "url": "https://doi.org/10.48550/arxiv.2411.16588",
-      "publicationDate": "2024-11-25"
-    },
-    {
-      "id": "https://openalex.org/W4403795727",
-      "title": "Satellite Chasers: Divergent Adversarial Reinforcement Learning to Engage Intelligent Adversaries on Orbit",
-      "venue": "arXiv (Cornell University)",
-      "year": 2024,
-      "url": "https://doi.org/10.48550/arxiv.2409.17443",
-      "publicationDate": "2024-09-26"
     },
     {
       "id": "https://openalex.org/W4402686494",
@@ -324,7 +292,7 @@
     {
       "id": "https://openalex.org/W4405601425",
       "title": "Emerging Threats of AI-Integration in Space User Segment: A Reference Architecture and Attack Tree Analysis",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2024,
       "url": "https://doi.org/10.1109/smc-it61443.2024.00011",
       "publicationDate": "2024-07-15"
@@ -332,7 +300,7 @@
     {
       "id": "https://openalex.org/W4405601432",
       "title": "Attack Surface Analysis for Spacecraft Flight Software",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2024,
       "url": "https://doi.org/10.1109/smc-it61443.2024.00010",
       "publicationDate": "2024-07-15"
@@ -340,7 +308,7 @@
     {
       "id": "https://openalex.org/W4405601621",
       "title": "Minimum Requirements for Space System Cybersecurity - Ensuring Cyber Access to Space",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2024,
       "url": "https://doi.org/10.1109/smc-it61443.2024.00016",
       "publicationDate": "2024-07-15"
@@ -348,18 +316,10 @@
     {
       "id": "https://openalex.org/W4402262217",
       "title": "An Autonomous Satellite Collision Avoidance and Adversary Evasion Path Planning Algorithm for the Space Environment",
-      "venue": "",
+      "venue": "Proceedings of the ... American Control Conference/Proceedings of the American Control Conference",
       "year": 2024,
       "url": "https://doi.org/10.23919/acc60939.2024.10644335",
       "publicationDate": "2024-07-10"
-    },
-    {
-      "id": "https://openalex.org/W4399554954",
-      "title": "On the Role of Communications for Space Domain Awareness",
-      "venue": "arXiv (Cornell University)",
-      "year": 2024,
-      "url": "https://doi.org/10.48550/arxiv.2406.05582",
-      "publicationDate": "2024-06-08"
     },
     {
       "id": "https://openalex.org/W4400649808",
@@ -380,7 +340,7 @@
     {
       "id": "https://openalex.org/W4401414840",
       "title": "Dexterous In-hand Manipulation by Guiding Exploration with Simple Sub-skill Controllers",
-      "venue": "",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
       "year": 2024,
       "url": "https://doi.org/10.1109/icra57147.2024.10611300",
       "publicationDate": "2024-05-13"
@@ -412,7 +372,7 @@
     {
       "id": "https://openalex.org/W4396853250",
       "title": "A Global Ionosphere Situational Awareness Architecture for Over the Horizon Radar Operations",
-      "venue": "",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2024,
       "url": "https://doi.org/10.1109/aero58975.2024.10520994",
       "publicationDate": "2024-03-02"
@@ -420,7 +380,7 @@
     {
       "id": "https://openalex.org/W4396876108",
       "title": "Guarding the Galaxy: Satellite Ransomware and Countermeasures",
-      "venue": "",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2024,
       "url": "https://doi.org/10.1109/aero58975.2024.10521045",
       "publicationDate": "2024-03-02"
@@ -428,7 +388,7 @@
     {
       "id": "https://openalex.org/W4391302954",
       "title": "A Hosted Payload Cyber Attack Against Satellites",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2024,
       "url": "https://doi.org/10.2514/6.2024-0270",
       "publicationDate": "2024-01-04"
@@ -436,7 +396,7 @@
     {
       "id": "https://openalex.org/W4391303005",
       "title": "Hacktivism Goes Orbital: Investigating NB65's Breach of ROSCOSMOS",
-      "venue": "",
+      "venue": "AIAA SciTech Forum",
       "year": 2024,
       "url": "https://doi.org/10.2514/6.2024-0268",
       "publicationDate": "2024-01-04"
@@ -476,7 +436,7 @@
     {
       "id": "https://openalex.org/W4385730095",
       "title": "A Hybrid Space Architecture for Robust and Resilient Satellite Services",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00021",
       "publicationDate": "2023-07-01"
@@ -484,7 +444,7 @@
     {
       "id": "https://openalex.org/W4385730179",
       "title": "A Research Agenda for Space Flight Software Security",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00016",
       "publicationDate": "2023-07-01"
@@ -492,7 +452,7 @@
     {
       "id": "https://openalex.org/W4385730189",
       "title": "How to Scrub a Launch: Spaceport Cybersecurity",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00015",
       "publicationDate": "2023-07-01"
@@ -500,7 +460,7 @@
     {
       "id": "https://openalex.org/W4385730252",
       "title": "WannaFly: An Approach to Satellite Ransomware",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2023,
       "url": "https://doi.org/10.1109/smc-it56444.2023.00018",
       "publicationDate": "2023-07-01"
@@ -538,17 +498,9 @@
       "publicationDate": "2023-04-01"
     },
     {
-      "id": "https://openalex.org/W4323650488",
-      "title": "Dexterous In-hand Manipulation by Guiding Exploration with Simple Sub-skill Controllers",
-      "venue": "arXiv (Cornell University)",
-      "year": 2023,
-      "url": "https://doi.org/10.48550/arxiv.2303.03533",
-      "publicationDate": "2023-03-06"
-    },
-    {
       "id": "https://openalex.org/W4376606366",
       "title": "Ground Station as a Service Reference Architectures and Cyber Security Attack Tree Analysis",
-      "venue": "",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2023,
       "url": "https://doi.org/10.1109/aero55745.2023.10115903",
       "publicationDate": "2023-03-04"
@@ -556,7 +508,7 @@
     {
       "id": "https://openalex.org/W4376606435",
       "title": "Slipping Through Attackers' Fingers: Fast Neutron Communications for Space Cybersecurity",
-      "venue": "",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2023,
       "url": "https://doi.org/10.1109/aero55745.2023.10115666",
       "publicationDate": "2023-03-04"
@@ -564,7 +516,7 @@
     {
       "id": "https://openalex.org/W4376606549",
       "title": "Cybersecurity and Human Spaceflight Safety",
-      "venue": "",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2023,
       "url": "https://doi.org/10.1109/aero55745.2023.10115750",
       "publicationDate": "2023-03-04"
@@ -572,7 +524,7 @@
     {
       "id": "https://openalex.org/W4317632287",
       "title": "EarthScan-TSS, a Cubesat Based Tethered Satellite System And Platform To Test On Orbit Servicing And Space Sustainability",
-      "venue": "AIAA SCITECH 2023 Forum",
+      "venue": "AIAA SciTech Forum",
       "year": 2023,
       "url": "https://doi.org/10.2514/6.2023-1881",
       "publicationDate": "2023-01-19"
@@ -604,7 +556,7 @@
     {
       "id": "https://openalex.org/W4317928091",
       "title": "Commercial Space Risk Framework Assessing the Satellite Ground Station Security Landscape for NATO in the Arctic and High North",
-      "venue": "MILCOM 2022 - 2022 IEEE Military Communications Conference (MILCOM)",
+      "venue": "IEEE Military Communications Conference (MILCOM)",
       "year": 2022,
       "url": "https://doi.org/10.1109/milcom55135.2022.10017538",
       "publicationDate": "2022-11-28"
@@ -668,7 +620,7 @@
     {
       "id": "https://openalex.org/W4283271269",
       "title": "Space Cognitive Communications: Characterizing Radiofrequency Interference to Improve Digital Space Domain Awareness",
-      "venue": "",
+      "venue": "International Conference on Localization and GNSS",
       "year": 2022,
       "url": "https://doi.org/10.1109/icl-gnss54081.2022.9797033",
       "publicationDate": "2022-06-07"
@@ -676,7 +628,7 @@
     {
       "id": "https://openalex.org/W4299632624",
       "title": "The Space Digital Dome: Autonomous Defense of Space Vehicles from Radio Frequency Interference",
-      "venue": "2022 IEEE Aerospace Conference (AERO)",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2022,
       "url": "https://doi.org/10.1109/aero53065.2022.9843425",
       "publicationDate": "2022-03-05"
@@ -684,7 +636,7 @@
     {
       "id": "https://openalex.org/W4300932067",
       "title": "The Impact of Message Encryption on Teleoperation for Space Applications",
-      "venue": "2022 IEEE Aerospace Conference (AERO)",
+      "venue": "Proceedings - IEEE Aerospace Conference",
       "year": 2022,
       "url": "https://doi.org/10.1109/aero53065.2022.9843424",
       "publicationDate": "2022-03-05"
@@ -740,7 +692,7 @@
     {
       "id": "https://openalex.org/W4205869699",
       "title": "The LinkStar Cybersecurity “Sandbox”, a platform to test small satellite vulnerabilities within the Community – Updates and Lessons Learned",
-      "venue": "AIAA SCITECH 2022 Forum",
+      "venue": "AIAA SciTech Forum",
       "year": 2022,
       "url": "https://doi.org/10.2514/6.2022-0239",
       "publicationDate": "2022-01-03"
@@ -818,17 +770,9 @@
       "publicationDate": "2021-07-20"
     },
     {
-      "id": "https://openalex.org/W4287082730",
-      "title": "Cyber Crossroads: A Global Research Collaborative on Cyber Risk\\n Governance",
-      "venue": "arXiv (Cornell University)",
-      "year": 2021,
-      "url": "https://doi.org/10.48550/arxiv.2107.14065",
-      "publicationDate": "2021-07-08"
-    },
-    {
       "id": "https://openalex.org/W4210863149",
       "title": "CubeSat Security Attack Tree Analysis",
-      "venue": "",
+      "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
       "year": 2021,
       "url": "https://doi.org/10.1109/smc-it51442.2021.00016",
       "publicationDate": "2021-07-01"
@@ -836,7 +780,7 @@
     {
       "id": "https://openalex.org/W3158701692",
       "title": "Autonomy's Hierarchy of Needs: Smart City Ecosystems for Autonomous Space Habitats",
-      "venue": "",
+      "venue": "Conference on Information Sciences and Systems",
       "year": 2021,
       "url": "https://doi.org/10.1109/ciss50987.2021.9400218",
       "publicationDate": "2021-03-24"
@@ -868,7 +812,7 @@
     {
       "id": "https://openalex.org/W3117747505",
       "title": "A Smart City Internet for Autonomous Systems",
-      "venue": "",
+      "venue": "IEEE Security and Privacy Workshops (SPW)",
       "year": 2020,
       "url": "https://doi.org/10.1109/spw50608.2020.00051",
       "publicationDate": "2020-05-01"
@@ -898,15 +842,7 @@
       "publicationDate": "2020-02-07"
     },
     {
-      "id": "https://openalex.org/W4287870119",
-      "title": "A Distributed `Black Box' Audit Trail Design Specification for Connected\\n and Automated Vehicle Data and Software Assurance",
-      "venue": "arXiv (Cornell University)",
-      "year": 2020,
-      "url": "https://doi.org/10.48550/arxiv.2002.02780",
-      "publicationDate": "2020-02-07"
-    },
-    {
-      "id": "https://openalex.org/W3045402555",
+      "id": "https://openalex.org/W4246358007",
       "title": "Constraint tree analysis: anticipating risk to policy implementation",
       "venue": "International Journal of Technology Policy and Management",
       "year": 2020,
@@ -932,18 +868,10 @@
     {
       "id": "https://openalex.org/W2994033829",
       "title": "Participatory AI: Reducing AI Bias and Developing Socially Responsible AI in Smart Cities",
-      "venue": "",
+      "venue": "IEEE International Conference on Computational Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous Computing (EUC)",
       "year": 2019,
       "url": "https://doi.org/10.1109/cse/euc.2019.00038",
       "publicationDate": "2019-08-01"
-    },
-    {
-      "id": "https://openalex.org/W2981791110",
-      "title": "Cyber Physical IoT Device Management Using a Lightweight Agent",
-      "venue": "",
-      "year": 2019,
-      "url": "https://doi.org/10.1109/ithings/greencom/cpscom/smartdata.2019.00176",
-      "publicationDate": "2019-07-01"
     },
     {
       "id": "https://openalex.org/W2966254956",
@@ -978,6 +906,14 @@
       "publicationDate": "2019-01-01"
     },
     {
+      "id": "https://openalex.org/W2981791110",
+      "title": "Cyber Physical IoT Device Management Using a Lightweight Agent",
+      "venue": "",
+      "year": 2019,
+      "url": "https://doi.org/10.1109/ithings/greencom/cpscom/smartdata.2019.00176",
+      "publicationDate": "2019-01-01"
+    },
+    {
       "id": "https://openalex.org/W2905131172",
       "title": "Cybersecurity Principles for Space Systems",
       "venue": "Journal of Aerospace Information Systems",
@@ -988,7 +924,7 @@
     {
       "id": "https://openalex.org/W2891381442",
       "title": "The Vacuum of Space Cyber Security",
-      "venue": "2018 AIAA SPACE and Astronautics Forum and Exposition",
+      "venue": "AIAA SPACE and Astronautics Forum and Exposition",
       "year": 2018,
       "url": "https://doi.org/10.2514/6.2018-5275",
       "publicationDate": "2018-09-15"
