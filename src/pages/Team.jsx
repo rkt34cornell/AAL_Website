@@ -24,6 +24,9 @@ const luke = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1
 
 const jonathan = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/IMG_9238_-_Jonathan_Distler_haqgqu.jpg";
 const laurence = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271625/IMG_6030_-_Laurence_Lai_tcoxqi.jpg";
+const daniel = "/team/daniel-akinwale.svg";
+const anubhav = "/team/anubhav-nigam.jpg";
+const nadia = "/team/nadia-scharfstein.jpg";
 
 
 const aalaudio = ""
@@ -982,6 +985,94 @@ const Team = () => {
               </div>
             </Card>
 
+            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+              <CardHeader floated={false}>
+                <img
+                  className="h-[100%] w-[100%]"
+                  src={daniel}
+                  alt="Daniel Akinwale"
+                />
+              </CardHeader>
+              <CardBody className="flex flex-row items-center justify-between">
+                <div>
+                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+                    Daniel Akinwale
+                  </Typography>
+                  <Typography
+                    color="white"
+                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
+                  >
+                    M.Eng. Candidate
+                    <Tooltip content="LinkedIn">
+                      <Typography
+                        as="a"
+                        href="https://www.linkedin.com/in/daniel-akinwale-894297202/"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </Typography>
+                    </Tooltip>
+                    <Tooltip content="Email">
+                      <Typography
+                        as="a"
+                        href="mailto: dda38@cornell.edu"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </Typography>
+                    </Tooltip>
+                  </Typography>
+                </div>
+                <div>
+                  <Typography
+                    onClick={() => {
+                      setIndex(19);
+                    }}
+                    className="cursor-pointer"
+                  >
+                    {selectedIndex == 19 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    )}
+                  </Typography>
+                </div>
+              </CardBody>
+              <div className={selectedIndex == 19 ? "block" : "hidden"}>
+                <CardFooter className="pt-0">
+                  <Typography color="white" className="text-start text-dimWhite">
+                    Daniel Akinwale is pursuing a Master of Engineering in Mechanical &amp; Aerospace Engineering at Cornell University while completing a B.S. in Mechanical Engineering (Spring 2026). Daniel has academic interests in advanced manufacturing, system controls, CAD modeling, and design. His project experience has involved composites design and fabrication, engineering in architecture, and semiconductor manufacturing. His academic focuses have been in prototyping, aircraft and rocketry, composites, and modeling. In the Aerospace Adversary Lab he works on mechanical design, hardware integration, prototyping, and testing.
+                  </Typography>
+                </CardFooter>
+              </div>
+            </Card>
+
           </div>
           <h2 className="font-poppins font-normal text-white text-[28px] text-center w-full mt-10">
             Undergraduate Students
@@ -1219,6 +1310,84 @@ const Team = () => {
       <CardFooter className="pt-0">
         <Typography color="white" className="text-start text-dimWhite">
           Jackey Kong is an undergraduate freshmen pursuing a B.S in Mechanical Engineering with a minor in Aerospace and Business. Prior to attending Cornell, he spent the past 5 years working on aircrafts to earn his Federal Aviation Administration mechanics licenses.
+        </Typography>
+      </CardFooter>
+    </div>
+  </Card>
+
+  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+    <CardHeader floated={false}>
+      <img src={anubhav} alt="Anubhav Nigam" className="h-[100%] w-[100%]" />
+    </CardHeader>
+    <CardBody className="flex flex-row items-center justify-between">
+      <div>
+        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+          Anubhav Nigam
+        </Typography>
+        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
+          Undergraduate Student
+          <Tooltip content="LinkedIn">
+            <Typography as="a" href="https://linkedin.com/in/anubhav-nigam" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Typography>
+          </Tooltip>
+          <Tooltip content="Email">
+            <Typography as="a" href="mailto:adn38@cornell.edu" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Typography>
+          </Tooltip>
+        </Typography>
+      </div>
+      <div>
+        <Typography onClick={() => { setIndex(20); }} className="cursor-pointer">
+          {selectedIndex == 20 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
+        </Typography>
+      </div>
+    </CardBody>
+    <div className={selectedIndex == 20 ? "block" : "hidden"}>
+      <CardFooter className="pt-0">
+        <Typography color="white" className="text-start text-dimWhite">
+          Anubhav is an undergraduate student in the school of applied &amp; engineering physics. His physics research has been in experimental plasma physics and nanomaterials with AFRL, Cornell and Carnegie Mellon University, and he previously interned at Cowboy Space Corp. His work at this lab includes counter-cUAS systems and satellite resilience.
+        </Typography>
+      </CardFooter>
+    </div>
+  </Card>
+
+  <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
+    <CardHeader floated={false}>
+      <img src={nadia} alt="Nadia Scharfstein" className="h-[100%] w-[100%]" />
+    </CardHeader>
+    <CardBody className="flex flex-row items-center justify-between">
+      <div>
+        <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
+          Nadia Scharfstein
+        </Typography>
+        <Typography color="white" className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite">
+          Undergraduate Student
+          <Tooltip content="LinkedIn">
+            <Typography as="a" href="https://www.linkedin.com/in/nadia-scharfstein/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Typography>
+          </Tooltip>
+          <Tooltip content="Email">
+            <Typography as="a" href="mailto:nls89@cornell.edu" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Typography>
+          </Tooltip>
+        </Typography>
+      </div>
+      <div>
+        <Typography onClick={() => { setIndex(21); }} className="cursor-pointer">
+          {selectedIndex == 21 ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>}
+        </Typography>
+      </div>
+    </CardBody>
+    <div className={selectedIndex == 21 ? "block" : "hidden"}>
+      <CardFooter className="pt-0">
+        <Typography color="white" className="text-start text-dimWhite">
+          Nadia Scharfstein is an undergraduate junior studying Physics in Cornell University's College of Arts and Sciences with a concentration in Vibrational Engineering. In the Aerospace ADVERSARY Laboratory, she is studying quantum verification methods to detect hardware corruption from electromagnetic fault injection, and designing an experiment to intercept and analyze underwater acoustic signals in simulated submarine cable systems. Nadia's additional research interests and experiences include analyzing aerospace vehicle acoustics, dynamics, and structural loads.
         </Typography>
       </CardFooter>
     </div>
