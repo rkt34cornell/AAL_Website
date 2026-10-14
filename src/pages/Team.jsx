@@ -6,7 +6,6 @@ import greg from "../assets/gregory-falco22.png";
 import aidanHeadshot from "../assets/aidan-mulvey.jpg";
 import salHeadshot from "../assets/sal-ciminello.jpg";
 import jackeyHeadshot from "../assets/jackey-kong.jpeg";
-import madisonHeadshot from "../assets/madison-schaaff.jpeg";
 import katherineHeadshot from "../assets/katherine-winton.jpg";
 const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706424728/Boschetti_pic263_div8rv.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
@@ -18,7 +17,6 @@ const sal = salHeadshot;
 const gabrielle = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1771962811/Screen_Shot_2026-02-24_at_2.50.53_PM_xxclot";
 const jackey = jackeyHeadshot;
 const aidan = aidanHeadshot;
-const madison = madisonHeadshot;
 const katherine = katherineHeadshot;
 const luke = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1771973583/croppedgus_ezsash";
 
@@ -901,94 +899,6 @@ const Team = () => {
               <CardHeader floated={false}>
                 <img
                   className="h-[100%] w-[100%]"
-                  src={madison}
-                  alt="Madison Schaaff"
-                />
-              </CardHeader>
-              <CardBody className="flex flex-row items-center justify-between">
-                <div>
-                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
-                    Madison Schaaff
-                  </Typography>
-                  <Typography
-                    color="white"
-                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
-                  >
-                    M.Eng. Candidate
-                    <Tooltip content="LinkedIn">
-                      <Typography
-                        as="a"
-                        href="https://www.linkedin.com/in/madison-schaaff/"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="Email">
-                      <Typography
-                        as="a"
-                        href="mailto: mrs425@cornell.edu"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faEnvelope} />
-                      </Typography>
-                    </Tooltip>
-                  </Typography>
-                </div>
-                <div>
-                  <Typography
-                    onClick={() => {
-                      setIndex(14);
-                    }}
-                    className="cursor-pointer"
-                  >
-                    {selectedIndex == 14 ? (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                        />
-                      </svg>
-                    ) : (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                      </svg>
-                    )}
-                  </Typography>
-                </div>
-              </CardBody>
-              <div className={selectedIndex == 14 ? "block" : "hidden"}>
-                <CardFooter className="pt-0">
-                  <Typography color="white" className="text-start text-dimWhite">
-                    Madison Schaaff is pursuing a Master of Engineering in Aerospace Engineering at Cornell University after earning her B.S. in Mechanical Engineering. Her academic work focuses on design, manufacturing, and controls with applications to high-performance aerospace systems. Her project experience includes thermal system modeling, manufacturing processes and operations, and structural analysis. Madison’s interests center on advanced manufacturing, defense systems, and next-generation aerospace technologies.
-                  </Typography>
-                </CardFooter>
-              </div>
-            </Card>
-
-            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
-              <CardHeader floated={false}>
-                <img
-                  className="h-[100%] w-[100%]"
                   src={daniel}
                   alt="Daniel Akinwale"
                 />
@@ -1404,7 +1314,10 @@ const Team = () => {
                 <em>Efficient and Robust Marketplace Platforms for Heterogenous On-Orbit Networks</em>
               </p>
               <p className="font-poppins font-normal text-white text-[18px] mt-2">
-                Anurag Koyyada, J.D.
+                Anurag Koyyada, J.D. '26
+              </p>
+              <p className="font-poppins font-normal text-white text-[18px] mt-2">
+                Madison Schaaff, M.Eng '26
               </p>
             </div>
           </div>
