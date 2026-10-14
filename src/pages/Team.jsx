@@ -24,7 +24,7 @@ const luke = "https://res.cloudinary.com/dlxh3nrry/image/upload/c_crop,ar_1:1/v1
 
 const jonathan = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271629/IMG_9238_-_Jonathan_Distler_haqgqu.jpg";
 const laurence = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1729271625/IMG_6030_-_Laurence_Lai_tcoxqi.jpg";
-const daniel = "/team/daniel-akinwale.svg";
+const daniel = "/team/daniel-akinwale.jpg";
 const anubhav = "/team/anubhav-nigam.jpg";
 const nadia = "/team/nadia-scharfstein.jpg";
 
