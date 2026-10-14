@@ -7,7 +7,6 @@ import aidanHeadshot from "../assets/aidan-mulvey.jpg";
 import salHeadshot from "../assets/sal-ciminello.jpg";
 import jackeyHeadshot from "../assets/jackey-kong.jpeg";
 import katherineHeadshot from "../assets/katherine-winton.jpg";
-const nicolo = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1706424728/Boschetti_pic263_div8rv.png"
 const cameron = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697328844/100cam_q3bfyt.png"
 const rajiv = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1697330716/rkt34_lhzlwf.png"
 const jackson = "https://res.cloudinary.com/dlxh3nrry/image/upload/v1767897119/jacksonHeadshot_qn0qm9.jpg";
@@ -169,108 +168,6 @@ const Team = () => {
          </h2>
 
           <div className="grid gap-16 grid-cols-1 sm:grid-cols-3 sm:px-16 px-6 sm:py-16 py-6 justify-center items-start justify-items-center">
-            <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
-              <CardHeader floated={false}>
-                
-                <img src={nicolo} alt="nicolo" className="h-[100%] w-[100%]" />
-              </CardHeader>
-              <CardBody className="flex flex-row items-center justify-between">
-                <div>
-                  <Typography variant="h4" color="white" className="mb-2 font-poppins font-normal text-[22px]">
-                   Nicolò Boschetti
-                  </Typography>
-                  <Typography
-                    color="white"
-                    className="font-medium flex justify-items-start gap-2 sm:gap-5 text-dimWhite"
-                  >
-                    PhD Candidate
-                    <Tooltip content="LinkedIn">
-                      <Typography
-                        as="a"
-                        href="https://www.linkedin.com/in/nicolò-boschetti-13b73b143/"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="ResearchGate">
-                      <Typography
-                        as="a"
-                        href="https://www.researchgate.net/profile/Nicolo-Boschetti"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faResearchgate} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="Twitter">
-                      <Typography
-                        as="a"
-                        href="https://twitter.com/iperione_"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faTwitter} />
-                      </Typography>
-                    </Tooltip>
-                    <Tooltip content="Email">
-                      <Typography
-                        as="a"
-                        href="mailto: nbosche1@jhu.edu"
-                        target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faEnvelope} />
-                      </Typography>
-                    </Tooltip>
-                  </Typography>
-                </div>
-                <div>
-                  <Typography
-                    onClick={() => {
-                      setIndex(1);
-                    }}
-                    className="cursor-pointer"
-                  >
-                    {selectedIndex == 1 ? (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                        />
-                      </svg>
-                    ) : (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        />
-                      </svg>
-                    )}
-                  </Typography>
-                </div>
-              </CardBody>
-              <div className={selectedIndex == 1 ? "block" : "hidden"}>
-                <CardFooter className="pt-0">
-                  <Typography color="white" className="text-start text-dimWhite">
-                  Nicolò Boschetti is pursuing a Ph.D. in Aerospace Engineering at Cornell University and is an assistant researcher at the Aerospace ADVERSARY Lab. He is the Secretary of the IEEE Standard Association's Space Systems Cybersecurity International Working Group. He received his B.A. in International and Diplomatic Sciences from the University of Bologna and his M.A. in Politics and Economics of Eurasia from the Moscow State Institute of International Relations (MGIMO). His research focuses on the security of space systems, space cybersecurity, satellite ground network security, and the Russian space program and policy. He has published papers in several AIAA, IEEE, and IAF conferences and journals. 
-                  </Typography>
-                </CardFooter>
-              </div>
-            </Card>
             <Card className="sm:w-96 bg-primary/40 border border-white/25" shadow={false}>
               <CardHeader floated={false}>
                 <img
@@ -1312,6 +1209,10 @@ const Team = () => {
               <p className="font-poppins font-normal text-white text-[18px]">
                 Nathaniel Gordon, PhD '25 -{" "}
                 <em>Efficient and Robust Marketplace Platforms for Heterogenous On-Orbit Networks</em>
+              </p>
+              <p className="font-poppins font-normal text-white text-[18px] mt-2">
+                Nicolò Boschetti, PhD '26 -{" "}
+                <em>Securing Satellite Communications Ecosystems: Heterogeneity and Hybridization of Architectures</em>
               </p>
               <p className="font-poppins font-normal text-white text-[18px] mt-2">
                 Anurag Koyyada, J.D. '26
