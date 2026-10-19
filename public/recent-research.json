@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-10-12T20:32:50.615Z",
+  "updatedAt": "2026-10-19T17:54:02.779Z",
   "items": [
+    {
+      "id": "https://openalex.org/W7165954221",
+      "title": "WITHDRAWAL: Destructive Counter-UAS Methods and Novel Autonomous Drone Response",
+      "venue": "AIAA AVIATION Forum",
+      "year": 2026,
+      "url": "https://doi.org/10.2514/6.2026-4649.c1",
+      "publicationDate": "2026-06-08"
+    },
+    {
+      "id": "https://openalex.org/W7163588050",
+      "title": "WITHDRAWN: Destructive Counter-UAS Methods and Novel Autonomous Drone Response",
+      "venue": "AIAA AVIATION Forum",
+      "year": 2026,
+      "url": "https://doi.org/10.2514/6.2026-4649",
+      "publicationDate": "2026-06-04"
+    },
     {
       "id": "https://openalex.org/W7154284521",
       "title": "Security of Emerging Satellite Mega-Constellations",
@@ -79,6 +95,14 @@
       "venue": "",
       "year": 2026,
       "url": "https://doi.org/10.14722/spacesec.2026.23055",
+      "publicationDate": "2026-01-01"
+    },
+    {
+      "id": "https://openalex.org/W7222250614",
+      "title": "A Radio Frequency Localization and Constrained Reinforcement Learning System for Noncooperative Satellite Evasion",
+      "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+      "year": 2026,
+      "url": "https://doi.org/10.1109/taes.2026.3741809",
       "publicationDate": "2026-01-01"
     },
     {
@@ -911,6 +935,14 @@
       "venue": "",
       "year": 2019,
       "url": "https://doi.org/10.1109/ithings/greencom/cpscom/smartdata.2019.00176",
+      "publicationDate": "2019-01-01"
+    },
+    {
+      "id": "https://openalex.org/W3184415969",
+      "title": "ブロックチェーン駆動ボットネットワクチンにより可能となったニューロメッシュIoTセキュリティ【JST・京大機械翻訳】",
+      "venue": "ACM Proceedings",
+      "year": 2019,
+      "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002252151336460",
       "publicationDate": "2019-01-01"
     },
     {
