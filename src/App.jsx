@@ -8,6 +8,7 @@ import Taxonomy from "./pages/Taxonomy";
 import Impact from "./pages/Impact";
 import GroundStationProject from "./pages/GroundStationProject";
 import Contact from "./pages/Contact";
+import Facility from "./pages/Facility";
 import Error from "./pages/Error";
 import LegacyProjects from "./pages/LegacyProjects"; // Add this line
 import LaserCursor from "./components/LaserCursor";
@@ -62,6 +63,7 @@ function App() {
         <Route exact path="/taxonomy" element={<Taxonomy />} />
         <Route exact path="/impact" element={<Impact />} />
         <Route exact path="/groundstationproject" element={<GroundStationProject />} />
+        <Route exact path="/facility" element={<Facility />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/legacy-projects" element={<LegacyProjects />} /> // Add this line
         <Route exact path="/2024-present" element={<Present2024 />} /> // Add this line

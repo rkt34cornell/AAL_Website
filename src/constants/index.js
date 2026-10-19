@@ -21,6 +21,10 @@ export const navLinks = [
     title: "Impact",
   },
   {
+    id: "facility",
+    title: "Our Facility",
+  },
+  {
     id: "contact",
     title: "Contact Us",
   },
