@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-26T17:49:05.689Z",
+  "updatedAt": "2026-11-02T20:58:58.720Z",
   "items": [
+    {
+      "id": "https://openalex.org/W7224132286",
+      "title": "Common Witness Equilibrium: software and data for \"How a group that cannot communicate knows itself by its enemy\"",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "url": "https://doi.org/10.5281/zenodo.23743439",
+      "publicationDate": "2026-10-28"
+    },
     {
       "id": "https://openalex.org/W7165954221",
       "title": "WITHDRAWAL: Destructive Counter-UAS Methods and Novel Autonomous Drone Response",
@@ -492,7 +500,7 @@
     {
       "id": "https://openalex.org/W4385730883",
       "title": "AI Forensics",
-      "venue": "",
+      "venue": "IEEE International Conference on Assured Autonomy (ICAA)",
       "year": 2023,
       "url": "https://doi.org/10.1109/icaa58325.2023.00023",
       "publicationDate": "2023-06-01"
@@ -500,7 +508,7 @@
     {
       "id": "https://openalex.org/W4385730920",
       "title": "Space Booby Traps: Hacking Back and Assured Cyber Deterrence in Space",
-      "venue": "",
+      "venue": "IEEE International Conference on Assured Autonomy (ICAA)",
       "year": 2023,
       "url": "https://doi.org/10.1109/icaa58325.2023.00024",
       "publicationDate": "2023-06-01"
@@ -564,7 +572,7 @@
     {
       "id": "https://openalex.org/W4388826022",
       "title": "The Vulnerabilities Less Exploited: Cyberattacks on End-of-Life Satellites",
-      "venue": "",
+      "venue": "Workshop on Security of Space and Satellite Systems (SpaceSec)",
       "year": 2023,
       "url": "https://doi.org/10.14722/spacesec.2023.234958",
       "publicationDate": "2023-01-01"
@@ -668,7 +676,7 @@
     {
       "id": "https://openalex.org/W4229336085",
       "title": "Reference architectures for autonomous on-orbit servicing, assembly and manufacturing (OSAM) mission resilience",
-      "venue": "",
+      "venue": "IEEE International Conference on Assured Autonomy (ICAA)",
       "year": 2022,
       "url": "https://doi.org/10.1109/icaa52185.2022.00024",
       "publicationDate": "2022-03-01"
@@ -676,7 +684,7 @@
     {
       "id": "https://openalex.org/W4281769634",
       "title": "Robustness Assurance Quotient: Demonstrating Context Matters for AI Performance and ML Security",
-      "venue": "",
+      "venue": "IEEE International Conference on Assured Autonomy (ICAA)",
       "year": 2022,
       "url": "https://doi.org/10.1109/icaa52185.2022.00012",
       "publicationDate": "2022-03-01"
@@ -780,7 +788,7 @@
     {
       "id": "https://openalex.org/W3203477062",
       "title": "A Stress Testing Framework For Autonomous System Verification And Validation (V&V)",
-      "venue": "",
+      "venue": "IEEE International Conference on Autonomous Systems (ICAS)",
       "year": 2021,
       "url": "https://doi.org/10.1109/icas49788.2021.9551154",
       "publicationDate": "2021-08-11"
@@ -908,7 +916,7 @@
     {
       "id": "https://openalex.org/W2939441294",
       "title": "NeuroMesh",
-      "venue": "",
+      "venue": "IEEE International Conference on Omni-layer Intelligent Systems (COINS)",
       "year": 2019,
       "url": "https://doi.org/10.1145/3312614.3312615",
       "publicationDate": "2019-04-08"
