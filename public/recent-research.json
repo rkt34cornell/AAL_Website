@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:58:58.720Z",
+  "updatedAt": "2026-11-09T21:42:41.874Z",
   "items": [
     {
       "id": "https://openalex.org/W7224132286",
@@ -32,14 +32,6 @@
       "year": 2026,
       "url": "https://doi.org/10.17023/9k20-ax35",
       "publicationDate": "2026-04-14"
-    },
-    {
-      "id": "https://openalex.org/W7148508973",
-      "title": "Efficient and Robust Marketplace Platforms for Heterogeneous On-Orbit Networks",
-      "venue": "eCommons (Cornell University)",
-      "year": 2026,
-      "url": "https://doi.org/10.7298/djj8-pq63",
-      "publicationDate": "2026-04-02"
     },
     {
       "id": "https://openalex.org/W7134245007",
@@ -156,7 +148,7 @@
     {
       "id": "https://openalex.org/W4416812693",
       "title": "Mission aware cyber safe mode for spacecraft",
-      "venue": "",
+      "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
       "year": 2025,
       "url": "https://doi.org/10.2172/3005460",
       "publicationDate": "2025-09-01"
@@ -295,6 +287,14 @@
       "venue": "IEEE Access",
       "year": 2025,
       "url": "https://doi.org/10.1109/access.2025.3631359",
+      "publicationDate": "2025-01-01"
+    },
+    {
+      "id": "https://openalex.org/W7148508973",
+      "title": "Efficient and Robust Marketplace Platforms for Heterogeneous On-Orbit Networks",
+      "venue": "eCommons (Cornell University)",
+      "year": 2025,
+      "url": "https://doi.org/10.7298/djj8-pq63",
       "publicationDate": "2025-01-01"
     },
     {
@@ -692,7 +692,7 @@
     {
       "id": "https://openalex.org/W4398766630",
       "title": "Dedication",
-      "venue": "",
+      "venue": "Oxford University Press eBooks",
       "year": 2022,
       "url": "https://doi.org/10.1093/oso/9780197526545.002.0006",
       "publicationDate": "2022-01-06"
@@ -700,7 +700,7 @@
     {
       "id": "https://openalex.org/W4398776293",
       "title": "Preface",
-      "venue": "",
+      "venue": "Oxford University Press eBooks",
       "year": 2022,
       "url": "https://doi.org/10.1093/oso/9780197526545.002.0005",
       "publicationDate": "2022-01-06"
@@ -708,7 +708,7 @@
     {
       "id": "https://openalex.org/W4398789913",
       "title": "Copyright Page",
-      "venue": "",
+      "venue": "Oxford University Press eBooks",
       "year": 2022,
       "url": "https://doi.org/10.1093/oso/9780197526545.002.0003",
       "publicationDate": "2022-01-06"
@@ -716,7 +716,7 @@
     {
       "id": "https://openalex.org/W4398789914",
       "title": "Notes",
-      "venue": "",
+      "venue": "Oxford University Press eBooks",
       "year": 2022,
       "url": "https://doi.org/10.1093/oso/9780197526545.002.0007",
       "publicationDate": "2022-01-06"
@@ -874,14 +874,6 @@
       "publicationDate": "2020-02-07"
     },
     {
-      "id": "https://openalex.org/W4246358007",
-      "title": "Constraint tree analysis: anticipating risk to policy implementation",
-      "venue": "International Journal of Technology Policy and Management",
-      "year": 2020,
-      "url": "https://doi.org/10.1504/ijtpm.2020.10030767",
-      "publicationDate": "2020-01-01"
-    },
-    {
       "id": "https://openalex.org/W3048497587",
       "title": "A Non-Hohmann Method for Orbital Element Database Pre-Processing",
       "venue": "Digital Commons - USU (Utah State University)",
@@ -942,7 +934,7 @@
       "title": "Cyber Physical IoT Device Management Using a Lightweight Agent",
       "venue": "IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)",
       "year": 2019,
-      "url": "https://doi.org/10.1109/ithings/greencom/cpscom/smartdata.2019.00176",
+      "url": "https://doi.org/10.2139/ssrn.3956752",
       "publicationDate": "2019-01-01"
     },
     {
@@ -1002,11 +994,11 @@
       "publicationDate": "2017-04-01"
     },
     {
-      "id": "https://openalex.org/W2610032766",
+      "id": "https://openalex.org/W4246358007",
       "title": "Constraint Tree Analysis: A Method to Evaluate Threats to Technology Policy Goals",
-      "venue": "SSRN Electronic Journal",
+      "venue": "International Journal of Technology Policy and Management",
       "year": 2017,
-      "url": "https://doi.org/10.2139/ssrn.2939209",
+      "url": "https://doi.org/10.1504/ijtpm.2020.108749",
       "publicationDate": "2017-01-01"
     },
     {
