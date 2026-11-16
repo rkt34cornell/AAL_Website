@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-11-09T21:42:41.874Z",
+  "updatedAt": "2026-11-16T21:23:01.660Z",
   "items": [
+    {
+      "id": "https://openalex.org/W7225718308",
+      "title": "tells results seed 1",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "url": "https://doi.org/10.5281/zenodo.24114588",
+      "publicationDate": "2026-11-10"
+    },
     {
       "id": "https://openalex.org/W7224132286",
       "title": "Common Witness Equilibrium: software and data for \"How a group that cannot communicate knows itself by its enemy\"",
@@ -42,6 +50,14 @@
       "publicationDate": "2026-03-03"
     },
     {
+      "id": "https://openalex.org/W7161302643",
+      "title": "Space hacktivism and the Russo–Ukrainian war: an open source space security analysis",
+      "venue": "Journal of Cybersecurity",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/cybsec/tyag013",
+      "publicationDate": "2026-01-31"
+    },
+    {
       "id": "https://openalex.org/W7124136121",
       "title": "Learning realistic lip motions for humanoid face robots",
       "venue": "Science Robotics",
@@ -80,14 +96,6 @@
       "year": 2026,
       "url": "https://doi.org/10.48550/arxiv.2601.01054",
       "publicationDate": "2026-01-03"
-    },
-    {
-      "id": "https://openalex.org/W7161302643",
-      "title": "Space hacktivism and the Russo–Ukrainian war: an open source space security analysis",
-      "venue": "Journal of Cybersecurity",
-      "year": 2026,
-      "url": "https://doi.org/10.1093/cybsec/tyag013",
-      "publicationDate": "2026-01-01"
     },
     {
       "id": "https://openalex.org/W7172251133",
@@ -514,6 +522,14 @@
       "publicationDate": "2023-06-01"
     },
     {
+      "id": "https://openalex.org/W4367591757",
+      "title": "Modelling the Impact of Space Situational Awareness Disruption on the European and Arctic Security Landscape",
+      "venue": "Lecture notes in computer science",
+      "year": 2023,
+      "url": "https://doi.org/10.1007/978-3-031-31268-7_18",
+      "publicationDate": "2023-04-30"
+    },
+    {
       "id": "https://openalex.org/W4381163475",
       "title": "Pervasive Computing in Space",
       "venue": "IEEE Pervasive Computing",
@@ -575,14 +591,6 @@
       "venue": "Workshop on Security of Space and Satellite Systems (SpaceSec)",
       "year": 2023,
       "url": "https://doi.org/10.14722/spacesec.2023.234958",
-      "publicationDate": "2023-01-01"
-    },
-    {
-      "id": "https://openalex.org/W4367591757",
-      "title": "Modelling the Impact of Space Situational Awareness Disruption on the European and Arctic Security Landscape",
-      "venue": "Lecture notes in computer science",
-      "year": 2023,
-      "url": "https://doi.org/10.1007/978-3-031-31268-7_18",
       "publicationDate": "2023-01-01"
     },
     {
@@ -690,38 +698,6 @@
       "publicationDate": "2022-03-01"
     },
     {
-      "id": "https://openalex.org/W4398766630",
-      "title": "Dedication",
-      "venue": "Oxford University Press eBooks",
-      "year": 2022,
-      "url": "https://doi.org/10.1093/oso/9780197526545.002.0006",
-      "publicationDate": "2022-01-06"
-    },
-    {
-      "id": "https://openalex.org/W4398776293",
-      "title": "Preface",
-      "venue": "Oxford University Press eBooks",
-      "year": 2022,
-      "url": "https://doi.org/10.1093/oso/9780197526545.002.0005",
-      "publicationDate": "2022-01-06"
-    },
-    {
-      "id": "https://openalex.org/W4398789913",
-      "title": "Copyright Page",
-      "venue": "Oxford University Press eBooks",
-      "year": 2022,
-      "url": "https://doi.org/10.1093/oso/9780197526545.002.0003",
-      "publicationDate": "2022-01-06"
-    },
-    {
-      "id": "https://openalex.org/W4398789914",
-      "title": "Notes",
-      "venue": "Oxford University Press eBooks",
-      "year": 2022,
-      "url": "https://doi.org/10.1093/oso/9780197526545.002.0007",
-      "publicationDate": "2022-01-06"
-    },
-    {
       "id": "https://openalex.org/W4205869699",
       "title": "The LinkStar Cybersecurity “Sandbox”, a platform to test small satellite vulnerabilities within the Community – Updates and Lessons Learned",
       "venue": "AIAA SciTech Forum",
@@ -755,7 +731,7 @@
     },
     {
       "id": "https://openalex.org/W3212636545",
-      "title": "Confronting Cyber Risk",
+      "title": "Confronting Cyber Risk: An Embedded Endurance Strategy for Cybersecurity",
       "venue": "",
       "year": 2021,
       "url": "https://doi.org/10.1093/oso/9780197526545.001.0001",
@@ -907,7 +883,7 @@
     },
     {
       "id": "https://openalex.org/W2939441294",
-      "title": "NeuroMesh",
+      "title": "NeuroMesh: IoT Security Enabled by a Blockchain Powered Botnet Vaccine",
       "venue": "IEEE International Conference on Omni-layer Intelligent Systems (COINS)",
       "year": 2019,
       "url": "https://doi.org/10.1145/3312614.3312615",
